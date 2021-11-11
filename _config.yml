@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "TBA"
+  name             : "Maciej Beręsewicz"
   avatar           : "profile.png"
   bio              : "TBA"
-  location         : "Poland"
+  location         : "Poznań, Poland"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=BYLkj0sAAAAJ&hl=pl"
@@ -175,16 +175,16 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  about:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  team:
     output: true
     permalink: /:collection/:path/
-  talks:
+  deliverables:
     output: true
     permalink: /:collection/:path/
 
@@ -209,10 +209,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _about
   - scope:
       path: ""
-      type: teaching
+      type: about
     values:
       layout: single
       author_profile: true
@@ -227,19 +227,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _team
   - scope:
       path: ""
-      type: portfolio
+      type: team
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _deliverables
   - scope:
       path: ""
-      type: talks
+      type: deliverables
     values:
       layout: talk
       author_profile: true
