@@ -4,11 +4,12 @@ type: "article"
 author: "Beręsewicz, et al."
 year: "2025"
 publication: "Accepted"
-doi: "https://arxiv.org/abs/2403.09726"
-materials: "https://arxiv.org/abs/2403.09726"
+preprint: "https://arxiv.org/abs/2403.09726"
+materials: "https://github.com/ncn-foreigners/paper-nonprob-qcal"
 toc: false
 categories:
   - article
+  - preprint
 ---
 
 ## Citation (APA 7)
