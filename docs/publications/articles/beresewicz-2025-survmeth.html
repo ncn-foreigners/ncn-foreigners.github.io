@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Maciej Beręsewicz">
-<meta name="dcterms.date" content="2025-04-18">
-<meta name="description" content="The City of Poznań Competition for the best master’s and doctoral theses">
+<meta name="author" content="Beręsewicz, et al.">
 
-<title>Another award for students – Towards census-like statistics for foreign-born populations</title>
+<title>Quantile balancing inverse probability weighting for non-probability samples – Towards census-like statistics for foreign-born populations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -74,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -123,45 +155,42 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Another award for students</h1>
+<h1 class="title">Quantile balancing inverse probability weighting for non-probability samples</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">awards</div>
+    <div class="quarto-category">article</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    The City of Poznań Competition for the best master’s and doctoral theses
-  </div>
-</div>
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Maciej Beręsewicz </p>
+             <p>Beręsewicz, et al. </p>
           </div>
   </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 18, 2025</p>
-    </div>
-  </div>
   
     
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/https://arxiv.org/abs/2403.09726">https://arxiv.org/abs/2403.09726</a>
+      </p>
+    </div>
+  </div>
   </div>
   
 
@@ -169,20 +198,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:</p>
-<ul>
-<li>Mr.&nbsp;<strong>Piotr Chlebicki</strong>, author of the master’s thesis titled <em>Vector Generalized Linear Models and Their Selected Applications</em>, written under the supervision of Prof.&nbsp;Waldemar Wołyński from Adam Mickiewicz University,</li>
-<li>Mr.&nbsp;<strong>Łukasz Chrostowski</strong>, author of the master’s thesis titled <em>Statistical Inference Based on Non-Probabilistic Samples</em>, written under the supervision of Prof.&nbsp;Łukasz Smaga from Adam Mickiewicz University,</li>
-</ul>
-<p>were distinguished among 105 submitted works (44 doctoral and 61 master’s theses).</p>
-<p>More information can be found on the <a href="https://www.poznan.pl/mim/studia/laureaci-konkursu-edycja-2024-2025,p,181,182,82666.html">website</a> of City of Poznań.</p>
-<div data-align="center">
-<p><img src="poznan-zdjecie2.jpg" class="img-fluid"></p>
-<p><img src="poznan-zdjecie3.jpg" class="img-fluid"></p>
-<p><img src="poznan-zdjecie-all.jpg" class="img-fluid"></p>
-</div>
+<section id="citation-apa-7" class="level2">
+<h2 class="anchored" data-anchor-id="citation-apa-7">Citation (APA 7)</h2>
+<blockquote class="blockquote">
+<p>Beręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, <em>Accepted to Survey Methodology</em></p>
+</blockquote>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies.</p>
+</section>
+<section id="bibtex" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex">Bibtex</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode tex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>@misc{beresewicz2025,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>      title={Quantile balancing inverse probability weighting for non-probability samples}, </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>      year={2025},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>      eprint={2403.09726},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>      archivePrefix={arXiv},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      primaryClass={stat.ME},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>      url={https://arxiv.org/abs/2403.09726}, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

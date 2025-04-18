@@ -5,27 +5,29 @@ subtitle: "Principal Investigator"
 image: beresewicz.png
 started: "Fall 2020"
 toc: false
-resources: 
-  - "girard_cv.pdf"
+resources: ""
 about:
   id: person-profile
   template: jolla
   links:
     - icon: link
       text: website
-      href: https://www.jmgirard.com
+      href: https://github.com/BERENZ
     - icon: file-earmark-text
       text: vitae
       href: ./
     - icon: mortarboard
       text: scholar
-      href: https://scholar.google.com/citations?user=N2UcZ84AAAAJ
+      href: https://scholar.google.pl/citations?user=BYLkj0sAAAAJ
     - icon: github
       text: github
       href: https://www.github.com/BERENZ
     - icon: twitter
       text: twitter
       href: https://x.com/mberesewicz
+    - icon: bluesky
+      text: bluesky
+      href: https://bsky.app/profile/mberesewicz.bsky.social
 ---
 
 ```{=html}

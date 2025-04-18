@@ -1,8 +1,8 @@
 [
   {
-    "listing": "/people.html",
+    "listing": "/publications.html",
     "items": [
-      "/people/staff/beresewicz.html"
+      "/publications/articles/beresewicz-2025-survmeth.html"
     ]
   },
   {
@@ -12,9 +12,9 @@
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/people.html",
     "items": [
-      "/publications/articles/adaryukov2024.html"
+      "/people/staff/beresewicz.html"
     ]
   }
 ]
