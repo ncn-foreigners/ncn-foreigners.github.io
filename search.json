@@ -56,53 +56,46 @@
     "text": "Education"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
+    "objectID": "people.html",
+    "href": "people.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, et al.\n    Accepted\n    (2025)\n    \n      Details\n    \n    \n    \n      DOI\n    \n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
+    "text": "Home\n    People"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
+    "objectID": "people.html#research-staff",
+    "href": "people.html#research-staff",
     "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Research Staff",
+    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nMaciej Beręsewicz\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarcin Szymkowiak\n\n\nResearch Staff\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#graduate-students",
+    "href": "people.html#graduate-students",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#reseach-consultants",
+    "href": "people.html#reseach-consultants",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Reseach consultants",
+    "text": "Reseach consultants\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n         \n          Role\n        \n         \n          Started\n        \n         \n          Ended\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Towards census-like statistics for foreign-born populations – quality, data integration and estimation",
     "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nawards\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2025-04-poznan/index.html",
-    "href": "posts/2025-04-poznan/index.html",
-    "title": "Another award for students",
-    "section": "",
-    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Research"
-  },
-  {
-    "objectID": "research.html#research-plan",
-    "href": "research.html#research-plan",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Research Plan",
-    "text": "Research Plan\n\nStatistical analysis of data used in the project\nDeveloping a signs-of-life methodology for assessing the quality of register data\nUniwersytet Ekonomiczny w Poznaniu, Instytut Informatyki i Ekonomii Ilościowej\nDeveloping new population size estimators for foreign-born populations\n4.Developing new estimators of the irregular and illegally working foreign-born population\n\nDeveloping new data integration methods for non-probability samples (big data)\n\nEstimating the quality of registers based on the signs-of-life methodology\n\nEstimating the size of the foreign-born population in Poland\nEstimating the size of the irregular and illegally working foreign-born population in Poland\nEstimating characteristics of the foreign-born population in Poland based on non-probability samples (big data)\n\nEstimating the impact of project estimates on selected macroeconomic indicators"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Contact"
-  },
-  {
-    "objectID": "contact.html#email-us",
-    "href": "contact.html#email-us",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Email Us",
-    "text": "Email Us\n\ndr Maciej Beręsewicz, prof. UEP\nDepartment of Statistics\nPoznań University of Economics and Business\nal. Niepodległości 10 | 61-875 Poznań\ntel. + 48 61-854-36-80 | maciej.beresewicz@ue.poznan.pl\nwww.ue.poznan.pl"
+    "text": "This is the repository for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation supported by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
   },
   {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html",
@@ -133,46 +126,88 @@
     "text": "Bibtex\n@misc{beresewicz2025,\n      title={Quantile balancing inverse probability weighting for non-probability samples}, \n      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},\n      year={2025},\n      eprint={2403.09726},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2403.09726}, \n}"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Towards census-like statistics for foreign-born populations – quality, data integration and estimation",
-    "section": "",
-    "text": "This is the repository for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation supported by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
+    "objectID": "contact.html",
+    "href": "contact.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    People"
+    "text": "Home\n    Contact"
   },
   {
-    "objectID": "people.html#research-staff",
-    "href": "people.html#research-staff",
+    "objectID": "contact.html#email-us",
+    "href": "contact.html#email-us",
     "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Research Staff",
-    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nMaciej Beręsewicz\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Email Us",
+    "text": "Email Us\n\ndr Maciej Beręsewicz, prof. UEP\nDepartment of Statistics\nPoznań University of Economics and Business\nal. Niepodległości 10 | 61-875 Poznań\ntel. + 48 61-854-36-80 | maciej.beresewicz@ue.poznan.pl\nwww.ue.poznan.pl"
   },
   {
-    "objectID": "people.html#graduate-students",
-    "href": "people.html#graduate-students",
+    "objectID": "research.html",
+    "href": "research.html",
     "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Graduate Students",
-    "text": "Graduate Students\n\n\n\n\n\nNo matching items"
+    "section": "",
+    "text": "Home\n    Research"
   },
   {
-    "objectID": "people.html#reseach-consultants",
-    "href": "people.html#reseach-consultants",
+    "objectID": "research.html#research-plan",
+    "href": "research.html#research-plan",
     "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Reseach consultants",
-    "text": "Reseach consultants\n\n\n\n\n\nNo matching items"
+    "section": "Research Plan",
+    "text": "Research Plan\n\nStatistical analysis of data used in the project\nDeveloping a signs-of-life methodology for assessing the quality of register data\nUniwersytet Ekonomiczny w Poznaniu, Instytut Informatyki i Ekonomii Ilościowej\nDeveloping new population size estimators for foreign-born populations\n4.Developing new estimators of the irregular and illegally working foreign-born population\n\nDeveloping new data integration methods for non-probability samples (big data)\n\nEstimating the quality of registers based on the signs-of-life methodology\n\nEstimating the size of the foreign-born population in Poland\nEstimating the size of the irregular and illegally working foreign-born population in Poland\nEstimating characteristics of the foreign-born population in Poland based on non-probability samples (big data)\n\nEstimating the impact of project estimates on selected macroeconomic indicators"
   },
   {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
+    "objectID": "posts/2025-04-poznan/index.html",
+    "href": "posts/2025-04-poznan/index.html",
+    "title": "Another award for students",
+    "section": "",
+    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
     "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n         \n          Role\n        \n         \n          Started\n        \n         \n          Ended\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\n\nNo matching items"
+    "section": "",
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nawards\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, et al.\n    Accepted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html",
+    "href": "people/staff/szymkowiak.html",
+    "title": "Marcin Szymkowiak",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Marcin Szymkowiak"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#biography",
+    "href": "people/staff/szymkowiak.html#biography",
+    "title": "Marcin Szymkowiak",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#experience",
+    "href": "people/staff/szymkowiak.html#experience",
+    "title": "Marcin Szymkowiak",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#journal-editing",
+    "href": "people/staff/szymkowiak.html#journal-editing",
+    "title": "Marcin Szymkowiak",
+    "section": "Journal Editing",
+    "text": "Journal Editing"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#education",
+    "href": "people/staff/szymkowiak.html#education",
+    "title": "Marcin Szymkowiak",
+    "section": "Education",
+    "text": "Education"
   },
   {
     "objectID": "opportunities.html",
