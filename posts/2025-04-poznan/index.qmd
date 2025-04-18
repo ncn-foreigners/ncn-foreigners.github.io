@@ -1,0 +1,42 @@
+---
+title: "Another award for students"
+description: "The City of Poznań Competition for the best master's and doctoral theses"
+author: "Maciej Beręsewicz"
+date: "2025-04-18"
+image: poznan-zdjecie.jpg
+draft: false
+categories:
+  - awards
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+We are pleased to announce that two our students received distinctions
+in the 21st edition of the City of Poznań competition for the best
+doctoral and master's theses:
+
+-   Mr. **Piotr Chlebicki**, author of the master's thesis titled
+    *Vector Generalized Linear Models and Their Selected Applications*,
+    written under the supervision of Prof. Waldemar Wołyński from Adam
+    Mickiewicz University,
+-   Mr. **Łukasz Chrostowski**, author of the master's thesis titled
+    *Statistical Inference Based on Non-Probabilistic Samples*, written
+    under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz
+    University,
+
+were distinguished among 105 submitted works (44 doctoral and 61
+master's theses).
+
+More information can be found on the
+[website](https://www.poznan.pl/mim/studia/laureaci-konkursu-edycja-2024-2025,p,181,182,82666.html)
+of City of Poznań.
+
+<div align="center">
+![](poznan-zdjecie2.jpg) 
+
+![](poznan-zdjecie3.jpg) 
+
+![](poznan-zdjecie-all.jpg) 
+</div>

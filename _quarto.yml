@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+    freeze: auto
+
+website:
+  title: "Towards census-like statistics for foreign-born populations"
+  navbar:
+    background: primary
+    right:
+      - href: news.qmd
+        text: News
+      - href: people.qmd
+        text: People
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: resources.qmd
+        text: Resources
+      - href: contact.qmd
+        text: Contact
+  page-footer: "Copyright 2025 &copy; Maciej Beręsewicz"
+  site-url: http://ncn-foreigners.github.io
+  repo-url: https://github.com/ncn-foreigners/ncn-foreigners.github.io
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

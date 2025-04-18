@@ -1,0 +1,22 @@
+---
+pagetitle: "Resources | Foreigners"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Resources</li>
+  </ol>
+</nav>
+```
+
+## Datasets
+
+
+## Software
+
+- **nonprobsvy** (2025)<br />
+  an R package for modern statistical inference methods based on non-probability samples <br />
+  *Source Code:* <https://github.com/ncn-foreigners/nonprobsvy>

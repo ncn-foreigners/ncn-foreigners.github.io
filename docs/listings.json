@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/beresewicz.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2025-04-poznan/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/adaryukov2024.html"
+    ]
+  }
+]

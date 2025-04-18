@@ -1,0 +1,27 @@
+---
+pagetitle: "Research | NCN-Foreigners"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Research</li>
+  </ol>
+</nav>
+```
+
+## Research Plan
+
+1. Statistical analysis of data used in the project	
+2. Developing a signs-of-life methodology for assessing the quality of register data	
+Uniwersytet Ekonomiczny w Poznaniu, Instytut Informatyki i Ekonomii Ilościowej
+3. Developing new population size estimators for foreign-born populations	
+4.Developing new estimators of the irregular and illegally working foreign-born population	
+5. Developing new data integration methods for non-probability samples (big data)	
+6. Estimating the quality of registers based on the signs-of-life methodology	
+7. Estimating the size of the foreign-born population in Poland	
+8. Estimating the size of the irregular and illegally working foreign-born population in Poland	
+9. Estimating characteristics of the foreign-born population in Poland based on non-probability samples (big data)	
+10. Estimating the impact of project estimates on selected macroeconomic indicators	
