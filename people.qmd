@@ -13,7 +13,7 @@ listing:
     field-display-names: 
       started: "Started"
   - id: graduate-students
-    contents: "people/gras/*.qmd"
+    contents: "people/students/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
@@ -23,7 +23,7 @@ listing:
     field-display-names: 
       started: "Started"
   - id: research-consultants
-    contents: "people/uras/*.qmd"
+    contents: "people/consultants/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
