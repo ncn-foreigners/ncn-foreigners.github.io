@@ -17,6 +17,23 @@ toc: true
 
 ## Software
 
-- **nonprobsvy** (2025)<br />
+- **nonprobsvy**<br />
   an R package for modern statistical inference methods based on non-probability samples <br />
   *Source Code:* <https://github.com/ncn-foreigners/nonprobsvy>
+
+- **singleRcapture**<br />
+  an R Package for Single-Source Capture-Recapture Models <br />
+  *Source Code:* <https://github.com/ncn-foreigners/singleRcapture>
+
+- **blocking**<br />
+  an R package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms <br />
+  *Source Code:* <https://github.com/ncn-foreigners/blocking>
+
+- **blockingPy**<br />
+  a Python package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms <br />
+  *Source Code:* <https://github.com/ncn-foreigners/BlockingPy>
+
+- **jointCalib**<br />
+  an R package for joint calibration of totals and quantiles <br />
+  *Source Code:* <https://github.com/ncn-foreigners/jointCalib>
+
