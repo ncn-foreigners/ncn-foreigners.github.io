@@ -98,6 +98,125 @@
     "text": "This is the repository for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation supported by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
   },
   {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html",
+    "href": "publications/articles/strojny-2025-blockingPy.html",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "href": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "href": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "Citation",
+    "text": "Citation\n\nStrojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to SoftwareX"
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "href": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{strojny2025,\n      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, \n      author={Tymoteusz Strojny and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04266},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2504.04266}, \n}"
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "Citation",
+    "text": "Citation\n\nChlebicki, P. & Beręsewicz, M. (2025). singleRcapture: An R Package for Single-Source Capture-Recapture Models, Submitted to Journal of Statistical Software"
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{chlebicki2025singlercapture,\n      title={singleRcapture: An R Package for Single-Source Capture-Recapture Models}, \n      author={Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2411.11032},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2411.11032}, \n}"
+  },
+  {
+    "objectID": "posts/2025-04-poznan/index.html",
+    "href": "posts/2025-04-poznan/index.html",
+    "title": "Another award for students",
+    "section": "",
+    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Research"
+  },
+  {
+    "objectID": "research.html#research-plan",
+    "href": "research.html#research-plan",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Research Plan",
+    "text": "Research Plan\n\nStatistical analysis of data used in the project\nDeveloping a signs-of-life methodology for assessing the quality of register data\nUniwersytet Ekonomiczny w Poznaniu, Instytut Informatyki i Ekonomii Ilościowej\nDeveloping new population size estimators for foreign-born populations\n4.Developing new estimators of the irregular and illegally working foreign-born population\n\nDeveloping new data integration methods for non-probability samples (big data)\n\nEstimating the quality of registers based on the signs-of-life methodology\n\nEstimating the size of the foreign-born population in Poland\nEstimating the size of the irregular and illegally working foreign-born population in Poland\nEstimating characteristics of the foreign-born population in Poland based on non-probability samples (big data)\n\nEstimating the impact of project estimates on selected macroeconomic indicators"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Contact"
+  },
+  {
+    "objectID": "contact.html#email-us",
+    "href": "contact.html#email-us",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Email Us",
+    "text": "Email Us\n\ndr Maciej Beręsewicz, prof. UEP\nDepartment of Statistics\nPoznań University of Economics and Business\nal. Niepodległości 10 | 61-875 Poznań\ntel. + 48 61-854-36-80 | maciej.beresewicz@ue.poznan.pl\nwww.ue.poznan.pl"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "Citation",
+    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy – An R package for modern methods for non-probability surveys, Submitted to the Journal of Statistical Software"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{chrostowski2025nonprobsvy,\n      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, \n      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04255},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2504.04255}, \n}"
+  },
+  {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html",
     "href": "publications/articles/beresewicz-2025-survmeth.html",
     "title": "Quantile balancing inverse probability weighting for non-probability samples",
@@ -124,41 +243,6 @@
     "title": "Quantile balancing inverse probability weighting for non-probability samples",
     "section": "BibTeX",
     "text": "BibTeX\n@misc{beresewicz2025,\n      title={Quantile balancing inverse probability weighting for non-probability samples}, \n      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},\n      year={2025},\n      eprint={2403.09726},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2403.09726}, \n}"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Contact"
-  },
-  {
-    "objectID": "contact.html#email-us",
-    "href": "contact.html#email-us",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Email Us",
-    "text": "Email Us\n\ndr Maciej Beręsewicz, prof. UEP\nDepartment of Statistics\nPoznań University of Economics and Business\nal. Niepodległości 10 | 61-875 Poznań\ntel. + 48 61-854-36-80 | maciej.beresewicz@ue.poznan.pl\nwww.ue.poznan.pl"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Research"
-  },
-  {
-    "objectID": "research.html#research-plan",
-    "href": "research.html#research-plan",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Research Plan",
-    "text": "Research Plan\n\nStatistical analysis of data used in the project\nDeveloping a signs-of-life methodology for assessing the quality of register data\nUniwersytet Ekonomiczny w Poznaniu, Instytut Informatyki i Ekonomii Ilościowej\nDeveloping new population size estimators for foreign-born populations\n4.Developing new estimators of the irregular and illegally working foreign-born population\n\nDeveloping new data integration methods for non-probability samples (big data)\n\nEstimating the quality of registers based on the signs-of-life methodology\n\nEstimating the size of the foreign-born population in Poland\nEstimating the size of the irregular and illegally working foreign-born population in Poland\nEstimating characteristics of the foreign-born population in Poland based on non-probability samples (big data)\n\nEstimating the impact of project estimates on selected macroeconomic indicators"
-  },
-  {
-    "objectID": "posts/2025-04-poznan/index.html",
-    "href": "posts/2025-04-poznan/index.html",
-    "title": "Another award for students",
-    "section": "",
-    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
   },
   {
     "objectID": "news.html",
@@ -238,87 +322,10 @@
     "text": "For Prospective Postdocs and Staff"
   },
   {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html",
-    "href": "publications/articles/strojny-2025-blockingPy.html",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#abstract",
-    "href": "publications/articles/strojny-2025-blockingPy.html#abstract",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#citation",
-    "href": "publications/articles/strojny-2025-blockingPy.html#citation",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "Citation",
-    "text": "Citation\n\nStrojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to SoftwareX"
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#bibtex",
-    "href": "publications/articles/strojny-2025-blockingPy.html#bibtex",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{strojny2025,\n      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, \n      author={Tymoteusz Strojny and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04266},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2504.04266}, \n}"
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "",
-    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "",
-    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "Citation",
-    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to the Journal of Official Statistics"
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{chrostowski2025nonprobsvy,\n      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, \n      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04255},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2504.04255}, \n}"
-  },
-  {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex-citation",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex-citation",
     "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "",
-    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
-  },
-  {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
-    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "",
-    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
-  },
-  {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
-    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "Citation",
-    "text": "Citation\n\nChlebicki, P. & Beręsewicz, M. (2025). singleRcapture: An R Package for Single-Source Capture-Recapture Models, Submitted to Journal of Official Statistics"
-  },
-  {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
-    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{chlebicki2025singlercapture,\n      title={singleRcapture: An R Package for Single-Source Capture-Recapture Models}, \n      author={Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2411.11032},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2411.11032}, \n}"
+    "section": "BibTeX Citation",
+    "text": "BibTeX Citation\n\n@article{chlebicki2025singlercapture,\n      title={singleRcapture: An R Package for Single-Source Capture-Recapture Models}, \n      author={Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2411.11032},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2411.11032},\n      journal={Submitted to Journal of Official Statistics}\n}\n\nCopy BibTeX"
   }
 ]
