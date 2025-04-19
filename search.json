@@ -102,28 +102,28 @@
     "href": "publications/articles/beresewicz-2025-survmeth.html",
     "title": "Quantile balancing inverse probability weighting for non-probability samples",
     "section": "",
-    "text": "Beręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation-apa-7",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#citation-apa-7",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "",
-    "text": "Beręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
+    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
   },
   {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html#abstract",
     "href": "publications/articles/beresewicz-2025-survmeth.html#abstract",
     "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "Abstract",
-    "text": "Abstract\nThe use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
+    "section": "",
+    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "Citation",
+    "text": "Citation\n\nBeręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
   },
   {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
     "href": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
     "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "Bibtex",
-    "text": "Bibtex\n@misc{beresewicz2025,\n      title={Quantile balancing inverse probability weighting for non-probability samples}, \n      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},\n      year={2025},\n      eprint={2403.09726},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2403.09726}, \n}"
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{beresewicz2025,\n      title={Quantile balancing inverse probability weighting for non-probability samples}, \n      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},\n      year={2025},\n      eprint={2403.09726},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2403.09726}, \n}"
   },
   {
     "objectID": "contact.html",
@@ -172,7 +172,7 @@
     "href": "publications.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, et al.\n    Accepted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/staff/szymkowiak.html",
