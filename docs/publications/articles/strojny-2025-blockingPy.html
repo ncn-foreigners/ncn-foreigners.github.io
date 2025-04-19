@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Strojny &amp; Beręsewicz">
 
-<title>Publications | NCN-Foreigners – Towards census-like statistics for foreign-born populations</title>
+<title>BlockingPy: approximate nearest neighbours for blocking of records for entity resolution – Towards census-like statistics for foreign-born populations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +21,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d7ba9c6adfd1938aed2b9fb196500684.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d7ba9c6adfd1938aed2b9fb196500684.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +101,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-articles .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-language','listing-title','listing-type','listing-author','listing-year','listing-publication','listing-preprint','listing-materials','listing-toc','listing-categories','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-publication","listing-year"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Towards census-like statistics for foreign-born populations</span>
     </a>
   </div>
@@ -149,27 +124,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -183,141 +158,64 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YXJ0aWNsZQ==">article <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bm9uLXByb2JhYmlsaXR5JTIwc2FtcGxlcw==">non-probability samples <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9wdWxhdGlvbiUyMHNpemUlMjBlc3RpbWF0aW9u">population size estimation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJlcHJpbnQ=">preprint <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cmVjb3JkJTIwbGlua2FnZQ==">record linkage <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Publications</li>
-  </ol>
-</nav>
-<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-articles-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-articles'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-         <option value="listing-publication" data-direction="asc">
-          Publication
-        </option>
-         <option value="listing-year" data-direction="asc">
-          Year
-        </option>
-     </select>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">BlockingPy: approximate nearest neighbours for blocking of records for entity resolution</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">article</div>
+    <div class="quarto-category">preprint</div>
+    <div class="quarto-category">record linkage</div>
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<ul class="pub-list list">
-
-  <li data-index="0" data-categories="YXJ0aWNsZSUyQ3ByZXByaW50JTJDcmVjb3JkJTIwbGlua2FnZQ==" data-listing-file-modified-sort="1745058040530" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
-    <span class="listing-title lead">BlockingPy: approximate nearest neighbours for blocking of records for entity resolution</span><br>
-    <span class="listing-author">Strojny &amp; Beręsewicz</span><br>
-    <span class="listing-publication fst-italic ">Submitted</span>
-    <span class="listing-year">(2025)</span><br>
-    <a href="./publications/articles/strojny-2025-blockingPy.html" class="btn btn-primary">
-      Details
-    </a>
-    
-    
-    <a href="https://arxiv.org/abs/2504.04266" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    
-    
-    <a href="https://github.com/ncn-foreigners/blockingPy" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-zip"></i> Materials
-    </a>
-    
-  </li>
-
-  <li data-index="1" data-categories="YXJ0aWNsZSUyQ3ByZXByaW50" data-listing-file-modified-sort="1744972861550" data-listing-reading-time-sort="2" data-listing-word-count-sort="218">
-    <span class="listing-title lead">Quantile balancing inverse probability weighting for non-probability samples</span><br>
-    <span class="listing-author">Beręsewicz, Szymkowiak &amp; Chlebicki</span><br>
-    <span class="listing-publication fst-italic ">Survey Methodology</span>
-    <span class="listing-year">(2025)</span><br>
-    <a href="./publications/articles/beresewicz-2025-survmeth.html" class="btn btn-primary">
-      Details
-    </a>
-    
-    
-    <a href="https://arxiv.org/abs/2403.09726" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    
-    
-    <a href="https://github.com/ncn-foreigners/paper-nonprob-qcal" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-zip"></i> Materials
-    </a>
-    
-  </li>
-
-  <li data-index="2" data-categories="YXJ0aWNsZSUyQ3ByZXByaW50JTJDbm9uLXByb2JhYmlsaXR5JTIwc2FtcGxlcw==" data-listing-file-modified-sort="1745058224843" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
-    <span class="listing-title lead">nonprobsvy -- An R package for modern methods for non-probability surveys</span><br>
-    <span class="listing-author">Chrostowski, Chlebicki &amp; Beręsewicz</span><br>
-    <span class="listing-publication fst-italic ">Submitted</span>
-    <span class="listing-year">(2025)</span><br>
-    <a href="./publications/articles/chrostowski-2025-nonprobsvy.html" class="btn btn-primary">
-      Details
-    </a>
-    
-    
-    <a href="https://arxiv.org/abs/2504.04255" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    
-    
-    <a href="https://github.com/ncn-foreigners/blockingPy" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-zip"></i> Materials
-    </a>
-    
-  </li>
-
-  <li data-index="3" data-categories="YXJ0aWNsZSUyQ3ByZXByaW50JTJDcG9wdWxhdGlvbiUyMHNpemUlMjBlc3RpbWF0aW9u" data-listing-file-modified-sort="1745058337832" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
-    <span class="listing-title lead">singleRcapture: An R Package for Single-Source Capture-Recapture Models</span><br>
-    <span class="listing-author">Chlebicki &amp; Beręsewicz</span><br>
-    <span class="listing-publication fst-italic ">Submitted</span>
-    <span class="listing-year">(2025)</span><br>
-    <a href="./publications/articles/chlebicki-2025-singleRcapture.html" class="btn btn-primary">
-      Details
-    </a>
-    
-    
-    <a href="https://arxiv.org/abs/2411.11032" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    
-    
-    <a href="https://github.com/ncn-foreigners/paper-singleRcapture" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-zip"></i> Materials
-    </a>
-    
-  </li>
-
-</ul>
-
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Strojny &amp; Beręsewicz </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources.</p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<blockquote class="blockquote">
+<p>Strojny, T. &amp; Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, <em>Submitted to SoftwareX</em></p>
+</blockquote>
+</section>
+<section id="bibtex" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex">BibTeX</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode tex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>@misc{strojny2025,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>      author={Tymoteusz Strojny and Maciej Beręsewicz},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>      year={2025},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>      eprint={2504.04266},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>      archivePrefix={arXiv},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      primaryClass={stat.AP},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>      url={https://arxiv.org/abs/2504.04266}, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

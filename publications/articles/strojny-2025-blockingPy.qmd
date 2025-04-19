@@ -1,0 +1,37 @@
+---
+title: "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution"
+type: "article"
+author: "Strojny & Beręsewicz"
+year: "2025"
+publication: "Submitted"
+preprint: "https://arxiv.org/abs/2504.04266"
+materials: "https://github.com/ncn-foreigners/blockingPy"
+toc: false
+categories:
+  - article
+  - preprint
+  - record linkage
+---
+
+## Abstract
+
+Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources.
+
+## Citation
+
+> Strojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution,
+> *Submitted to SoftwareX*
+
+## BibTeX
+
+``` tex
+@misc{strojny2025,
+      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, 
+      author={Tymoteusz Strojny and Maciej Beręsewicz},
+      year={2025},
+      eprint={2504.04266},
+      archivePrefix={arXiv},
+      primaryClass={stat.AP},
+      url={https://arxiv.org/abs/2504.04266}, 
+}
+```

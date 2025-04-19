@@ -15,7 +15,10 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/articles/beresewicz-2025-survmeth.html"
+      "/publications/articles/strojny-2025-blockingPy.html",
+      "/publications/articles/beresewicz-2025-survmeth.html",
+      "/publications/articles/chrostowski-2025-nonprobsvy.html",
+      "/publications/articles/chlebicki-2025-singleRcapture.html"
     ]
   }
 ]

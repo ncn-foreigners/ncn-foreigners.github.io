@@ -105,18 +105,18 @@
     "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
   },
   {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation-apa-7",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#citation-apa-7",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "",
-    "text": "Beręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
-  },
-  {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html#abstract",
     "href": "publications/articles/beresewicz-2025-survmeth.html#abstract",
     "title": "Quantile balancing inverse probability weighting for non-probability samples",
     "section": "",
     "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "Citation",
+    "text": "Citation\n\nBeręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
   },
   {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
@@ -172,7 +172,7 @@
     "href": "publications.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy -- An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R Package for Single-Source Capture-Recapture Models\n    Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/staff/szymkowiak.html",
@@ -238,10 +238,87 @@
     "text": "For Prospective Postdocs and Staff"
   },
   {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#citation",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "objectID": "publications/articles/strojny-2025-blockingPy.html",
+    "href": "publications/articles/strojny-2025-blockingPy.html",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "href": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "href": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
     "section": "Citation",
-    "text": "Citation\n\nBeręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
+    "text": "Citation\n\nStrojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to SoftwareX"
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "href": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{strojny2025,\n      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, \n      author={Tymoteusz Strojny and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04266},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2504.04266}, \n}"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "Citation",
+    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to the Journal of Official Statistics"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{chrostowski2025nonprobsvy,\n      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, \n      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04255},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2504.04255}, \n}"
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "Citation",
+    "text": "Citation\n\nChlebicki, P. & Beręsewicz, M. (2025). singleRcapture: An R Package for Single-Source Capture-Recapture Models, Submitted to Journal of Official Statistics"
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{chlebicki2025singlercapture,\n      title={singleRcapture: An R Package for Single-Source Capture-Recapture Models}, \n      author={Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2411.11032},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2411.11032}, \n}"
   }
 ]

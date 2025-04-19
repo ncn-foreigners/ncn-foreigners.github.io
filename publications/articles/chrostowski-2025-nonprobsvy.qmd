@@ -1,0 +1,49 @@
+---
+title: "nonprobsvy -- An R package for modern methods for non-probability surveys"
+type: "article"
+author: "Chrostowski, Chlebicki & Beręsewicz"
+year: "2025"
+publication: "Submitted"
+preprint: "https://arxiv.org/abs/2504.04255"
+materials: "https://github.com/ncn-foreigners/paper-nonprobsvy"
+toc: false
+categories:
+  - article
+  - preprint
+  - non-probability samples
+---
+
+## Abstract
+
+The following paper presents nonprobsvy -- an R package
+for inference based on non-probability samples. The package implements
+various approaches that can be categorized into three groups:
+prediction-based approach, inverse probability weighting and doubly
+robust approach. In the package, we assume the existence of either
+population-level data or probability-based population information and
+leverage the survey package for inference. The package implements
+both analytical and bootstrap variance estimation for the proposed
+estimators. In the paper we present the theory behind the package, its
+functionalities and case study that showcases the usage of the package.
+The package is aimed at scientists and researchers who would like to use
+non-probability samples (e.g. big data, opt-in web panels, social media)
+to accurately estimate population characteristics.
+
+## Citation
+
+> Chrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy -- An R package for modern methods for non-probability surveys,
+> *Submitted to the Journal of Statistical Software*
+
+## BibTeX
+
+``` tex
+@misc{chrostowski2025nonprobsvy,
+      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, 
+      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},
+      year={2025},
+      eprint={2504.04255},
+      archivePrefix={arXiv},
+      primaryClass={stat.ME},
+      url={https://arxiv.org/abs/2504.04255}, 
+}
+```
