@@ -1,21 +1,25 @@
 ---
-title: "Tiziana Tuoto"
+title: "Piotr Chlebicki"
 sortby: "1"
-subtitle: "Consultant"
-image: tuoto.jpeg
-started: "Fall 2022"
+subtitle: "Scholarship recipient"
+image: chlebicki.png
+started: "Fall 2021"
+ended: "Fall 2024"
 toc: false
 resources: ""
 about:
   id: person-profile
   template: jolla
   links:
+    - icon: link
+      text: website
+      href: https://www.su.se/english/profiles/pich3772-1.745048
     - icon: file-earmark-text
       text: vitae
       href: ./
-    - icon: mortarboard
-      text: scholar
-      href: https://scholar.google.com/citations?user=3rOiLe4AAAAJ&hl
+    - icon: github
+      text: github
+      href: https://www.github.com/Kertoo
 ---
 
 ```{=html}
@@ -35,8 +39,6 @@ about:
 ## Biography
 
 ## Experience
-
-## Journal Editing
 
 ## Education
 

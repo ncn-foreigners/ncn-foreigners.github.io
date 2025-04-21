@@ -1,21 +1,19 @@
 ---
-title: "Tiziana Tuoto"
-sortby: "1"
-subtitle: "Consultant"
-image: tuoto.jpeg
-started: "Fall 2022"
+title: "Kamil Wilak"
+sortby: "4"
+subtitle: "Research Staff"
+image: wilak.jpg
+started: "Fall 2021"
+ended: "Summer 2023"
 toc: false
 resources: ""
 about:
   id: person-profile
   template: jolla
   links:
-    - icon: file-earmark-text
-      text: vitae
-      href: ./
-    - icon: mortarboard
-      text: scholar
-      href: https://scholar.google.com/citations?user=3rOiLe4AAAAJ&hl
+    - icon: link
+      text: website
+      href: https://ue.poznan.pl/osoby/dr-kamil-wilak/
 ---
 
 ```{=html}
@@ -35,8 +33,6 @@ about:
 ## Biography
 
 ## Experience
-
-## Journal Editing
 
 ## Education
 

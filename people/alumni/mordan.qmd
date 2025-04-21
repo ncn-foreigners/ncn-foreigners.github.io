@@ -1,21 +1,22 @@
 ---
-title: "Tiziana Tuoto"
-sortby: "1"
-subtitle: "Consultant"
-image: tuoto.jpeg
-started: "Fall 2022"
+title: "Kyrylo Mordan"
+sortby: "2"
+subtitle: "Scholarship recipient"
+image: mordan.jpeg
+started: "Fall 2021"
+ended: "Fall 2022"
 toc: false
 resources: ""
 about:
   id: person-profile
   template: jolla
   links:
-    - icon: file-earmark-text
-      text: vitae
-      href: ./
-    - icon: mortarboard
-      text: scholar
-      href: https://scholar.google.com/citations?user=3rOiLe4AAAAJ&hl
+    - icon: link
+      text: website
+      href: https://pl.linkedin.com/in/kyrylo-mordan-4927981a6
+    - icon: github
+      text: github
+      href: https://github.com/Kiril-Mordan
 ---
 
 ```{=html}
@@ -35,8 +36,6 @@ about:
 ## Biography
 
 ## Experience
-
-## Journal Editing
 
 ## Education
 

@@ -1,7 +1,7 @@
 ---
 title: "Dankmar Böhning"
 sortby: "2"
-subtitle: "Consultants"
+subtitle: "Consultant"
 image: boehning.webp
 started: "Fall 2024"
 toc: false
@@ -15,7 +15,7 @@ about:
       href: ./
     - icon: mortarboard
       text: scholar
-      href: https://scholar.google.com/citations?user=YsNXovkAAAAJ
+      href: https://scholar.google.pl/citations?hl=pl&user=-qFnGSoAAAAJ
 ---
 
 ```{=html}

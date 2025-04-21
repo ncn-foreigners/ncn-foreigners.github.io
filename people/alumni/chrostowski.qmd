@@ -1,21 +1,25 @@
 ---
-title: "Tiziana Tuoto"
-sortby: "1"
-subtitle: "Consultant"
-image: tuoto.jpeg
+title: "Łukasz Chrostowski"
+sortby: "3"
+subtitle: "Scholarship recipient"
+image: chrostowski.jpeg
 started: "Fall 2022"
+ended: "Fall 2024"
 toc: false
 resources: ""
 about:
   id: person-profile
   template: jolla
   links:
+    - icon: link
+      text: website
+      href: https://www.linkedin.com/in/lukaszchro/
     - icon: file-earmark-text
       text: vitae
       href: ./
-    - icon: mortarboard
-      text: scholar
-      href: https://scholar.google.com/citations?user=3rOiLe4AAAAJ&hl
+    - icon: github
+      text: github
+      href: https://github.com/LukaszChrostowski
 ---
 
 ```{=html}
@@ -35,8 +39,6 @@ about:
 ## Biography
 
 ## Experience
-
-## Journal Editing
 
 ## Education
 

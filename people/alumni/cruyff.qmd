@@ -1,9 +1,10 @@
 ---
-title: "Tiziana Tuoto"
-sortby: "1"
-subtitle: "Consultant"
-image: tuoto.jpeg
+title: "Maarten Cruyff"
+sortby: "3"
+subtitle: "Consultants"
+image: cruyff.jpeg
 started: "Fall 2022"
+ended: "Fall 2023"
 toc: false
 resources: ""
 about:
@@ -15,7 +16,8 @@ about:
       href: ./
     - icon: mortarboard
       text: scholar
-      href: https://scholar.google.com/citations?user=3rOiLe4AAAAJ&hl
+      href: https://scholar.google.com/scholar?hl=pl&as_sdt=0%2C5&q=MJLF+Cruyff&btnG=
+    
 ---
 
 ```{=html}
