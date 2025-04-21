@@ -1,0 +1,42 @@
+---
+title: "Dankmar Böhning"
+sortby: "2"
+subtitle: "Consultants"
+image: boehning.webp
+started: "Fall 2024"
+toc: false
+resources: ""
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: file-earmark-text
+      text: vitae
+      href: ./
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com/citations?user=YsNXovkAAAAJ
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+## Experience
+
+## Journal Editing
+
+## Education
+

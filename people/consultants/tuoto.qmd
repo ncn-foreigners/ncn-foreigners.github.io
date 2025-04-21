@@ -1,0 +1,42 @@
+---
+title: "Tiziana Tuoto"
+sortby: "1"
+subtitle: "Consultants"
+image: tuoto.jpeg
+started: "Fall 2022"
+toc: false
+resources: ""
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: file-earmark-text
+      text: vitae
+      href: ./
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com/citations?user=3rOiLe4AAAAJ&hl
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+## Experience
+
+## Journal Editing
+
+## Education
+
