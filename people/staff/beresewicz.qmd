@@ -13,6 +13,8 @@ about:
     - icon: link
       text: website
       href: https://github.com/BERENZ
+    - text: orcid
+      href: https://orcid.org/0000-0002-8281-4301
     - icon: file-earmark-text
       text: vitae
       href: ./
