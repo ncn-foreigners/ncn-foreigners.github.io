@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-graduate-students .list');
+    const listingTargetEl = window.document.querySelector('#listing-students .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-graduate-students'] = new List('listing-graduate-students', options);
+    window['quarto-listings']['listing-students'] = new List('listing-students', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -284,7 +284,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
 <div id="listing-research-staff" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1744970441744" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1745267574525" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
 <a href="./people/staff/beresewicz.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -358,9 +358,9 @@ No matching items
 </div>
 </div>
 </section>
-<section id="graduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
-<div id="listing-graduate-students" class="quarto-listing quarto-listing-container-grid">
+<section id="students" class="level2">
+<h2 class="anchored" data-anchor-id="students">Students</h2>
+<div id="listing-students" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 
 </div>
