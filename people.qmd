@@ -12,7 +12,7 @@ listing:
     sort: sortby
     field-display-names: 
       started: "Started"
-  - id: graduate-students
+  - id: students
     contents: "people/students/*.qmd"
     type: grid
     image-height: 225px
@@ -61,9 +61,9 @@ listing:
 :::{#research-staff}
 :::
 
-## Graduate Students
+## Students
 
-:::{#graduate-students}
+:::{#students}
 :::
 
 ## Reseach consultants

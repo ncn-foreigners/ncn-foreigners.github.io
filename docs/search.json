@@ -91,39 +91,333 @@
     "text": "Education"
   },
   {
-    "objectID": "people/consultants/tuoto.html",
-    "href": "people/consultants/tuoto.html",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/alumni/mordan.html",
+    "href": "people/alumni/mordan.html",
+    "title": "Kyrylo Mordan",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Tiziana Tuoto"
+    "text": "Home\n    People\n    Research Staff\n    Kyrylo Mordan"
   },
   {
-    "objectID": "people/consultants/tuoto.html#biography",
-    "href": "people/consultants/tuoto.html#biography",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/alumni/mordan.html#biography",
+    "href": "people/alumni/mordan.html#biography",
+    "title": "Kyrylo Mordan",
     "section": "Biography",
     "text": "Biography"
   },
   {
-    "objectID": "people/consultants/tuoto.html#experience",
-    "href": "people/consultants/tuoto.html#experience",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/alumni/mordan.html#experience",
+    "href": "people/alumni/mordan.html#experience",
+    "title": "Kyrylo Mordan",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/consultants/tuoto.html#journal-editing",
-    "href": "people/consultants/tuoto.html#journal-editing",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/alumni/mordan.html#education",
+    "href": "people/alumni/mordan.html#education",
+    "title": "Kyrylo Mordan",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html",
+    "href": "people/alumni/chlebicki.html",
+    "title": "Piotr Chlebicki",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Piotr Chlebicki"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html#biography",
+    "href": "people/alumni/chlebicki.html#biography",
+    "title": "Piotr Chlebicki",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html#experience",
+    "href": "people/alumni/chlebicki.html#experience",
+    "title": "Piotr Chlebicki",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html#education",
+    "href": "people/alumni/chlebicki.html#education",
+    "title": "Piotr Chlebicki",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html",
+    "href": "people/alumni/cruyff.html",
+    "title": "Maarten Cruyff",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Maarten Cruyff"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html#biography",
+    "href": "people/alumni/cruyff.html#biography",
+    "title": "Maarten Cruyff",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html#experience",
+    "href": "people/alumni/cruyff.html#experience",
+    "title": "Maarten Cruyff",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html#journal-editing",
+    "href": "people/alumni/cruyff.html#journal-editing",
+    "title": "Maarten Cruyff",
     "section": "Journal Editing",
     "text": "Journal Editing"
   },
   {
-    "objectID": "people/consultants/tuoto.html#education",
-    "href": "people/consultants/tuoto.html#education",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/alumni/cruyff.html#education",
+    "href": "people/alumni/cruyff.html#education",
+    "title": "Maarten Cruyff",
     "section": "Education",
     "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/heijden.html",
+    "href": "people/alumni/heijden.html",
+    "title": "Peter G. M. van der Heijden",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Peter G. M. van der Heijden"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#biography",
+    "href": "people/alumni/heijden.html#biography",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#experience",
+    "href": "people/alumni/heijden.html#experience",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#journal-editing",
+    "href": "people/alumni/heijden.html#journal-editing",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Journal Editing",
+    "text": "Journal Editing"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#education",
+    "href": "people/alumni/heijden.html#education",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/consultants/boehning.html",
+    "href": "people/consultants/boehning.html",
+    "title": "Dankmar Böhning",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Dankmar Böhning"
+  },
+  {
+    "objectID": "people/consultants/boehning.html#biography",
+    "href": "people/consultants/boehning.html#biography",
+    "title": "Dankmar Böhning",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/consultants/boehning.html#experience",
+    "href": "people/consultants/boehning.html#experience",
+    "title": "Dankmar Böhning",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/consultants/boehning.html#journal-editing",
+    "href": "people/consultants/boehning.html#journal-editing",
+    "title": "Dankmar Böhning",
+    "section": "Journal Editing",
+    "text": "Journal Editing"
+  },
+  {
+    "objectID": "people/consultants/boehning.html#education",
+    "href": "people/consultants/boehning.html#education",
+    "title": "Dankmar Böhning",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy -- An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R Package for Single-Source Capture-Recapture Models\n    Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nawards\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html",
+    "href": "publications/articles/beresewicz-2025-survmeth.html",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "",
+    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#abstract",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#abstract",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "",
+    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "Citation",
+    "text": "Citation\n\nBeręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{beresewicz2025,\n      title={Quantile balancing inverse probability weighting for non-probability samples}, \n      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},\n      year={2025},\n      eprint={2403.09726},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2403.09726}, \n}"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "Citation",
+    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy – An R package for modern methods for non-probability surveys, Submitted to the Journal of Statistical Software"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{chrostowski2025nonprobsvy,\n      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, \n      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04255},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2504.04255}, \n}"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Contact"
+  },
+  {
+    "objectID": "contact.html#email-us",
+    "href": "contact.html#email-us",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Email Us",
+    "text": "Email Us\ndr Maciej Beręsewicz, prof. UEP  Department of Statistics  Poznań University of Economics and Business  al. Niepodległości 10 | 61-875 Poznań  tel. + 48 61-854-36-80 | maciej.beresewicz[at]ue.poznan.pl  www.ue.poznan.pl"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Research"
+  },
+  {
+    "objectID": "research.html#abstract",
+    "href": "research.html#abstract",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Abstract",
+    "text": "Abstract\n\n\nEnglishPolish\n\n\nPopulation size estimation is one of the most challenging problems in official statistics (Wallgren & Wallgren, 2007). Information about the number of people living in a given country or region has an impact on the distribution of European funds, resources for health care or the GDP calculation. Furthermore, Eurostat’s visions for the post-census 2021 emphasise the idea of moving away from a traditional, decennial census to a rolling virtual census based solely on administrative data supplemented with sample surveys. The above mentioned actions are the result of a paradigm shift in statistics (and official statistics in particular), which can be summarised as the reuse of all available data instead of creating new ones (cf. Zhang 2021). However, the use of these non-statistical data leads to fundamental statistical and economic questions. For instance, in an experimental study conducted by Statistics Poland (2020) and involving 9 registers, the count of the foreign population in Poland was 2.1 million as at 31.12.2019. But is this figure the actual number of foreigners staying in Poland? How is this estimate affected by non-sampling errors?\nThe project seeks to answer these questions by filling methodological and knowledge gaps. On the one hand, we propose new approaches to estimating the population size along with their characteristics; on the other hand, applying them with a view to estimating the number of foreigners in Poland will provide knowledge that will be useful beyond the 2021 census.\nThe main goal of the project is to develop methods for estimating the size of the foreign-born population in Poland and its characteristics using multiple data sources that contain potential errors. The aim of the project is twofold. On the one hand, we focus on estimating the size of the foreign-born population based on non-statistical sources such as admin data. The main motivation behind this approach is to provide census-like statistics without conducting a traditional census. Secondly, characteristics of foreign-born populations included in admin data are scarce and can be supplemented by non-random samples, such as big data derived from smartphones. The project aims to broaden the knowledge of the foreign-born population in Poland by using admin data and other non-statistical data sources and developing sound and novel statistical methodology.\nThe novelty of the project consists in:\n\nproposing new estimators that take into account different sources of non-sampling errors and account for the resulting uncertainties, which propagate to economic indicators, such as GDP;\ndeveloping methods for estimating the irregular and illegally working population and proposing new estimators that account for misclassification to provide unbiased estimates of the foreign-born population characteristics derived from mobile big data;\ndeveloping methods of inference for non-probability samples based on selection models and non-ignorable non-response.\n\nWe plan to closely collaborate with Statistics Poland, use anonymised unit-level data from the police and aggregated data from the Polish Border Guard and the National Labour Inspectorate. In addition, we plan to use sample surveys conducted by the National Bank of Poland and unique mobile big data about behavioural and socio-demographic characteristics derived from thousands of foreigners smartphones (aggregated data).\nTo make our contribution more international, we have established a collaboration with experts in this field from the University of Southampton, Utrecht University, Istat and the Sapienza University of Rome.\nThe results of the project should also contribute to producing more reliable estimates of the contribution of immigrants to the labour force and to GDP growth in Poland. Project results will be the basis for conducting statistical analyses on the socio-economic situation of Poland’s regions and for projections of their development. We also note that estimators and results of our study are not only limited to migration statistics but will also have an impact on other fields, such as macroeconomics, economic policy or sociology.\nLiterature (selected):\n1.Wallgren i Wallgren (2007). Register-based statistics: administrative data for statistical purposes, Wiley.\n2.GUS (2020). Populacja zagraniczna w Polsce w czasie pandemii COVID-19.\n3.Zhang (2012). Topics of statistical theory for register-based statistics and data integration. Statistica Neerlandica, 66(1):41–63.\n\n\nSzacowanie wielkości populacji jest jednym z najbardziej wymagających problemów w statystyce oficjalnej (Wallgren & Wallgren, 2007). Informacje o liczbie ludności w danym kraju lub regionie mają wpływ na dystrybucję funduszy europejskich, zasoby na opiekę zdrowotną lub obliczanie PKB. Ponadto, cele Eurostatu na okres po spisie powszechnym w 2021 roku podkreślają ideę odejścia od tradycyjnego, dziesięcioletniego spisu na rzecz ciągłego spisu wirtualnego opartego wyłącznie na danych administracyjnych uzupełnionych o badania próbkowe.\nPowyższe działania są wynikiem zmiany paradygmatu w statystyce (a szczególnie w statystyce oficjalnej), którą można streścić jako ponowne wykorzystanie wszystkich dostępnych danych zamiast tworzenia nowych (por. Zhang 2021). Jednak wykorzystanie tych danych nie-statystycznych prowadzi do fundamentalnych pytań statystycznych i ekonomicznych. Na przykład, w badaniu eksperymentalnym przeprowadzonym przez GUS (2020) i obejmującym 9 rejestrów, liczba populacji zagranicznej w Polsce wynosiła 2,1 miliona na dzień 31.12.2019. Ale czy ta liczba to rzeczywista liczba cudzoziemców przebywających w Polsce? Jak ta estymacja jest wpływana przez błędy nielosowe?\nProjekt ma na celu odpowiedź na te pytania, wypełniając luki metodologiczne i wiedzowe. Z jednej strony, proponujemy nowe podejścia do szacowania wielkości populacji wraz z ich charakterystykami; z drugiej strony, zastosowanie tych metod w celu oszacowania liczby cudzoziemców w Polsce dostarczy wiedzy przydatnej poza spisem z 2021 roku.\nGłównym celem projektu jest opracowanie metod szacowania wielkości populacji urodzonej za granicą w Polsce i jej charakterystyk przy użyciu wielu źródeł danych, które mogą zawierać potencjalne błędy. Celem projektu jest dwuznaczne. Z jednej strony, koncentrujemy się na szacowaniu wielkości populacji urodzonej za granicą na podstawie danych nie-statystycznych, takich jak dane administracyjne. Główną motywacją tego podejścia jest dostarczenie statystyk spisowych bez przeprowadzania tradycyjnego spisu. Z drugiej strony, charakterystyki populacji urodzonej za granicą zawarte w danych administracyjnych są skąpe i mogą być uzupełnione przez próby nielosowe, takie jak duże dane z telefonów komórkowych. Projekt ma na celu poszerzenie wiedzy o populacji urodzonej za granicą w Polsce poprzez wykorzystanie danych administracyjnych i innych źródeł danych nie-statystycznych oraz opracowanie solidnych i nowatorskich metod statystycznych.\nWkład projektu polega na:\n\nPropozycji nowych estymatorów uwzględniających różne źródła błędów nielosowych i uwzględniających wynikające z nich niepewności, które propagują się do wskaźników ekonomicznych, takich jak PKB;\nOpracowaniu metod szacowania populacji pracującej nieregularnie i nielegalnie oraz propozycji nowych estymatorów uwzględniających błędy klasyfikacji w celu dostarczenia nieobciążonych szacunków charakterystyk populacji urodzonej za granicą pochodzących z dużych danych mobilnych;\nOpracowaniu metod wnioskowania dla prób nielosowych opartych na modelach selekcji i nieignorowalnej odmowie.\n\nPlanujemy bliską współpracę z GUS, wykorzystanie zanonimizowanych danych jednostkowych od policji oraz danych zagregowanych od Straży Granicznej i Państwowej Inspekcji Pracy. Ponadto planujemy wykorzystać badania próbkowe przeprowadzone przez Narodowy Bank Polski oraz unikalne duże dane mobilne dotyczące zachowań i charakterystyk społeczno-demograficznych pochodzące od tysięcy telefonów komórkowych cudzoziemców (dane zagregowane).\nAby nasz wkład był bardziej międzynarodowy, nawiązaliśmy współpracę z ekspertami w tej dziedzinie z Uniwersytetu w Southampton, Uniwersytetu w Utrechcie, Istat i Uniwersytetu Sapienza w Rzymie.\nWyniki projektu powinny również przyczynić się do produkcji bardziej wiarygodnych szacunków wkładu imigrantów w siłę roboczą i wzrost PKB w Polsce. Wyniki projektu stanowić będą podstawę do przeprowadzania analiz statystycznych dotyczących sytuacji społeczno-ekonomicznej regionów Polski i prognoz ich rozwoju. Zauważamy również, że estymatory i wyniki naszego badania nie są ograniczone tylko do statystyk migracyjnych, ale będą miały również wpływ na inne dziedziny, takie jak makroekonomia, polityka gospodarcza czy socjologia.\nLiteratura (wybrana):\n1.Wallgren i Wallgren (2007). Register-based statistics: administrative data for statistical purposes, Wiley.\n2.GUS (2020). Populacja zagraniczna w Polsce w czasie pandemii COVID-19.\n3.Zhang (2012). Topics of statistical theory for register-based statistics and data integration. Statistica Neerlandica, 66(1):41–63."
+  },
+  {
+    "objectID": "research.html#research-plan",
+    "href": "research.html#research-plan",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Research Plan",
+    "text": "Research Plan\n\nEnglishPolish\n\n\n\nStatistical analysis of data used in the project\nDeveloping a signs-of-life methodology for assessing the quality of register data\n\nDeveloping new population size estimators for foreign-born populations\n\nDeveloping new estimators of the irregular and illegally working foreign-born population\nDeveloping new data integration methods for non-probability samples (big data)\n\nEstimating the quality of registers based on the signs-of-life methodology\n\nEstimating the size of the foreign-born population in Poland\nEstimating the size of the irregular and illegally working foreign-born population in Poland\nEstimating characteristics of the foreign-born population in Poland based on non-probability samples (big data)\n\nEstimating the impact of project estimates on selected macroeconomic indicators\n\n\n\n\nStatystyczna analiza danych wykorzystywanych w projekcie\nRozwój metody śladów życia do oceny jakości rejestrów administracyjnych\nRozwój nowych estymatorów wielkości populacji cudzoziemców\nRozwój nowych estymatorów wielkości nieregularnej i nielegalnie pracującej populacji cudzoziemców\nRozwój nowych metod estymacji na podstawie prób nielosowych (big data)\nOcena jakości rejestrów administracyjnych na podstawie metodyki śladów życia\nEstymacja wielkości populacji cudzoziemców w Polsce\nEstymacja wielkości nieregularnej i nielegalnie pracującej populacji cudzoziemców w Polsce\nEstymacja charakterystyk populacji cudzoziemców w Polsce z wykorzystaniem prób nielosowych (big data)\nEstymacja wpływu szacunków otrzymanych w projekcie na wybrane wskaźniki makroekonomiczne"
+  },
+  {
+    "objectID": "research.html#deliverables",
+    "href": "research.html#deliverables",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Deliverables",
+    "text": "Deliverables"
+  },
+  {
+    "objectID": "posts/2025-04-poznan/index.html",
+    "href": "posts/2025-04-poznan/index.html",
+    "title": "Another award for students",
+    "section": "",
+    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html",
+    "href": "publications/articles/strojny-2025-blockingPy.html",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "href": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "href": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "Citation",
+    "text": "Citation\n\nStrojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to SoftwareX"
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "href": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{strojny2025,\n      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, \n      author={Tymoteusz Strojny and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04266},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2504.04266}, \n}"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Towards census-like statistics for foreign-born populations – quality, data integration and estimation",
+    "section": "",
+    "text": "This is the repository for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation supported by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
   },
   {
     "objectID": "people.html",
@@ -161,205 +455,121 @@
     "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n         \n          Role\n        \n         \n          Started\n        \n         \n          Ended\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\nPiotr Chlebicki\n\n\nScholarship recipient\n\n\nFall 2021\n\n\nFall 2024\n\n\n\n\nKyrylo Mordan\n\n\nScholarship recipient\n\n\nFall 2021\n\n\nFall 2022\n\n\n\n\nŁukasz Chrostowski\n\n\nScholarship recipient\n\n\nFall 2022\n\n\nFall 2024\n\n\n\n\nMaarten Cruyff\n\n\nConsultants\n\n\nFall 2022\n\n\nFall 2023\n\n\n\n\nPeter G. M. van der Heijden\n\n\nConsultants\n\n\nFall 2022\n\n\nFall 2023\n\n\n\n\nKamil Wilak\n\n\nResearch Staff\n\n\nFall 2021\n\n\nSummer 2023\n\n\n\n\nTymon Świtalski\n\n\nStudent\n\n\nFall 2023\n\n\nSummer 2024\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Towards census-like statistics for foreign-born populations – quality, data integration and estimation",
+    "objectID": "people/consultants/tuoto.html",
+    "href": "people/consultants/tuoto.html",
+    "title": "Tiziana Tuoto",
     "section": "",
-    "text": "This is the repository for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation supported by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
+    "text": "Home\n    People\n    Research Staff\n    Tiziana Tuoto"
   },
   {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html",
-    "href": "publications/articles/strojny-2025-blockingPy.html",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#abstract",
-    "href": "publications/articles/strojny-2025-blockingPy.html#abstract",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#citation",
-    "href": "publications/articles/strojny-2025-blockingPy.html#citation",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "Citation",
-    "text": "Citation\n\nStrojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to SoftwareX"
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#bibtex",
-    "href": "publications/articles/strojny-2025-blockingPy.html#bibtex",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{strojny2025,\n      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, \n      author={Tymoteusz Strojny and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04266},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2504.04266}, \n}"
-  },
-  {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html",
-    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "",
-    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
-  },
-  {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
-    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "",
-    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
-  },
-  {
-    "objectID": "posts/2025-04-poznan/index.html",
-    "href": "posts/2025-04-poznan/index.html",
-    "title": "Another award for students",
-    "section": "",
-    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Research"
-  },
-  {
-    "objectID": "research.html#abstract",
-    "href": "research.html#abstract",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Abstract",
-    "text": "Abstract\n\n\nEnglishPolish\n\n\nPopulation size estimation is one of the most challenging problems in official statistics (Wallgren & Wallgren, 2007). Information about the number of people living in a given country or region has an impact on the distribution of European funds, resources for health care or the GDP calculation. Furthermore, Eurostat’s visions for the post-census 2021 emphasise the idea of moving away from a traditional, decennial census to a rolling virtual census based solely on administrative data supplemented with sample surveys. The above mentioned actions are the result of a paradigm shift in statistics (and official statistics in particular), which can be summarised as the reuse of all available data instead of creating new ones (cf. Zhang 2021). However, the use of these non-statistical data leads to fundamental statistical and economic questions. For instance, in an experimental study conducted by Statistics Poland (2020) and involving 9 registers, the count of the foreign population in Poland was 2.1 million as at 31.12.2019. But is this figure the actual number of foreigners staying in Poland? How is this estimate affected by non-sampling errors?\nThe project seeks to answer these questions by filling methodological and knowledge gaps. On the one hand, we propose new approaches to estimating the population size along with their characteristics; on the other hand, applying them with a view to estimating the number of foreigners in Poland will provide knowledge that will be useful beyond the 2021 census.\nThe main goal of the project is to develop methods for estimating the size of the foreign-born population in Poland and its characteristics using multiple data sources that contain potential errors. The aim of the project is twofold. On the one hand, we focus on estimating the size of the foreign-born population based on non-statistical sources such as admin data. The main motivation behind this approach is to provide census-like statistics without conducting a traditional census. Secondly, characteristics of foreign-born populations included in admin data are scarce and can be supplemented by non-random samples, such as big data derived from smartphones. The project aims to broaden the knowledge of the foreign-born population in Poland by using admin data and other non-statistical data sources and developing sound and novel statistical methodology.\nThe novelty of the project consists in:\n\nproposing new estimators that take into account different sources of non-sampling errors and account for the resulting uncertainties, which propagate to economic indicators, such as GDP;\ndeveloping methods for estimating the irregular and illegally working population and proposing new estimators that account for misclassification to provide unbiased estimates of the foreign-born population characteristics derived from mobile big data;\ndeveloping methods of inference for non-probability samples based on selection models and non-ignorable non-response.\n\nWe plan to closely collaborate with Statistics Poland, use anonymised unit-level data from the police and aggregated data from the Polish Border Guard and the National Labour Inspectorate. In addition, we plan to use sample surveys conducted by the National Bank of Poland and unique mobile big data about behavioural and socio-demographic characteristics derived from thousands of foreigners smartphones (aggregated data).\nTo make our contribution more international, we have established a collaboration with experts in this field from the University of Southampton, Utrecht University, Istat and the Sapienza University of Rome.\nThe results of the project should also contribute to producing more reliable estimates of the contribution of immigrants to the labour force and to GDP growth in Poland. Project results will be the basis for conducting statistical analyses on the socio-economic situation of Poland’s regions and for projections of their development. We also note that estimators and results of our study are not only limited to migration statistics but will also have an impact on other fields, such as macroeconomics, economic policy or sociology.\nLiterature (selected):\n1.Wallgren i Wallgren (2007). Register-based statistics: administrative data for statistical purposes, Wiley.\n2.GUS (2020). Populacja zagraniczna w Polsce w czasie pandemii COVID-19.\n3.Zhang (2012). Topics of statistical theory for register-based statistics and data integration. Statistica Neerlandica, 66(1):41–63.\n\n\nSzacowanie wielkości populacji jest jednym z najbardziej wymagających problemów w statystyce oficjalnej (Wallgren & Wallgren, 2007). Informacje o liczbie ludności w danym kraju lub regionie mają wpływ na dystrybucję funduszy europejskich, zasoby na opiekę zdrowotną lub obliczanie PKB. Ponadto, cele Eurostatu na okres po spisie powszechnym w 2021 roku podkreślają ideę odejścia od tradycyjnego, dziesięcioletniego spisu na rzecz ciągłego spisu wirtualnego opartego wyłącznie na danych administracyjnych uzupełnionych o badania próbkowe.\nPowyższe działania są wynikiem zmiany paradygmatu w statystyce (a szczególnie w statystyce oficjalnej), którą można streścić jako ponowne wykorzystanie wszystkich dostępnych danych zamiast tworzenia nowych (por. Zhang 2021). Jednak wykorzystanie tych danych nie-statystycznych prowadzi do fundamentalnych pytań statystycznych i ekonomicznych. Na przykład, w badaniu eksperymentalnym przeprowadzonym przez GUS (2020) i obejmującym 9 rejestrów, liczba populacji zagranicznej w Polsce wynosiła 2,1 miliona na dzień 31.12.2019. Ale czy ta liczba to rzeczywista liczba cudzoziemców przebywających w Polsce? Jak ta estymacja jest wpływana przez błędy nielosowe?\nProjekt ma na celu odpowiedź na te pytania, wypełniając luki metodologiczne i wiedzowe. Z jednej strony, proponujemy nowe podejścia do szacowania wielkości populacji wraz z ich charakterystykami; z drugiej strony, zastosowanie tych metod w celu oszacowania liczby cudzoziemców w Polsce dostarczy wiedzy przydatnej poza spisem z 2021 roku.\nGłównym celem projektu jest opracowanie metod szacowania wielkości populacji urodzonej za granicą w Polsce i jej charakterystyk przy użyciu wielu źródeł danych, które mogą zawierać potencjalne błędy. Celem projektu jest dwuznaczne. Z jednej strony, koncentrujemy się na szacowaniu wielkości populacji urodzonej za granicą na podstawie danych nie-statystycznych, takich jak dane administracyjne. Główną motywacją tego podejścia jest dostarczenie statystyk spisowych bez przeprowadzania tradycyjnego spisu. Z drugiej strony, charakterystyki populacji urodzonej za granicą zawarte w danych administracyjnych są skąpe i mogą być uzupełnione przez próby nielosowe, takie jak duże dane z telefonów komórkowych. Projekt ma na celu poszerzenie wiedzy o populacji urodzonej za granicą w Polsce poprzez wykorzystanie danych administracyjnych i innych źródeł danych nie-statystycznych oraz opracowanie solidnych i nowatorskich metod statystycznych.\nWkład projektu polega na:\n\nPropozycji nowych estymatorów uwzględniających różne źródła błędów nielosowych i uwzględniających wynikające z nich niepewności, które propagują się do wskaźników ekonomicznych, takich jak PKB;\nOpracowaniu metod szacowania populacji pracującej nieregularnie i nielegalnie oraz propozycji nowych estymatorów uwzględniających błędy klasyfikacji w celu dostarczenia nieobciążonych szacunków charakterystyk populacji urodzonej za granicą pochodzących z dużych danych mobilnych;\nOpracowaniu metod wnioskowania dla prób nielosowych opartych na modelach selekcji i nieignorowalnej odmowie.\n\nPlanujemy bliską współpracę z GUS, wykorzystanie zanonimizowanych danych jednostkowych od policji oraz danych zagregowanych od Straży Granicznej i Państwowej Inspekcji Pracy. Ponadto planujemy wykorzystać badania próbkowe przeprowadzone przez Narodowy Bank Polski oraz unikalne duże dane mobilne dotyczące zachowań i charakterystyk społeczno-demograficznych pochodzące od tysięcy telefonów komórkowych cudzoziemców (dane zagregowane).\nAby nasz wkład był bardziej międzynarodowy, nawiązaliśmy współpracę z ekspertami w tej dziedzinie z Uniwersytetu w Southampton, Uniwersytetu w Utrechcie, Istat i Uniwersytetu Sapienza w Rzymie.\nWyniki projektu powinny również przyczynić się do produkcji bardziej wiarygodnych szacunków wkładu imigrantów w siłę roboczą i wzrost PKB w Polsce. Wyniki projektu stanowić będą podstawę do przeprowadzania analiz statystycznych dotyczących sytuacji społeczno-ekonomicznej regionów Polski i prognoz ich rozwoju. Zauważamy również, że estymatory i wyniki naszego badania nie są ograniczone tylko do statystyk migracyjnych, ale będą miały również wpływ na inne dziedziny, takie jak makroekonomia, polityka gospodarcza czy socjologia.\nLiteratura (wybrana):\n1.Wallgren i Wallgren (2007). Register-based statistics: administrative data for statistical purposes, Wiley.\n2.GUS (2020). Populacja zagraniczna w Polsce w czasie pandemii COVID-19.\n3.Zhang (2012). Topics of statistical theory for register-based statistics and data integration. Statistica Neerlandica, 66(1):41–63."
-  },
-  {
-    "objectID": "research.html#research-plan",
-    "href": "research.html#research-plan",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Research Plan",
-    "text": "Research Plan\n\nEnglishPolish\n\n\n\nStatistical analysis of data used in the project\nDeveloping a signs-of-life methodology for assessing the quality of register data\n\nDeveloping new population size estimators for foreign-born populations\n\nDeveloping new estimators of the irregular and illegally working foreign-born population\nDeveloping new data integration methods for non-probability samples (big data)\n\nEstimating the quality of registers based on the signs-of-life methodology\n\nEstimating the size of the foreign-born population in Poland\nEstimating the size of the irregular and illegally working foreign-born population in Poland\nEstimating characteristics of the foreign-born population in Poland based on non-probability samples (big data)\n\nEstimating the impact of project estimates on selected macroeconomic indicators\n\n\n\n\nStatystyczna analiza danych wykorzystywanych w projekcie\nRozwój metody śladów życia do oceny jakości rejestrów administracyjnych\nRozwój nowych estymatorów wielkości populacji cudzoziemców\nRozwój nowych estymatorów wielkości nieregularnej i nielegalnie pracującej populacji cudzoziemców\nRozwój nowych metod estymacji na podstawie prób nielosowych (big data)\nOcena jakości rejestrów administracyjnych na podstawie metodyki śladów życia\nEstymacja wielkości populacji cudzoziemców w Polsce\nEstymacja wielkości nieregularnej i nielegalnie pracującej populacji cudzoziemców w Polsce\nEstymacja charakterystyk populacji cudzoziemców w Polsce z wykorzystaniem prób nielosowych (big data)\nEstymacja wpływu szacunków otrzymanych w projekcie na wybrane wskaźniki makroekonomiczne"
-  },
-  {
-    "objectID": "research.html#deliverables",
-    "href": "research.html#deliverables",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Deliverables",
-    "text": "Deliverables"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Contact"
-  },
-  {
-    "objectID": "contact.html#email-us",
-    "href": "contact.html#email-us",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Email Us",
-    "text": "Email Us\ndr Maciej Beręsewicz, prof. UEP  Department of Statistics  Poznań University of Economics and Business  al. Niepodległości 10 | 61-875 Poznań  tel. + 48 61-854-36-80 | maciej.beresewicz[at]ue.poznan.pl  www.ue.poznan.pl"
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "",
-    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "",
-    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "Citation",
-    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy – An R package for modern methods for non-probability surveys, Submitted to the Journal of Statistical Software"
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{chrostowski2025nonprobsvy,\n      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, \n      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04255},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2504.04255}, \n}"
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html",
-    "href": "publications/articles/beresewicz-2025-survmeth.html",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "",
-    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#abstract",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#abstract",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "",
-    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#citation",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "Citation",
-    "text": "Citation\n\nBeręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{beresewicz2025,\n      title={Quantile balancing inverse probability weighting for non-probability samples}, \n      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},\n      year={2025},\n      eprint={2403.09726},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2403.09726}, \n}"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nawards\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy -- An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R Package for Single-Source Capture-Recapture Models\n    Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/consultants/boehning.html",
-    "href": "people/consultants/boehning.html",
-    "title": "Dankmar Böhning",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Dankmar Böhning"
-  },
-  {
-    "objectID": "people/consultants/boehning.html#biography",
-    "href": "people/consultants/boehning.html#biography",
-    "title": "Dankmar Böhning",
+    "objectID": "people/consultants/tuoto.html#biography",
+    "href": "people/consultants/tuoto.html#biography",
+    "title": "Tiziana Tuoto",
     "section": "Biography",
     "text": "Biography"
   },
   {
-    "objectID": "people/consultants/boehning.html#experience",
-    "href": "people/consultants/boehning.html#experience",
-    "title": "Dankmar Böhning",
+    "objectID": "people/consultants/tuoto.html#experience",
+    "href": "people/consultants/tuoto.html#experience",
+    "title": "Tiziana Tuoto",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/consultants/boehning.html#journal-editing",
-    "href": "people/consultants/boehning.html#journal-editing",
-    "title": "Dankmar Böhning",
+    "objectID": "people/consultants/tuoto.html#journal-editing",
+    "href": "people/consultants/tuoto.html#journal-editing",
+    "title": "Tiziana Tuoto",
     "section": "Journal Editing",
     "text": "Journal Editing"
   },
   {
-    "objectID": "people/consultants/boehning.html#education",
-    "href": "people/consultants/boehning.html#education",
-    "title": "Dankmar Böhning",
+    "objectID": "people/consultants/tuoto.html#education",
+    "href": "people/consultants/tuoto.html#education",
+    "title": "Tiziana Tuoto",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/switalski.html",
+    "href": "people/alumni/switalski.html",
+    "title": "Tymon Świtalski",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Tymon Świtalski"
+  },
+  {
+    "objectID": "people/alumni/switalski.html#biography",
+    "href": "people/alumni/switalski.html#biography",
+    "title": "Tymon Świtalski",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/switalski.html#experience",
+    "href": "people/alumni/switalski.html#experience",
+    "title": "Tymon Świtalski",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/switalski.html#education",
+    "href": "people/alumni/switalski.html#education",
+    "title": "Tymon Świtalski",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html",
+    "href": "people/alumni/chrostowski.html",
+    "title": "Łukasz Chrostowski",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Łukasz Chrostowski"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html#biography",
+    "href": "people/alumni/chrostowski.html#biography",
+    "title": "Łukasz Chrostowski",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html#experience",
+    "href": "people/alumni/chrostowski.html#experience",
+    "title": "Łukasz Chrostowski",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html#education",
+    "href": "people/alumni/chrostowski.html#education",
+    "title": "Łukasz Chrostowski",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/wilak.html",
+    "href": "people/alumni/wilak.html",
+    "title": "Kamil Wilak",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Kamil Wilak"
+  },
+  {
+    "objectID": "people/alumni/wilak.html#biography",
+    "href": "people/alumni/wilak.html#biography",
+    "title": "Kamil Wilak",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/wilak.html#experience",
+    "href": "people/alumni/wilak.html#experience",
+    "title": "Kamil Wilak",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/wilak.html#education",
+    "href": "people/alumni/wilak.html#education",
+    "title": "Kamil Wilak",
     "section": "Education",
     "text": "Education"
   },
@@ -462,283 +672,10 @@
     "text": "For Prospective Postdocs and Staff"
   },
   {
-    "objectID": "people/alumni/chlebicki.html",
-    "href": "people/alumni/chlebicki.html",
-    "title": "Piotr Chlebicki",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Piotr Chlebicki"
-  },
-  {
-    "objectID": "people/alumni/chlebicki.html#biography",
-    "href": "people/alumni/chlebicki.html#biography",
-    "title": "Piotr Chlebicki",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/chlebicki.html#experience",
-    "href": "people/alumni/chlebicki.html#experience",
-    "title": "Piotr Chlebicki",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/chlebicki.html#education",
-    "href": "people/alumni/chlebicki.html#education",
-    "title": "Piotr Chlebicki",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/chrostowski.html",
-    "href": "people/alumni/chrostowski.html",
-    "title": "Łukasz Chrostowski",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Łukasz Chrostowski"
-  },
-  {
-    "objectID": "people/alumni/chrostowski.html#biography",
-    "href": "people/alumni/chrostowski.html#biography",
-    "title": "Łukasz Chrostowski",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/chrostowski.html#experience",
-    "href": "people/alumni/chrostowski.html#experience",
-    "title": "Łukasz Chrostowski",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/chrostowski.html#education",
-    "href": "people/alumni/chrostowski.html#education",
-    "title": "Łukasz Chrostowski",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/mordan.html",
-    "href": "people/alumni/mordan.html",
-    "title": "Kyrylo Mordan",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Kyrylo Mordan"
-  },
-  {
-    "objectID": "people/alumni/mordan.html#biography",
-    "href": "people/alumni/mordan.html#biography",
-    "title": "Kyrylo Mordan",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/mordan.html#experience",
-    "href": "people/alumni/mordan.html#experience",
-    "title": "Kyrylo Mordan",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/mordan.html#education",
-    "href": "people/alumni/mordan.html#education",
-    "title": "Kyrylo Mordan",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/wilak.html",
-    "href": "people/alumni/wilak.html",
-    "title": "Kamil Wilak",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Kamil Wilak"
-  },
-  {
-    "objectID": "people/alumni/wilak.html#biography",
-    "href": "people/alumni/wilak.html#biography",
-    "title": "Kamil Wilak",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/wilak.html#experience",
-    "href": "people/alumni/wilak.html#experience",
-    "title": "Kamil Wilak",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/wilak.html#education",
-    "href": "people/alumni/wilak.html#education",
-    "title": "Kamil Wilak",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/switalski.html",
-    "href": "people/alumni/switalski.html",
-    "title": "Tymon Świtalski",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Tymon Świtalski"
-  },
-  {
-    "objectID": "people/alumni/switalski.html#biography",
-    "href": "people/alumni/switalski.html#biography",
-    "title": "Tymon Świtalski",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/switalski.html#experience",
-    "href": "people/alumni/switalski.html#experience",
-    "title": "Tymon Świtalski",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/switalski.html#education",
-    "href": "people/alumni/switalski.html#education",
-    "title": "Tymon Świtalski",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/consultants/cruyff.html",
-    "href": "people/consultants/cruyff.html",
-    "title": "Maarten Cruyff",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Maarten Cruyff"
-  },
-  {
-    "objectID": "people/consultants/cruyff.html#biography",
-    "href": "people/consultants/cruyff.html#biography",
-    "title": "Maarten Cruyff",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/consultants/cruyff.html#experience",
-    "href": "people/consultants/cruyff.html#experience",
-    "title": "Maarten Cruyff",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/consultants/cruyff.html#journal-editing",
-    "href": "people/consultants/cruyff.html#journal-editing",
-    "title": "Maarten Cruyff",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/consultants/cruyff.html#education",
-    "href": "people/consultants/cruyff.html#education",
-    "title": "Maarten Cruyff",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/consultants/heijden.html",
-    "href": "people/consultants/heijden.html",
-    "title": "Peter G. M. van der Heijden",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Peter G. M. van der Heijden"
-  },
-  {
-    "objectID": "people/consultants/heijden.html#biography",
-    "href": "people/consultants/heijden.html#biography",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/consultants/heijden.html#experience",
-    "href": "people/consultants/heijden.html#experience",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/consultants/heijden.html#journal-editing",
-    "href": "people/consultants/heijden.html#journal-editing",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/consultants/heijden.html#education",
-    "href": "people/consultants/heijden.html#education",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/heijden.html",
-    "href": "people/alumni/heijden.html",
-    "title": "Peter G. M. van der Heijden",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Peter G. M. van der Heijden"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#biography",
-    "href": "people/alumni/heijden.html#biography",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#experience",
-    "href": "people/alumni/heijden.html#experience",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#journal-editing",
-    "href": "people/alumni/heijden.html#journal-editing",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#education",
-    "href": "people/alumni/heijden.html#education",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html",
-    "href": "people/alumni/cruyff.html",
-    "title": "Maarten Cruyff",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Maarten Cruyff"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html#biography",
-    "href": "people/alumni/cruyff.html#biography",
-    "title": "Maarten Cruyff",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html#experience",
-    "href": "people/alumni/cruyff.html#experience",
-    "title": "Maarten Cruyff",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html#journal-editing",
-    "href": "people/alumni/cruyff.html#journal-editing",
-    "title": "Maarten Cruyff",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html#education",
-    "href": "people/alumni/cruyff.html#education",
-    "title": "Maarten Cruyff",
-    "section": "Education",
-    "text": "Education"
+    "objectID": "people.html#students",
+    "href": "people.html#students",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Students",
+    "text": "Students\n\n\n\n\n\nNo matching items"
   }
 ]
