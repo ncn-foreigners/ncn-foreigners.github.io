@@ -56,6 +56,76 @@
     "text": "Education"
   },
   {
+    "objectID": "people/staff/szymkowiak.html",
+    "href": "people/staff/szymkowiak.html",
+    "title": "Marcin Szymkowiak",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Marcin Szymkowiak"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#biography",
+    "href": "people/staff/szymkowiak.html#biography",
+    "title": "Marcin Szymkowiak",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#experience",
+    "href": "people/staff/szymkowiak.html#experience",
+    "title": "Marcin Szymkowiak",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#journal-editing",
+    "href": "people/staff/szymkowiak.html#journal-editing",
+    "title": "Marcin Szymkowiak",
+    "section": "Journal Editing",
+    "text": "Journal Editing"
+  },
+  {
+    "objectID": "people/staff/szymkowiak.html#education",
+    "href": "people/staff/szymkowiak.html#education",
+    "title": "Marcin Szymkowiak",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/consultants/tuoto.html",
+    "href": "people/consultants/tuoto.html",
+    "title": "Tiziana Tuoto",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Tiziana Tuoto"
+  },
+  {
+    "objectID": "people/consultants/tuoto.html#biography",
+    "href": "people/consultants/tuoto.html#biography",
+    "title": "Tiziana Tuoto",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/consultants/tuoto.html#experience",
+    "href": "people/consultants/tuoto.html#experience",
+    "title": "Tiziana Tuoto",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/consultants/tuoto.html#journal-editing",
+    "href": "people/consultants/tuoto.html#journal-editing",
+    "title": "Tiziana Tuoto",
+    "section": "Journal Editing",
+    "text": "Journal Editing"
+  },
+  {
+    "objectID": "people/consultants/tuoto.html#education",
+    "href": "people/consultants/tuoto.html#education",
+    "title": "Tiziana Tuoto",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
     "objectID": "people.html",
     "href": "people.html",
     "title": "Towards census-like statistics for foreign-born populations",
@@ -259,100 +329,37 @@
     "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy -- An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R Package for Single-Source Capture-Recapture Models\n    Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/staff/szymkowiak.html",
-    "href": "people/staff/szymkowiak.html",
-    "title": "Marcin Szymkowiak",
+    "objectID": "people/consultants/boehning.html",
+    "href": "people/consultants/boehning.html",
+    "title": "Dankmar Böhning",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Marcin Szymkowiak"
+    "text": "Home\n    People\n    Research Staff\n    Dankmar Böhning"
   },
   {
-    "objectID": "people/staff/szymkowiak.html#biography",
-    "href": "people/staff/szymkowiak.html#biography",
-    "title": "Marcin Szymkowiak",
+    "objectID": "people/consultants/boehning.html#biography",
+    "href": "people/consultants/boehning.html#biography",
+    "title": "Dankmar Böhning",
     "section": "Biography",
     "text": "Biography"
   },
   {
-    "objectID": "people/staff/szymkowiak.html#experience",
-    "href": "people/staff/szymkowiak.html#experience",
-    "title": "Marcin Szymkowiak",
+    "objectID": "people/consultants/boehning.html#experience",
+    "href": "people/consultants/boehning.html#experience",
+    "title": "Dankmar Böhning",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/staff/szymkowiak.html#journal-editing",
-    "href": "people/staff/szymkowiak.html#journal-editing",
-    "title": "Marcin Szymkowiak",
+    "objectID": "people/consultants/boehning.html#journal-editing",
+    "href": "people/consultants/boehning.html#journal-editing",
+    "title": "Dankmar Böhning",
     "section": "Journal Editing",
     "text": "Journal Editing"
   },
   {
-    "objectID": "people/staff/szymkowiak.html#education",
-    "href": "people/staff/szymkowiak.html#education",
-    "title": "Marcin Szymkowiak",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "opportunities.html",
-    "href": "opportunities.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    Opportunities"
-  },
-  {
-    "objectID": "opportunities.html#for-undergraduate-students",
-    "href": "opportunities.html#for-undergraduate-students",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "For Undergraduate Students",
-    "text": "For Undergraduate Students"
-  },
-  {
-    "objectID": "opportunities.html#for-prospective-graduate-students",
-    "href": "opportunities.html#for-prospective-graduate-students",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "For Prospective Graduate Students",
-    "text": "For Prospective Graduate Students"
-  },
-  {
-    "objectID": "opportunities.html#for-prospective-postdocs-and-staff",
-    "href": "opportunities.html#for-prospective-postdocs-and-staff",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "For Prospective Postdocs and Staff",
-    "text": "For Prospective Postdocs and Staff"
-  },
-  {
-    "objectID": "people/staff/zadlo.html",
-    "href": "people/staff/zadlo.html",
-    "title": "Tomasz Żądło",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Tomasz Żądło"
-  },
-  {
-    "objectID": "people/staff/zadlo.html#biography",
-    "href": "people/staff/zadlo.html#biography",
-    "title": "Tomasz Żądło",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/staff/zadlo.html#experience",
-    "href": "people/staff/zadlo.html#experience",
-    "title": "Tomasz Żądło",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/staff/zadlo.html#journal-editing",
-    "href": "people/staff/zadlo.html#journal-editing",
-    "title": "Tomasz Żądło",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/staff/zadlo.html#education",
-    "href": "people/staff/zadlo.html#education",
-    "title": "Tomasz Żądło",
+    "objectID": "people/consultants/boehning.html#education",
+    "href": "people/consultants/boehning.html#education",
+    "title": "Dankmar Böhning",
     "section": "Education",
     "text": "Education"
   },
@@ -392,73 +399,66 @@
     "text": "Education"
   },
   {
-    "objectID": "people/consultants/tuoto.html",
-    "href": "people/consultants/tuoto.html",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/staff/zadlo.html",
+    "href": "people/staff/zadlo.html",
+    "title": "Tomasz Żądło",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Tiziana Tuoto"
+    "text": "Home\n    People\n    Research Staff\n    Tomasz Żądło"
   },
   {
-    "objectID": "people/consultants/tuoto.html#biography",
-    "href": "people/consultants/tuoto.html#biography",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/staff/zadlo.html#biography",
+    "href": "people/staff/zadlo.html#biography",
+    "title": "Tomasz Żądło",
     "section": "Biography",
     "text": "Biography"
   },
   {
-    "objectID": "people/consultants/tuoto.html#experience",
-    "href": "people/consultants/tuoto.html#experience",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/staff/zadlo.html#experience",
+    "href": "people/staff/zadlo.html#experience",
+    "title": "Tomasz Żądło",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/consultants/tuoto.html#journal-editing",
-    "href": "people/consultants/tuoto.html#journal-editing",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/staff/zadlo.html#journal-editing",
+    "href": "people/staff/zadlo.html#journal-editing",
+    "title": "Tomasz Żądło",
     "section": "Journal Editing",
     "text": "Journal Editing"
   },
   {
-    "objectID": "people/consultants/tuoto.html#education",
-    "href": "people/consultants/tuoto.html#education",
-    "title": "Tiziana Tuoto",
+    "objectID": "people/staff/zadlo.html#education",
+    "href": "people/staff/zadlo.html#education",
+    "title": "Tomasz Żądło",
     "section": "Education",
     "text": "Education"
   },
   {
-    "objectID": "people/consultants/boehning.html",
-    "href": "people/consultants/boehning.html",
-    "title": "Dankmar Böhning",
+    "objectID": "opportunities.html",
+    "href": "opportunities.html",
+    "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Dankmar Böhning"
+    "text": "Home\n    Opportunities"
   },
   {
-    "objectID": "people/consultants/boehning.html#biography",
-    "href": "people/consultants/boehning.html#biography",
-    "title": "Dankmar Böhning",
-    "section": "Biography",
-    "text": "Biography"
+    "objectID": "opportunities.html#for-undergraduate-students",
+    "href": "opportunities.html#for-undergraduate-students",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "For Undergraduate Students",
+    "text": "For Undergraduate Students"
   },
   {
-    "objectID": "people/consultants/boehning.html#experience",
-    "href": "people/consultants/boehning.html#experience",
-    "title": "Dankmar Böhning",
-    "section": "Experience",
-    "text": "Experience"
+    "objectID": "opportunities.html#for-prospective-graduate-students",
+    "href": "opportunities.html#for-prospective-graduate-students",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "For Prospective Graduate Students",
+    "text": "For Prospective Graduate Students"
   },
   {
-    "objectID": "people/consultants/boehning.html#journal-editing",
-    "href": "people/consultants/boehning.html#journal-editing",
-    "title": "Dankmar Böhning",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/consultants/boehning.html#education",
-    "href": "people/consultants/boehning.html#education",
-    "title": "Dankmar Böhning",
-    "section": "Education",
-    "text": "Education"
+    "objectID": "opportunities.html#for-prospective-postdocs-and-staff",
+    "href": "opportunities.html#for-prospective-postdocs-and-staff",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "For Prospective Postdocs and Staff",
+    "text": "For Prospective Postdocs and Staff"
   }
 ]
