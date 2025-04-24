@@ -9,7 +9,7 @@ resources: ""
 about:
   id: person-profile
   template: jolla
-  links:
+  links: 
     - icon: link
       text: website
       href: https://github.com/BERENZ

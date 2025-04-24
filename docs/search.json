@@ -263,7 +263,7 @@
     "href": "news.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nawards\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHex stickers for packages\n\n\n\n\n\n\nsingleRcapture\n\n\nnonprobsvy\n\n\n\nLogs for the project\n\n\n\n\n\nApr 24, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nawards\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html",
@@ -415,9 +415,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Towards census-like statistics for foreign-born populations – quality, data integration and estimation",
+    "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "This is the repository for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation supported by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
+    "text": "This is the page for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation financed by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
   },
   {
     "objectID": "people.html",
@@ -670,5 +670,12 @@
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "For Prospective Postdocs and Staff",
     "text": "For Prospective Postdocs and Staff"
+  },
+  {
+    "objectID": "posts/2025-04-24-hex/index.html",
+    "href": "posts/2025-04-24-hex/index.html",
+    "title": "Hex stickers for packages",
+    "section": "",
+    "text": "We present two hex stickers / logos for the singleRcapture and nonprobsvy packages designed by Oliwia Awuku."
   }
 ]

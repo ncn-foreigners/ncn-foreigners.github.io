@@ -1,0 +1,23 @@
+---
+title: "Hex stickers for packages"
+description: "Logs for the project"
+author: "Maciej Beręsewicz"
+date: "2025-04-24"
+image: singleRcapture.jpg
+draft: false
+categories:
+  - singleRcapture
+  - nonprobsvy
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+We present two hex stickers / logos for the **singleRcapture** and **nonprobsvy** packages designed by [Oliwia Awuku](http://instagram.com/abenakrzywo).
+
+```{=html}
+<div style="display: flex; justify-content: center; align-items: center;">
+     <img src="two-pkgs.png" style="width: 300px; margin-right: 10px;"/>
+</div>
+```

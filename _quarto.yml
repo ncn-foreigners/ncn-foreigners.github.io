@@ -19,7 +19,7 @@ website:
       - href: publications.qmd
         text: Publications
       - href: resources.qmd
-        text: Resources
+        text: Other outputs
       - href: contact.qmd
         text: Contact
   page-footer: "Copyright 2025 &copy; Maciej Beręsewicz"
