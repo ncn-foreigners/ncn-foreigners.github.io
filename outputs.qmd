@@ -1,0 +1,96 @@
+---
+pagetitle: "Resources | Foreigners"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Other outputs</li>
+  </ol>
+</nav>
+```
+
+## Talks
+
++ Beręsewicz (2025), Estimation of the number of irregular foreigners in Poland using non-linear count regression models, *The University of Oxford's Centre on Migration, Policy and Society (COMPAS)*, presentation at the seminar (2025.03.28)
+
++ Beręsewicz, Szymkowiak (2024), Inference for non-probability samples using the calibration approach for quantiles and totals, *International Conference on Small Area Estimation (SAE 2024)*, 03.06.2024-07.06.2024, Lima (Peru)
+
++ Beręsewicz, Szymkowiak (2024), Estimation of the number of irregular foreigners in Poland using nonlinear count regression models, *UNECE Expert Meeting on Migration Statistics 2024*, 07.05.2024-08.05.2024, Genewa
+
++ *Workshop on Survey Statistics* (26-30.08.2024):
+    + Tiziana Tuotto (Istat) -- Data integration and population size estimation: The risk of misidentification
+    + Tomasz Żądło (University of Economics in Katowice) -- Voting-based predictor's selection in survey sampling
+    + Dankmar Böhning (University in Southampton) --  Capture-recapture methods and their applications: The case of one-inflation in zero-truncated count data
+    + Maciej Beręsewicz — Blocking records for probabilistic record linkage using approximate nearest neighbours algorithms
+
++ Beręsewicz, Szymkowiak (2024), Quantile Balancing Inverse Probability Weighting for Non-Probability Samples, *The European Conference on Data Analysis (ECDA)*, Sopot, 9-11.09.2024
+
++ *The Use of R in Official Statistics (uRos)*, 27-29.11.2024:
+    + blocking: an R package for blocking of records for probabilistic record linkage based on approximate nearest neighbors algorithms (Beręsewicz)
+    + nonprobsvy: an R package for modern methods for non-probability surveys (Chrostowski, Chlebicki, Beręsewicz)
+    + Joint calibration estimators for totals and quantiles for probability and nonprobability samples (Beręsewicz, Szymkowiak)
+
++ Beręsewicz, Szymkowiak (2024), Quantile balancing inverse probability weighting for non-probability samples, *The 9th Conference Survey Sampling in Economic and Social Research*, Katowice, 3-4 grudnia, online
+
++ Chrostowski, Beręsewicz (2023) nonprobsvy - An R package for statistical inference with non-probability samples, *RSS 2023*, 07.09.2023, presentation
+
++ Chlebicki, Beręsewicz (2023) Estimating the population size of drunk-drivers in Poland using heterogeneous one-inflation and hurdle-like approach in single source capture-recapture studies, *RSS 2023*, 06.09.2023, presentation
+
++ Chrostowski, Beręsewicz (2023) nonprobsvy -- an R package for non-probability samples, *BANOCOSS2023*, 22.08.2023, presentation
+
++ Beręsewicz, Chrostowski (2023) Statistical inference using non-probability survey samples with misclassification in all variables, *ESRA 2023*, 20.07.2023, presentation
+
++ Chlebicki, Beręsewicz (2023) singleRcapture -- an R package for single-source capture-recapture models, *ESRA 2023*, 20.07.2023, presentation
+
++ Beręsewicz, Szałtys (2023) Statystyczna integracja rejestrów administracyjnych na potrzeby estymacji charakterystyk populacji cudzoziemców w Polsce, *MET 2023*, 23.06.2023, presentation
+
++ Beręsewicz (2023) Ilu jest w Polsce cudzoziemców? Metody szacunku wielkości populacji w oparciu o rejestry administracyjne i big data, *Data Analytics Meeting*, 23.06.2023, Referat zaproszony (konferencja studencka)
+
++ Beręsewicz (2023) Estimation of the length of stay of foreigners in Poland using mobile big data, *NTTS 2023*, 6-10.03.2023 (Bruxelles, Belgium) (abstract p. 410, recording around 16:03, presentation)
+
++ Chlebicki, Beręsewicz (2023) Estimation of hidden populations using single-source capture recapture models with singleRcapture package, *NTTS 2023*, 6-10.03.2023 (Bruxelles, Belgium)
+
++ Beręsewicz (2022b) Estimating the length of foreigners' stay in Poland using mobile big data, 8.12.2022, *S3RI Seminar at University of Southampton*, presentation
+
++ Beręsewicz (2022b) Ilu jest w Polsce cudzoziemców? Ujęcie statystyczne i ekonomiczne. Dwugłos Nauki -- ,,Migracje – historia i teraźniejszość'', 21.11.2022, *Oddział PAN w Poznaniu*, link do strony wydarzenia, prezentacja
+
++ Beręsewicz (2022a) Estymacja długości pobytu cudzoziemców w Polsce z wykorzystaniem mobile big data, *40th International Conference MSA'2022 joined with MASEP*, 7-9 listopada 2022, Łódź, Polska, link do strony konf, prezentacja
+
+
+## Datasets
+
+## Software
+
+- **nonprobsvy**<br />
+  an R package for modern statistical inference methods based on non-probability samples <br />
+  *Source Code:* <https://github.com/ncn-foreigners/nonprobsvy>
+
+- **singleRcapture**<br />
+  an R Package for Single-Source Capture-Recapture Models <br />
+  *Source Code:* <https://github.com/ncn-foreigners/singleRcapture>
+
+- **blocking**<br />
+  an R package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms <br />
+  *Source Code:* <https://github.com/ncn-foreigners/blocking>
+
+- **blockingPy**<br />
+  a Python package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms <br />
+  *Source Code:* <https://github.com/ncn-foreigners/BlockingPy>
+
+- **jointCalib**<br />
+  an R package for joint calibration of totals and quantiles <br />
+  *Source Code:* <https://github.com/ncn-foreigners/jointCalib>
+
+## Theses
+
++ Chlebicki (2022) -- Point and interval estimation of hidden population (pol. Punktowa i przedziałowa estymacja wielkości ukrytej populacji) -- praca licencjacka
+
++ Mordan (2022) -- Implementation of the empirical likelihood method for non-ignorable non-response in the R statistical package (pol. Implementacja metody empirical likelihood dla informatywnego braku odpowiedzi w pakiecie statystycznym R) -- praca magisterska
+
++ Chlebicki (2024) -- Vector generalized linear models and their selected applications (pol. Wektorowe uogólnione modele liniowe oraz ich wybrane zastosowania) -- praca magisterska
+
++ Chrostowski (2024) -- Statistical inference with non-probability samples (pol. Wnioskowanie statystyczne na podstawie prób nieprobablistycznych) -- praca magisterska
+

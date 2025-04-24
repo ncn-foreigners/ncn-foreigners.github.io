@@ -5,6 +5,7 @@ toc: false
 ---
 
 ::: {.lead}
+
 This is the page for the project **Towards census-like statistics for foreign-born populations -- quality, data integration and estimation** financed by the [National Science Centre](https://www.ncn.gov.pl/en), OPUS 20 grant no. 2020/39/B/HS4/00941.
 
 ```{=html}

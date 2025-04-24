@@ -322,18 +322,11 @@
     "text": "BibTeX\n@misc{chrostowski2025nonprobsvy,\n      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, \n      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04255},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2504.04255}, \n}"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Towards census-like statistics for foreign-born populations",
+    "objectID": "posts/2025-04-24-hex/index.html",
+    "href": "posts/2025-04-24-hex/index.html",
+    "title": "Hex stickers for packages",
     "section": "",
-    "text": "Home\n    Contact"
-  },
-  {
-    "objectID": "contact.html#email-us",
-    "href": "contact.html#email-us",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Email Us",
-    "text": "Email Us\ndr Maciej Beręsewicz, prof. UEP  Department of Statistics  Poznań University of Economics and Business  al. Niepodległości 10 | 61-875 Poznań  tel. + 48 61-854-36-80 | maciej.beresewicz[at]ue.poznan.pl  www.ue.poznan.pl"
+    "text": "We present two hex stickers / logos for the singleRcapture and nonprobsvy packages designed by Oliwia Awuku."
   },
   {
     "objectID": "research.html",
@@ -362,6 +355,20 @@
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "Deliverables",
     "text": "Deliverables"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Contact"
+  },
+  {
+    "objectID": "contact.html#email-us",
+    "href": "contact.html#email-us",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Email Us",
+    "text": "Email Us\ndr Maciej Beręsewicz, prof. UEP  Department of Statistics  Poznań University of Economics and Business  al. Niepodległości 10 | 61-875 Poznań  tel. + 48 61-854-36-80 | maciej.beresewicz[at]ue.poznan.pl  www.ue.poznan.pl"
   },
   {
     "objectID": "posts/2025-04-poznan/index.html",
@@ -672,10 +679,38 @@
     "text": "For Prospective Postdocs and Staff"
   },
   {
-    "objectID": "posts/2025-04-24-hex/index.html",
-    "href": "posts/2025-04-24-hex/index.html",
-    "title": "Hex stickers for packages",
+    "objectID": "outputs.html",
+    "href": "outputs.html",
+    "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "We present two hex stickers / logos for the singleRcapture and nonprobsvy packages designed by Oliwia Awuku."
+    "text": "Home\n    Other outputs"
+  },
+  {
+    "objectID": "outputs.html#talks",
+    "href": "outputs.html#talks",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Talks",
+    "text": "Talks\n\nBeręsewicz (2025), Estimation of the number of irregular foreigners in Poland using non-linear count regression models, The University of Oxford’s Centre on Migration, Policy and Society (COMPAS), presentation at the seminar (2025.03.28)\nBeręsewicz, Szymkowiak (2024), Inference for non-probability samples using the calibration approach for quantiles and totals, International Conference on Small Area Estimation (SAE 2024), 03.06.2024-07.06.2024, Lima (Peru)\nBeręsewicz, Szymkowiak (2024), Estimation of the number of irregular foreigners in Poland using nonlinear count regression models, UNECE Expert Meeting on Migration Statistics 2024, 07.05.2024-08.05.2024, Genewa\nWorkshop on Survey Statistics (26-30.08.2024):\n\nTiziana Tuotto (Istat) – Data integration and population size estimation: The risk of misidentification\nTomasz Żądło (University of Economics in Katowice) – Voting-based predictor’s selection in survey sampling\nDankmar Böhning (University in Southampton) – Capture-recapture methods and their applications: The case of one-inflation in zero-truncated count data\nMaciej Beręsewicz — Blocking records for probabilistic record linkage using approximate nearest neighbours algorithms\n\nBeręsewicz, Szymkowiak (2024), Quantile Balancing Inverse Probability Weighting for Non-Probability Samples, The European Conference on Data Analysis (ECDA), Sopot, 9-11.09.2024\nThe Use of R in Official Statistics (uRos), 27-29.11.2024:\n\nblocking: an R package for blocking of records for probabilistic record linkage based on approximate nearest neighbors algorithms (Beręsewicz)\nnonprobsvy: an R package for modern methods for non-probability surveys (Chrostowski, Chlebicki, Beręsewicz)\nJoint calibration estimators for totals and quantiles for probability and nonprobability samples (Beręsewicz, Szymkowiak)\n\nBeręsewicz, Szymkowiak (2024), Quantile balancing inverse probability weighting for non-probability samples, The 9th Conference Survey Sampling in Economic and Social Research, Katowice, 3-4 grudnia, online\nChrostowski, Beręsewicz (2023) nonprobsvy - An R package for statistical inference with non-probability samples, RSS 2023, 07.09.2023, presentation\nChlebicki, Beręsewicz (2023) Estimating the population size of drunk-drivers in Poland using heterogeneous one-inflation and hurdle-like approach in single source capture-recapture studies, RSS 2023, 06.09.2023, presentation\nChrostowski, Beręsewicz (2023) nonprobsvy – an R package for non-probability samples, BANOCOSS2023, 22.08.2023, presentation\nBeręsewicz, Chrostowski (2023) Statistical inference using non-probability survey samples with misclassification in all variables, ESRA 2023, 20.07.2023, presentation\nChlebicki, Beręsewicz (2023) singleRcapture – an R package for single-source capture-recapture models, ESRA 2023, 20.07.2023, presentation\nBeręsewicz, Szałtys (2023) Statystyczna integracja rejestrów administracyjnych na potrzeby estymacji charakterystyk populacji cudzoziemców w Polsce, MET 2023, 23.06.2023, presentation\nBeręsewicz (2023) Ilu jest w Polsce cudzoziemców? Metody szacunku wielkości populacji w oparciu o rejestry administracyjne i big data, Data Analytics Meeting, 23.06.2023, Referat zaproszony (konferencja studencka)\nBeręsewicz (2023) Estimation of the length of stay of foreigners in Poland using mobile big data, NTTS 2023, 6-10.03.2023 (Bruxelles, Belgium) (abstract p. 410, recording around 16:03, presentation)\nChlebicki, Beręsewicz (2023) Estimation of hidden populations using single-source capture recapture models with singleRcapture package, NTTS 2023, 6-10.03.2023 (Bruxelles, Belgium)\nBeręsewicz (2022b) Estimating the length of foreigners’ stay in Poland using mobile big data, 8.12.2022, S3RI Seminar at University of Southampton, presentation\nBeręsewicz (2022b) Ilu jest w Polsce cudzoziemców? Ujęcie statystyczne i ekonomiczne. Dwugłos Nauki – ,,Migracje – historia i teraźniejszość’’, 21.11.2022, Oddział PAN w Poznaniu, link do strony wydarzenia, prezentacja\nBeręsewicz (2022a) Estymacja długości pobytu cudzoziemców w Polsce z wykorzystaniem mobile big data, 40th International Conference MSA’2022 joined with MASEP, 7-9 listopada 2022, Łódź, Polska, link do strony konf, prezentacja"
+  },
+  {
+    "objectID": "outputs.html#datasets",
+    "href": "outputs.html#datasets",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Datasets",
+    "text": "Datasets"
+  },
+  {
+    "objectID": "outputs.html#software",
+    "href": "outputs.html#software",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Software",
+    "text": "Software\n\nnonprobsvy an R package for modern statistical inference methods based on non-probability samples  Source Code: https://github.com/ncn-foreigners/nonprobsvy\nsingleRcapture an R Package for Single-Source Capture-Recapture Models  Source Code: https://github.com/ncn-foreigners/singleRcapture\nblocking an R package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms  Source Code: https://github.com/ncn-foreigners/blocking\nblockingPy a Python package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms  Source Code: https://github.com/ncn-foreigners/BlockingPy\njointCalib an R package for joint calibration of totals and quantiles  Source Code: https://github.com/ncn-foreigners/jointCalib"
+  },
+  {
+    "objectID": "outputs.html#theses",
+    "href": "outputs.html#theses",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Theses",
+    "text": "Theses\n\nChlebicki (2022) – Point and interval estimation of hidden population (pol. Punktowa i przedziałowa estymacja wielkości ukrytej populacji) – praca licencjacka\nMordan (2022) – Implementation of the empirical likelihood method for non-ignorable non-response in the R statistical package (pol. Implementacja metody empirical likelihood dla informatywnego braku odpowiedzi w pakiecie statystycznym R) – praca magisterska\nChlebicki (2024) – Vector generalized linear models and their selected applications (pol. Wektorowe uogólnione modele liniowe oraz ich wybrane zastosowania) – praca magisterska\nChrostowski (2024) – Statistical inference with non-probability samples (pol. Wnioskowanie statystyczne na podstawie prób nieprobablistycznych) – praca magisterska"
   }
 ]
