@@ -1,0 +1,45 @@
+---
+title: "Igor Kołodziej"
+subtitle: "Student"
+sortby: "5"
+image: kolodziej.png
+toc: false
+started: "Spring 2025"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.igorkolodziej.com
+    - icon: github
+      text: github
+      href: https://github.com/IgorKolodziej/
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/igorkolodziej/
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+Igor Kołodziej's research interests include statistical computing, data mining, machine learning, and artificial intelligence. His work in the project involves implementation of statistical algorithms for data not missing at random (NMAR). He is currently pursuing his Bachelor of Engineering degree in Data Science at the Faculty of Mathematics and Information Science at Warsaw University of Technology.
+
+## Education
+
+- 2022–Current: Warsaw University of Technology, Warsaw, Poland -- Data Science Undergraduate (BEng).
+

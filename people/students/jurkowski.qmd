@@ -1,0 +1,40 @@
+---
+title: "Cyprian Jurkowski"
+sortby: "1"
+subtitle: "Scholarship recipient"
+image: jurkowski.jpg
+toc: false
+resources: ""
+started: "Winter 2024"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: linkedin
+      href: https://www.linkedin.com/in/cyprianjurkowski/
+    - icon: github
+      text: github
+      href: https://github.com/cypskaj
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+## Education
+
+- 2022–Current: Poznań University of Economics and Business, Poznań, Poland, Undergraduate Student (Informatics and Econometrics)

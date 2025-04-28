@@ -1,0 +1,47 @@
+---
+title: "Bartosz Bogulas"
+sortby: "2"
+subtitle: "Scholarship recipient"
+image: bogulas.jpg
+toc: false
+resources: 
+  - "bb_cv.pdf"
+started: "Winter 2024"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: file-earmark-text
+      text: vitae
+      href: ./people/staff/bb_cv.pdf
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+Bartosz is a Master’s student in Mathematics, with a strong interest in algebra, probability and statistics. He is currently the Treasurer of the Mathematics Student Research Group at Adam Mickiewicz University and previously held the same position in the Financial Engineering Student Research Group at the Poznań University of Economics.
+
+## Education
+
+- [Adam Mickiewicz University]{.fw-bold} | Poznań, Poland<br />
+  Masters in Mathematics | 2024–Current
+
+- [Adam Mickiewicz University]{.fw-bold} | Poznań, Poland<br />
+  BS in Mathematics | 2021–2024
+
+- [Poznań University of Economics and Business]{.fw-bold} | Poznań, Poland<br />
+  BS in Economics | 2020–2023
