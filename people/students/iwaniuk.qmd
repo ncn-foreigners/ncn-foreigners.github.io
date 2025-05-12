@@ -1,0 +1,42 @@
+---
+title: "Mateusz Iwaniuk"
+subtitle: "Student"
+sortby: "6"
+image: iwaniuk.jpg
+toc: false
+started: "Spring 2025"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: github
+      text: github
+      href: https://github.com/Iwaniukooo11
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/iwaniuk-mateusz/
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Mateusz Iwaniuk focuses his research on statistics, data mining, machine learning, and the development of efficient data systems. Within the project, he is responsible for implementing statistical algorithms designed for data that are not missing at random (NMAR). He is currently studying for a Bachelor of Engineering in Data Science at the Faculty of Mathematics and Information Science at Warsaw University of Technology.
+
+## Education
+
+- [Warsaw University of Technology]{.fw-bold} | Warsaw, Poland<br />
+  Data Science Undergraduate (BEng), 2022–Current
+

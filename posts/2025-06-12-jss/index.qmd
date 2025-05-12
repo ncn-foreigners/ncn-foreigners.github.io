@@ -1,0 +1,23 @@
+---
+title: "{singleRcapture} accepted to the JSS"
+description: "{singleRcapture} accepted to the Journal of Statistical Software"
+author: "Maciej Beręsewicz"
+date: "2025-05-12"
+image: jss.jpeg
+draft: false
+categories:
+  - singleRcapture
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+The paper **singleRcapture: An R Package for Single-Source Capture-Recapture Models** ([arxiv version](https://arxiv.org/abs/2411.11032)) 
+written by Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical Software!
+
+Here's the abstract of this paper:
+
+
+*Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g. zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software.*
+

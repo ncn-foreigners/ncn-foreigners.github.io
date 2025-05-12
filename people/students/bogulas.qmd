@@ -2,7 +2,7 @@
 title: "Bartosz Bogulas"
 sortby: "2"
 subtitle: "Scholarship recipient"
-image: bogulas.jpg
+image: bogulas.jpeg
 toc: false
 resources: 
   - "bb_cv.pdf"

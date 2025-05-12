@@ -2,7 +2,7 @@
 title: "Adam Struzik"
 sortby: "4"
 subtitle: "Student"
-image: struzik.jpeg
+image: struzik.jpg
 started: "Spring 2025"
 toc: false
 ---

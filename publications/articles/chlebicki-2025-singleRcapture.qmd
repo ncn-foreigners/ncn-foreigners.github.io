@@ -3,7 +3,7 @@ title: "singleRcapture: An R Package for Single-Source Capture-Recapture Models"
 type: "article"
 author: "Chlebicki & Beręsewicz"
 year: "2025"
-publication: "Submitted"
+publication: "Journal of Statistical Software"
 preprint: "https://arxiv.org/abs/2411.11032"
 materials: "https://github.com/ncn-foreigners/paper-singleRcapture"
 toc: false
@@ -13,7 +13,7 @@ categories:
   - population size estimation
 citation:
   type: "article"
-  container-title: "Submitted to Journal of Official Statistics"
+  container-title: "Accepted at Journal of Statistical Software"
   author:
     - family: Chlebicki
       given: Piotr
