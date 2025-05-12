@@ -1,0 +1,21 @@
+---
+title: "Aniela Czerniawska"
+sortby: "5"
+subtitle: "Student"
+image: czerniawska.jpeg
+started: "Spring 2025"
+toc: false
+---
+
+## Biography
+
+Aniela Czerniawska is a third-year undergraduate student in the Mathematics program at Adam Mickiewicz University, specializing in statistics and data analysis. 
+
+Her interests include statistical modeling and the use of quantitative methods to explore how data and the conclusions drawn from them shape our understanding of the world, influence public opinion and guide human behavior. 
+
+She is engaged in research on population estimation models for irregular population. Her bachelor's thesis focuses on model selection techniques and the use of information criteria to evaluate statistical fit and parsimony. She plans to pursue graduate study in data science to become a skilled statistician and data analyst.
+
+
+## Education
+
+-   2022–Current: Adam Mickiewicz University, Poznań, Poland: Bachelor's degree student (mathematics, specialisation: statistics and data analysis)  

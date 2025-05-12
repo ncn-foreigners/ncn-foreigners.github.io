@@ -1,0 +1,22 @@
+---
+title: "Adam Struzik"
+sortby: "4"
+subtitle: "Student"
+image: struzik.jpg
+started: "Spring 2025"
+toc: false
+---
+
+## Biography
+
+Adam Struzik is a mathematics Bachelor's degree student at Adam
+Mickiewicz University (Poznań, Poland), specialising in statistics and
+data analysis. His interests focus on machine learning and spatial data
+analysis.
+
+He is employed as a Senior Statistician at the Centre for Urban
+Statistics of the Statistical Office in Poznań.
+
+## Education
+
+-   2022–Current: Adam Mickiewicz University, Poznań, Poland: Bachelor's degree student (mathematics, specialisation: statistics and data analysis)  
