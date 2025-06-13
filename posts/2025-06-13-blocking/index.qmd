@@ -14,7 +14,7 @@ format:
     toc: false
 ---
 
-The 1.0.0 version of the {blocking} package was finally submitted to CRAN. 
+The 1.0.0 version of the {blocking} package was finally submitted to CRAN.
 
 The goal of {blocking} is to provide blocking methods for record linkage and deduplication using approximate nearest neighbour (ANN) algorithms and graph techniques. 
 
