@@ -9,14 +9,6 @@
     ]
   },
   {
-    "listing": "/news.html",
-    "items": [
-      "/posts/2025-06-12-jss/index.html",
-      "/posts/2025-04-24-hex/index.html",
-      "/posts/2025-04-poznan/index.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/staff/beresewicz.html",
@@ -39,6 +31,15 @@
       "/people/alumni/heijden.html",
       "/people/alumni/wilak.html",
       "/people/alumni/switalski.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2025-06-13-blocking/index.html",
+      "/posts/2025-05-12-jss/index.html",
+      "/posts/2025-04-24-hex/index.html",
+      "/posts/2025-04-poznan/index.html"
     ]
   }
 ]
