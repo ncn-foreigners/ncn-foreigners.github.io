@@ -1,0 +1,38 @@
+---
+title: "{blocking} on CRAN"
+description: "New package finally submitted to CRAN"
+author: "Maciej Beręsewicz"
+date: "2025-06-13"
+image: igraph.png
+draft: false
+categories:
+  - blocking
+  - record-linkage
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+The 1.0.0 version of the {blocking} package was finally submitted to CRAN. 
+
+The goal of {blocking} is to provide blocking methods for record linkage and deduplication using approximate nearest neighbour (ANN) algorithms and graph techniques. 
+
+It supports multiple ANN implementations via 
+
++ {rnndescent}, 
++ {RcppHNSW}, 
++ {RcppAnnoy}, 
++ {mlpack}  
+
+packages, and provides integration with the {reclin2} package. 
+
+The package generates shingles from character strings and similarity vectors for record comparison, and includes evaluation metrics for assessing blocking performance including false positive rate (FPR) and false negative rate (FNR) estimates. 
+
+To install the package use:
+
+```r
+install.packages("blocking")
+```
+
+For more details see the [CRAN website](https://cran.r-project.org/web/packages/blocking/index.html) and the [documentation](https://ncn-foreigners.ue.poznan.pl/blocking/)

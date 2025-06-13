@@ -6,7 +6,7 @@ date: "2025-04-18"
 image: poznan-zdjecie.jpg
 draft: false
 categories:
-  - awards
+  - guests
 format:
   html:
     page-layout: full

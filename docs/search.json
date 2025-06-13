@@ -305,7 +305,7 @@
     "href": "news.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{singleRcapture} accepted to the JSS\n\n\n\n\n\n\nsingleRcapture\n\n\n\n{singleRcapture} accepted to the Journal of Statistical Software\n\n\n\n\n\nMay 12, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nHex stickers for packages\n\n\n\n\n\n\nsingleRcapture\n\n\nnonprobsvy\n\n\n\nLogs for the project\n\n\n\n\n\nApr 24, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nawards\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{blocking} on CRAN\n\n\n\n\n\n\nblocking\n\n\nrecord-linkage\n\n\n\nNew package finally submitted to CRAN\n\n\n\n\n\nJun 13, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{singleRcapture} accepted to the JSS\n\n\n\n\n\n\nsingleRcapture\n\n\n\n{singleRcapture} accepted to the Journal of Statistical Software\n\n\n\n\n\nMay 12, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nHex stickers for packages\n\n\n\n\n\n\nsingleRcapture\n\n\nnonprobsvy\n\n\n\nLogs for the project\n\n\n\n\n\nApr 24, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nguests\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html",
@@ -838,5 +838,19 @@
     "title": "Maciej Beręsewicz",
     "section": "Education",
     "text": "Education"
+  },
+  {
+    "objectID": "posts/2025-05-12-jss/index.html",
+    "href": "posts/2025-05-12-jss/index.html",
+    "title": "{singleRcapture} accepted to the JSS",
+    "section": "",
+    "text": "The paper singleRcapture: An R Package for Single-Source Capture-Recapture Models (arxiv version) written by Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical Software!\nHere’s the abstract of this paper:\nPopulation size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g. zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "posts/2025-06-13-blocking/index.html",
+    "href": "posts/2025-06-13-blocking/index.html",
+    "title": "{blocking} on CRAN",
+    "section": "",
+    "text": "The 1.0.0 version of the {blocking} package was finally submitted to CRAN.\nThe goal of {blocking} is to provide blocking methods for record linkage and deduplication using approximate nearest neighbour (ANN) algorithms and graph techniques.\nIt supports multiple ANN implementations via\n\n{rnndescent},\n{RcppHNSW},\n{RcppAnnoy},\n{mlpack}\n\npackages, and provides integration with the {reclin2} package.\nThe package generates shingles from character strings and similarity vectors for record comparison, and includes evaluation metrics for assessing blocking performance including false positive rate (FPR) and false negative rate (FNR) estimates.\nTo install the package use:\ninstall.packages(\"blocking\")\nFor more details see the CRAN website and the documentation"
   }
 ]

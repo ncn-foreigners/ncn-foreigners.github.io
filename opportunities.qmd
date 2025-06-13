@@ -14,7 +14,5 @@ toc: true
 
 ## For Undergraduate Students
 
-
 ## For Prospective Graduate Students
 
-## For Prospective Postdocs and Staff
