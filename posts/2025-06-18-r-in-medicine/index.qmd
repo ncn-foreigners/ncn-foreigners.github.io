@@ -1,0 +1,28 @@
+---
+title: "R/Medicine conference"
+description: "Talk about the {nonprobsvy} package at the R/Medicine"
+author: "Maciej Beręsewicz"
+date: "2025-06-18"
+image: yt.png
+draft: false
+categories:
+  - nonprobsvy
+  - conference
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+On Friday, June 13 Maciej Beręsewicz presented the {nonprosvy} package during the R/Medicine conference. Below are the details and the recording of the talk:
+
++ Title: nonprobsvy – An R package for modern methods for non-probability survey
++ [Abstract](https://rconsortium.github.io/RMedicine_website/abstracts.html#nonprobsvy-package)
++ [Conference program](https://rconsortium.github.io/RMedicine_website/Program.html)
++ [Recording on YouTube](https://youtu.be/MnEZlFcpmCE?si=ibmbd_pE03RYwIgx)
+
+```{=html}
+<div style="display: flex; justify-content: center; align-items: center;">
+     <img src="Main-UPDATED.png" style="width: 600px; margin-right: 10px;"/>
+</div>
+```
