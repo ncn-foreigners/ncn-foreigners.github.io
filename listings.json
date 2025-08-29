@@ -1,12 +1,11 @@
 [
   {
-    "listing": "/news.html",
+    "listing": "/publications.html",
     "items": [
-      "/posts/2025-06-18-r-in-medicine/index.html",
-      "/posts/2025-06-13-blocking/index.html",
-      "/posts/2025-05-12-jss/index.html",
-      "/posts/2025-04-24-hex/index.html",
-      "/posts/2025-04-poznan/index.html"
+      "/publications/articles/strojny-2025-blockingPy.html",
+      "/publications/articles/beresewicz-2025-survmeth.html",
+      "/publications/articles/chrostowski-2025-nonprobsvy.html",
+      "/publications/articles/chlebicki-2025-singleRcapture.html"
     ]
   },
   {
@@ -35,12 +34,14 @@
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/news.html",
     "items": [
-      "/publications/articles/strojny-2025-blockingPy.html",
-      "/publications/articles/beresewicz-2025-survmeth.html",
-      "/publications/articles/chrostowski-2025-nonprobsvy.html",
-      "/publications/articles/chlebicki-2025-singleRcapture.html"
+      "/posts/2025-08-29-jss/index.html",
+      "/posts/2025-06-18-r-in-medicine/index.html",
+      "/posts/2025-06-13-blocking/index.html",
+      "/posts/2025-05-12-jss/index.html",
+      "/posts/2025-04-24-hex/index.html",
+      "/posts/2025-04-poznan/index.html"
     ]
   }
 ]
