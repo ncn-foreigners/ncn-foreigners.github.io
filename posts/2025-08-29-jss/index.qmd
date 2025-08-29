@@ -1,0 +1,36 @@
+---
+title: "{nonprobsvy} accepted to the JSS"
+description: "{nonprobsvy} accepted to the Journal of Statistical Software"
+author: "Maciej Beręsewicz"
+date: "2025-08-29"
+image: jss.jpeg
+draft: false
+categories:
+  - singleRcapture
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+The paper **nonprobsvy -- An R package for modern methods for
+non-probability surveys** ([arxiv
+version](https://arxiv.org/abs/2504.04255)) written by Piotr Chlebicki
+and Maciej Beręsewicz was accepted to the Journal of Statistical
+Software!
+
+Here's the abstract of this paper:
+
+*The paper presents nonprobsvy -- an R package for inference based on
+non-probability samples. The package implements various approaches that
+can be categorized into three groups: prediction-based approach, inverse
+probability weighting and doubly robust ap- proach. In the package, we
+assume the existence of either population-level data or
+probability-based population information and leverage the survey package
+for inference. The package implements both analytical and bootstrap
+variance estimation for the pro- posed estimators. In the paper we
+present the theory behind the package, its functional- ities and a case
+study that showcases the usage of the package. The package is aimed at
+scientists and researchers who would like to use non-probability samples
+(e.g., big data, opt-in web panels, social media) to accurately estimate
+population characteristics.*
