@@ -15,8 +15,7 @@ format:
 
 The paper **nonprobsvy -- An R package for modern methods for
 non-probability surveys** ([arxiv
-version](https://arxiv.org/abs/2504.04255)) written by Piotr Chlebicki
-and Maciej Beręsewicz was accepted to the Journal of Statistical
+version](https://arxiv.org/abs/2504.04255)) written by Łukasz Chrostowski, Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical
 Software!
 
 Here's the abstract of this paper:
