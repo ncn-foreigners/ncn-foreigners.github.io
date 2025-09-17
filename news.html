@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a7caf8a165a1d26e18127b5388d1be16.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c6b423d777b953aa87d3a8de81db9518.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -139,6 +140,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Towards census-like statistics for foreign-born populations</span>
     </a>
@@ -185,7 +188,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="YmxvY2tpbmc=">blocking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3Vlc3Rz">guests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm9ucHJvYnN2eQ==">nonprobsvy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmVjb3JkLWxpbmthZ2U=">record-linkage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2luZ2xlUmNhcHR1cmU=">singleRcapture <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="YmxvY2tpbmc=">blocking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2F1c2FsJTIwaW5mZXJlbmNl">causal inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3Vlc3Rz">guests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm9ucHJvYnN2eQ==">nonprobsvy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmVjb3JkLWxpbmthZ2U=">record-linkage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2luZ2xlUmNhcHR1cmU=">singleRcapture <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -204,7 +207,37 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1756425600000" data-listing-file-modified-sort="1756457398034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<div class="quarto-post image-right" data-index="0" data-categories="Y2F1c2FsJTIwaW5mZXJlbmNl" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1758090067935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
+<div class="thumbnail"><a href="./posts/2025-09-15-ggaps/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2025-09-15-ggaps/ggaps.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-09-15-ggaps/index.html" class="no-external">GGaps 2025</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2F1c2FsJTIwaW5mZXJlbmNl'); return false;">causal inference</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2025-09-15-ggaps/index.html" class="no-external">
+<p>Poster at the Gender Gaps Conference 2025</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2025-09-15-ggaps/index.html" class="no-external">
+<div class="listing-date">
+Sep 15, 2025
+</div>
+<div class="listing-author">
+Maciej Beręsewicz
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1756425600000" data-listing-file-modified-sort="1758090067927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
 <div class="thumbnail"><a href="./posts/2025-08-29-jss/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-08-29-jss/jss.jpeg" class="thumbnail-image">
@@ -234,7 +267,7 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="bm9ucHJvYnN2eSUyQ2NvbmZlcmVuY2U=" data-listing-date-sort="1750204800000" data-listing-file-modified-sort="1756457398033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="quarto-post image-right" data-index="2" data-categories="bm9ucHJvYnN2eSUyQ2NvbmZlcmVuY2U=" data-listing-date-sort="1750204800000" data-listing-file-modified-sort="1758090067926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <div class="thumbnail"><a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-06-18-r-in-medicine/yt.png" class="thumbnail-image">
@@ -266,7 +299,7 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="YmxvY2tpbmclMkNyZWNvcmQtbGlua2FnZQ==" data-listing-date-sort="1749772800000" data-listing-file-modified-sort="1756457398032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<div class="quarto-post image-right" data-index="3" data-categories="YmxvY2tpbmclMkNyZWNvcmQtbGlua2FnZQ==" data-listing-date-sort="1749772800000" data-listing-file-modified-sort="1758090067925" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
 <div class="thumbnail"><a href="./posts/2025-06-13-blocking/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-06-13-blocking/igraph.png" class="thumbnail-image">
@@ -298,7 +331,7 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1747008000000" data-listing-file-modified-sort="1756457398032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<div class="quarto-post image-right" data-index="4" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1747008000000" data-listing-file-modified-sort="1758090067925" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
 <div class="thumbnail"><a href="./posts/2025-05-12-jss/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-05-12-jss/jss.jpeg" class="thumbnail-image">
@@ -328,7 +361,7 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="c2luZ2xlUmNhcHR1cmUlMkNub25wcm9ic3Z5" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1756457398029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="quarto-post image-right" data-index="5" data-categories="c2luZ2xlUmNhcHR1cmUlMkNub25wcm9ic3Z5" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1758090067921" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
 <div class="thumbnail"><a href="./posts/2025-04-24-hex/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-04-24-hex/singleRcapture.jpg" class="thumbnail-image">
@@ -360,7 +393,7 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Z3Vlc3Rz" data-listing-date-sort="1744934400000" data-listing-file-modified-sort="1756457398030" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<div class="quarto-post image-right" data-index="6" data-categories="Z3Vlc3Rz" data-listing-date-sort="1744934400000" data-listing-file-modified-sort="1758090067923" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
 <div class="thumbnail"><a href="./posts/2025-04-poznan/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-04-poznan/poznan-zdjecie.jpg" class="thumbnail-image">
@@ -444,13 +477,14 @@ Maciej Beręsewicz
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
