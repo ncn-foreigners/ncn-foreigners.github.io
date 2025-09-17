@@ -291,14 +291,14 @@
     "href": "publications.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy -- An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R Package for Single-Source Capture-Recapture Models\n    Chlebicki & Beręsewicz\n    Journal of Statistical Software\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    blocking: An R Package for Blocking of Records for Record Linkage and Deduplication\n    Beręsewicz & Struzik\n    Submitted to the R journal\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy -- An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Journal of Statistical Software\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R Package for Single-Source Capture-Recapture Models\n    Chlebicki & Beręsewicz\n    Journal of Statistical Software\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "news.html",
     "href": "news.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR/Medicine conference\n\n\n\n\n\n\nnonprobsvy\n\n\nconference\n\n\n\nTalk about the {nonprobsvy} package at the R/Medicine\n\n\n\n\n\nJun 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{blocking} on CRAN\n\n\n\n\n\n\nblocking\n\n\nrecord-linkage\n\n\n\nNew package finally submitted to CRAN\n\n\n\n\n\nJun 13, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{singleRcapture} accepted to the JSS\n\n\n\n\n\n\nsingleRcapture\n\n\n\n{singleRcapture} accepted to the Journal of Statistical Software\n\n\n\n\n\nMay 12, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nHex stickers for packages\n\n\n\n\n\n\nsingleRcapture\n\n\nnonprobsvy\n\n\n\nLogs for the project\n\n\n\n\n\nApr 24, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nguests\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGGaps 2025\n\n\n\n\n\n\ncausal inference\n\n\n\nPoster at the Gender Gaps Conference 2025\n\n\n\n\n\nSep 15, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{nonprobsvy} accepted to the JSS\n\n\n\n\n\n\nsingleRcapture\n\n\n\n{nonprobsvy} accepted to the Journal of Statistical Software\n\n\n\n\n\nAug 29, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nR/Medicine conference\n\n\n\n\n\n\nnonprobsvy\n\n\nconference\n\n\n\nTalk about the {nonprobsvy} package at the R/Medicine\n\n\n\n\n\nJun 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{blocking} on CRAN\n\n\n\n\n\n\nblocking\n\n\nrecord-linkage\n\n\n\nNew package finally submitted to CRAN\n\n\n\n\n\nJun 13, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{singleRcapture} accepted to the JSS\n\n\n\n\n\n\nsingleRcapture\n\n\n\n{singleRcapture} accepted to the Journal of Statistical Software\n\n\n\n\n\nMay 12, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nHex stickers for packages\n\n\n\n\n\n\nsingleRcapture\n\n\nnonprobsvy\n\n\n\nLogs for the project\n\n\n\n\n\nApr 24, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\n\n\n\nguests\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/articles/beresewicz-2025-survmeth.html",
@@ -333,21 +333,21 @@
     "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
     "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
     "section": "",
-    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+    "text": "The paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
   },
   {
     "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
     "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
     "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
     "section": "",
-    "text": "The following paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g. big data, opt-in web panels, social media) to accurately estimate population characteristics."
+    "text": "The paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
   },
   {
     "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
     "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
     "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
     "section": "Citation",
-    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy – An R package for modern methods for non-probability surveys, Submitted to the Journal of Statistical Software"
+    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy – An R package for modern methods for non-probability surveys, Journal of Statistical Software"
   },
   {
     "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
@@ -845,5 +845,47 @@
     "title": "Maciej Beręsewicz",
     "section": "Education",
     "text": "Education"
+  },
+  {
+    "objectID": "posts/2025-08-29-jss/index.html",
+    "href": "posts/2025-08-29-jss/index.html",
+    "title": "{nonprobsvy} accepted to the JSS",
+    "section": "",
+    "text": "The paper nonprobsvy – An R package for modern methods for non-probability surveys (arxiv version) written by Łukasz Chrostowski, Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical Software!\nHere’s the abstract of this paper:\nThe paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "posts/2025-09-15-ggaps/index.html",
+    "href": "posts/2025-09-15-ggaps/index.html",
+    "title": "GGaps 2025",
+    "section": "",
+    "text": "Maciej Beręsewicz participated in the Gender Gaps 2025 conference organized by GRAPE with the folowing inputs:\n\nposter “Survey calibration for causal inference: a simple method to balance covariate distributions” which is here\ndiscussion of the paper “Can High-Stakes Entrance Exams Explain Why Fewer Women Study STEM Fields?” by Barabara Pertold-Gebicka (Charles University)"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-blocking-r.html",
+    "href": "publications/articles/beresewicz-2025-blocking-r.html",
+    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is essential for estimation based on multiple sources. It aims to link records without common identifiers that refer to the same entity (e.g., person, company). Without identifiers, researchers must specify which records to compare to calculate matching probability and reduce computational complexity. Traditional deterministic blocking uses common variables like first letters of names, sex, or dates of birth, but assumes error-free, complete data. To address this limitation, we developed the R package blocking, which uses approximate nearest neighbor search and graph algorithms to reduce the number of comparisons. This paper presents the package design, functionalities, and two case studies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-blocking-r.html#abstract",
+    "href": "publications/articles/beresewicz-2025-blocking-r.html#abstract",
+    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is essential for estimation based on multiple sources. It aims to link records without common identifiers that refer to the same entity (e.g., person, company). Without identifiers, researchers must specify which records to compare to calculate matching probability and reduce computational complexity. Traditional deterministic blocking uses common variables like first letters of names, sex, or dates of birth, but assumes error-free, complete data. To address this limitation, we developed the R package blocking, which uses approximate nearest neighbor search and graph algorithms to reduce the number of comparisons. This paper presents the package design, functionalities, and two case studies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-blocking-r.html#citation",
+    "href": "publications/articles/beresewicz-2025-blocking-r.html#citation",
+    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
+    "section": "Citation",
+    "text": "Citation\n\nBeręsewicz, M. & Struzuk A. (2025). blocking: An R Package for Blocking of Records for Record Linkage and Deduplication, Submitted to the R journal"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-blocking-r.html#bibtex",
+    "href": "publications/articles/beresewicz-2025-blocking-r.html#bibtex",
+    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
+    "section": "BibTeX",
+    "text": "BibTeX\n@misc{beresewicz2025blockingr,\n      title={blocking: An R Package for Blocking of Records for Record Linkage and Deduplication}, \n      author={Beręsewicz, Maciej  and Struzik, Adam},\n      year={2025},\n      url={https://github.com/ncn-foreigners/paper-blocking-rpkg/blob/main/paper/paper-blocking.pdf}, \n}"
   }
 ]

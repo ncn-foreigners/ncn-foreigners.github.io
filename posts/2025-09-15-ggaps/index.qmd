@@ -1,0 +1,20 @@
+---
+title: "GGaps 2025"
+description: "Poster at the Gender Gaps Conference 2025"
+author: "Maciej Beręsewicz"
+date: "2025-09-15"
+image: ggaps.jpeg
+draft: false
+categories:
+  - causal inference
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+Maciej Beręsewicz participated in the [Gender Gaps 2025](https://grape.org.pl/GGaps2025) conference organized by [GRAPE](https://grape.org.pl/) with the folowing inputs:
+
++ poster "Survey calibration for causal inference: a simple method to balance covariate distributions" which is [here](https://github.com/ncn-foreigners/ggaps-2025)
++ discussion of the paper "Can High-Stakes Entrance Exams Explain Why Fewer Women Study STEM Fields?" by [Barabara Pertold-Gebicka (Charles University)](https://sites.google.com/view/pertold-gebicka/home)
+
