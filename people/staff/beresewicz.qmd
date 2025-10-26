@@ -2,7 +2,7 @@
 title: "Maciej Beręsewicz"
 sortby: "1"
 subtitle: "Principal Investigator"
-image: beresewicz.png
+image: beresewicz2.jpg
 started: "Fall 2020"
 toc: false
 resources: ""

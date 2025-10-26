@@ -7,7 +7,7 @@ toc: false
 resources: 
   - "bb_cv.pdf"
 started: "Winter 2024"
-ended: "Current"
+ended: "Spring 2025"
 about:
   id: person-profile
   template: jolla

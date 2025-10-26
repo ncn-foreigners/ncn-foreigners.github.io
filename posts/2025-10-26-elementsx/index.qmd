@@ -1,0 +1,29 @@
+---
+title: "ElementsX"
+description: "Udział studentów w konferencji ElementsX"
+author: "Maciej Beręsewicz"
+date: "2025-10-26"
+draft: false
+image: elements.png
+categories:
+  - conference
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+Studenci Adam Struzik, Igor Kołodziej i Mateusz Iwaniuk wzięli udział w konferencji [ElementX](https://elements.agh.edu.pl) organizowanej 24 - 26 października na AGH w Krakowie. Wystąpili z następującymi referatami:
+
++ Adam Struzik, Maciej Beręsewicz: *Metody integracji danych oparte na klasyfikatorze maksymalnej entropii z ciągłymi miarami porównań*
++ Mateusz Iwaniuk, Igor Kołodziej, Maciej Beręsewicz: *NMAR: An R Package for Estimation under Nonignorable Nonresponse in Official Surveys*
+
+Poniżej wybrane zdjęcia z konferencji 
+
+<div align="center">
+![](IMG_5316.jpg) 
+![](IMG_5300.jpg) 
+![](IMG_9607.jpg) 
+</div>
+
+
