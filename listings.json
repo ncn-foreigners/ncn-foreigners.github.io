@@ -2,6 +2,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/posts/2025-10-26-elementsx/index.html",
       "/posts/2025-09-15-ggaps/index.html",
       "/posts/2025-08-29-jss/index.html",
       "/posts/2025-06-18-r-in-medicine/index.html",
@@ -12,14 +13,22 @@
     ]
   },
   {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/strojny-2025-blockingPy.html",
+      "/publications/articles/beresewicz-2025-survmeth.html",
+      "/publications/articles/beresewicz-2025-blocking-r.html",
+      "/publications/articles/chrostowski-2025-nonprobsvy.html",
+      "/publications/articles/chlebicki-2025-singleRcapture.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/staff/beresewicz.html",
       "/people/staff/szymkowiak.html",
       "/people/staff/zadlo.html",
       "/people/staff/strzelecki.html",
-      "/people/students/jurkowski.html",
-      "/people/students/bogulas.html",
       "/people/students/strojny.html",
       "/people/students/struzik.html",
       "/people/students/czerniawska.html",
@@ -28,22 +37,14 @@
       "/people/consultants/tuoto.html",
       "/people/consultants/boehning.html",
       "/people/alumni/chlebicki.html",
+      "/people/alumni/jurkowski.html",
+      "/people/alumni/bogulas.html",
       "/people/alumni/mordan.html",
       "/people/alumni/chrostowski.html",
       "/people/alumni/cruyff.html",
       "/people/alumni/heijden.html",
       "/people/alumni/wilak.html",
       "/people/alumni/switalski.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/articles/strojny-2025-blockingPy.html",
-      "/publications/articles/beresewicz-2025-survmeth.html",
-      "/publications/articles/beresewicz-2025-blocking-r.html",
-      "/publications/articles/chrostowski-2025-nonprobsvy.html",
-      "/publications/articles/chlebicki-2025-singleRcapture.html"
     ]
   }
 ]
