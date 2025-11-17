@@ -1,0 +1,20 @@
+---
+title: "Referat dla Polskiego Towarzystwa Statystycznego"
+description: "Referat w ramach serii 'Wielowymiarowe metody statystyczne'"
+author: "Maciej Beręsewicz"
+date: "2025-11-19"
+draft: false
+image: pts-logo.png
+categories:
+  - talks
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+W środę 19.11.2025 odbył się wykład pt. *Counting Shadows: Estimating Unauthorised Migrant Populations* w ramach serii wykładów pt. 'Wielowymiarowe metody statystyczne'. 
+
+Wydarzenie to organizowane jest przez Odział Poznański Polskiego Towarzystwa Statystycznego, Poznańskie Towarzystwo Przyjaciół Nauk i Wydział Matematyki i Informatyki UAM w Poznaniu.
+
+Informacje o wykładzie można znaleźć [tutaj](https://pts.stat.gov.pl/aktualnosc.php?id=68)
