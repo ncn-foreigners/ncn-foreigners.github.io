@@ -1,0 +1,38 @@
+---
+title: "University of Oxford & University of Manchester"
+description: "Invited talk at the COMPAS University of Oxford and School of Social Sciences"
+author: "Maciej Beręsewicz"
+date: "2025-11-13"
+draft: false
+image: compas1.jpg
+categories:
+  - talks
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+Maciej Beręsewicz (PUEB) and Aniela Czerniawska (AMU) were invited to The University of Oxford's Centre on Migration, Policy and Society ([COMPAS](https://www.compas.ox.ac.uk)) and [School of Social Sciences](https://www.socialsciences.manchester.ac.uk) at the University of Manchester to present their work entitled *Counting Shadows: Estimating Unauthorised Migrant Populations* (presentation can be found [here](2025_seminar_oxford.pdf)) on 13th and 14th of November 2025.
+
+This is a joint work with: Brendan Georgeson (ONS), Peter Walsh (COMPAS, University of Oxford), and Li-Chun Zhang (University of Southampton, Statistics Norway)
+
+Abstract is given below
+
+
+> In this paper, we estimate the size of the unauthorised foreign-born population in Poland. We propose a modelling approach based on Zhang (2006), which uses only aggregated counts and does not require access to data at the individual level. The underlying structural assumption is that the unauthorised foreign-borns can be related to the foreign-born residents through migrant networks. The unauthorised population totals can therefore be related to some chosen reference population totals that are known for the residents.
+
+> Using data from 2019 to 2023, we find that the size of the unauthorised population varied from 40,000 to 150,000 depending on model specifications and covariates (time, sex). The unauthorised population represents between 2% and 5% of the reference population that can be sourced from, respectively, the register of population, tax, or social insurance. Notably, the unauthorised population's share of Poland's total population remains negligible at 0.2–0.5%.
+
+> Our findings suggest that whilst the unauthorised population in Poland has grown over the study period, it remains a small fraction of both the foreign-born residents and the total population. We conclude by discussing the potential application of this methodology to estimate unauthorised populations in other contexts, particularly the United Kingdom.
+
+
+
+<div align="center">
+![](compas1.jpg) 
+![](compas2.jpg) 
+![](compas3.jpg) 
+![](compas4.jpg)
+</div>
+
+
