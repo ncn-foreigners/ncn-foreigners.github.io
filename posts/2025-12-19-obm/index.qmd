@@ -1,0 +1,19 @@
+---
+title: "Seminarium OBM i UDSC"
+description: "Prezentacja wyników na seminarium dot. cudzoziemców"
+author: "Maciej Beręsewicz"
+date: "2025-12-18"
+draft: false
+categories:
+  - talks
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+We czwartek 18.12.2025 dr Maciej Beręsewicz przedstawił wybrane wyniki dot. estymacji wielkości nieautoryzowanej populacji cudzoziemców w Polsce. 
+
+Wydarzenie zostało zorganizowane przez Ośrodek Badań nad Migracjami Uniwesytetu Warszawskiego oraz Urząd ds. Cudzoziemców.
+
+Prezentację można znaleźć [tutaj](./2025_seminar_udsc.pdf)
