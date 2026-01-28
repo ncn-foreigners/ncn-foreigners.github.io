@@ -1,0 +1,26 @@
+---
+title: "ASA Student Paper Competition"
+description: "Adam Struzik awarded in the ASA Student Paper Competition"
+author: "Adam Struzik"
+date: "2026-01-28"
+draft: false
+image: asa_logo.jpg
+categories:
+  - awards
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+The paper "Capturing Small Discrepancies in Record Linkage: A Maximum Entropy Framework with Continuous Similarity Measures", written by Adam Struzik (AMU) under the supervision of Maciej Beręsewicz (PUEB), won an award in the Student Paper Competition organized by the Statistical Computing and Graphics Sections of the American Statistical Association.
+
+Adam Struzik will present the paper and receive the award at the Joint Statistical Meetings in Boston, MA, in August 2026. 
+
+The methods described in the paper are implemented in the [`automatedRecLin`](https://cran.r-project.org/package=automatedRecLin) R package.
+
+More details about the competition can be found [here](https://community.amstat.org/discussion/announcement-of-student-awards-2025-statistical-computing-graphics-sections).
+
+<div align="center">
+![](asa_logo.jpg)
+</div>
