@@ -17,3 +17,5 @@ Gemfile.lock
 node_modules
 package-lock.json
 >>>>>>> c824f369ab16f936880fa33a6c9b115e4a2bc54f
+
+**/*.quarto_ipynb
