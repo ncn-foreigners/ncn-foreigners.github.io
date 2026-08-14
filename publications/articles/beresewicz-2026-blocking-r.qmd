@@ -1,0 +1,39 @@
+---
+title: "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication"
+type: "article"
+author: "Beręsewicz & Struzik"
+year: "2026"
+publication: "The R journal"
+preprint: "https://github.com/ncn-foreigners/paper-blocking-rpkg/blob/main/paper/paper-blocking.pdf"
+materials: "https://github.com/ncn-foreigners/paper-blocking-rpkg"
+toc: false
+categories:
+  - article
+  - preprint
+  - record linkage
+---
+
+## Abstract
+
+Entity resolution (probabilistic record linkage, deduplication) is essential for bringing together data needed for estimation or other analyses based on multiple sources. It aims to link records that refer to the same entity (e.g., person, company) in the absence of unique identifiers. Without identifiers, researchers must specify which records to compare to calculate matching probability and reduce computational complexity. Traditional deterministic blocking uses common variables like first letters of names, sex, or dates of birth, but assumes error-free, complete data. To address this limitation, we developed the R package **blocking**, which uses approximate nearest neighbour search and graph algorithms to reduce the number of comparisons. This paper presents the package design, functionalities, and two case studies.
+
+## Citation
+
+> Beręsewicz, M. & Struzik, A. (2026). blocking: An R package for blocking of records for record linkage and deduplication. The R Journal, 18(2), 162–175. https://doi.org/10.32614/RJ-2026-029
+
+## BibTeX
+
+``` tex
+@article{RJ-2026-029,
+  author = {Beręsewicz, Maciej and Struzik, Adam},
+  title = {The R Journal: blocking: An R Package for Blocking of Records for Record Linkage and Deduplication},
+  journal = {The R Journal},
+  year = {2026},
+  note = {https://doi.org/10.32614/RJ-2026-029},
+  doi = {10.32614/RJ-2026-029},
+  volume = {18},
+  issue = {2},
+  issn = {2073-4859},
+  pages = {162-175}
+}
+```
