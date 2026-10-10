@@ -1,0 +1,19 @@
+---
+title: "Publikacja w czasopiśmie Journal of Statistical Software"
+description: "Publikacja w czasopiśmie JSS, 200 pkt."
+author: "Maciej Beręsewicz"
+date: "2026-10-10"
+draft: false
+image: jss.jpeg
+categories:
+  - papers
+  - nonprobsvy
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+W prestiżowym czasopiśmie *Journal of Statistical Software*, (IF 14.3, 200 PM,  1/170 w Statistics and Probability, 5/185 w Computer Science) ukazał się artykuł pt. [„nonprobsvy: An R Package for Modern Methods for Non-Probability Surveys”](https://www.jstatsoft.org/article/view/v117i02), którego autorami są Łukasz Chrostowski (Analytics Partners), Piotr Chlebicki (Uniwersytet w Sztokholmie) oraz dr Maciej Beręsewicz, prof. UEP. Publikacja prezentuje pakiet `nonprobsvy` dla środowiska R, wspierający nowoczesne metody analizy danych pochodzących z badań nieprobabilistycznych.
+
+Artykuł jest efektem badań realizowanych w ramach projektu finansowanego przez Narodowe Centrum Nauki (NCN) pt. „Statystyka cudzoziemców bez spisu powszechnego – jakość, integracja danych i estymacja” (nr 2020/39/B/HS4/00941) i 3 letniej współpracy ze studentami z UAM.

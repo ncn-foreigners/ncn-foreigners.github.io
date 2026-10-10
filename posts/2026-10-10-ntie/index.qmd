@@ -1,0 +1,16 @@
+---
+title: "Konkurs Naukowego Towarzystwa Informatyki Ekonomicznej"
+description: "Tymoteusz Strojny nagrodzony w Konkursie NTIE na najlepsze prace dyplomowe z zakresu informatyki ekonomicznej, obronione w 2025 roku"
+author: "Tymoteusz Strojny"
+date: "2026-10-10"
+draft: false
+image: NTIE-LOGO.jpg
+categories:
+  - awards
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+W tegorocznej edycji [Konkursu Naukowego Towarzystwa Informatyki Ekonomicznej](https://www.konkurs-ntie.org.pl) (NTIE) na najlepsze prace dyplomowe z zakresu informatyki ekonomicznej, obronione w 2025 roku, Tymoteusz Strojny zajął I miejsce w kategorii prac licencjackich i inżynierskich. Nagrodzona praca nosi tytuł „BlockingPy: przybliżone najbliższe sąsiedztwo do blokowania rekordów na potrzeby deduplikacji i integracji danych”, a jej promotorem jest dr Maciej Beręsewicz, prof. UEP.

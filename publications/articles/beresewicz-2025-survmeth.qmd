@@ -32,20 +32,19 @@ set of administrative and survey data about job vacancies.
 
 ## Citation
 
-> Beręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile
-> balancing inverse probability weighting for non-probability samples,
-> *Accepted to Survey Methodology*
+> Beręsewicz, M., Szymkowiak & M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples. *Survey Methodology*, 51(2), 533-559. [http://www.statcan.gc.ca/pub/12-001-x/2025002/article/00005-eng.pdf](http://www.statcan.gc.ca/pub/12-001-x/2025002/article/00005-eng.pdf)
 
 ## BibTeX
 
 ``` tex
-@misc{beresewicz2025,
-      title={Quantile balancing inverse probability weighting for non-probability samples}, 
-      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},
-      year={2025},
-      eprint={2403.09726},
-      archivePrefix={arXiv},
-      primaryClass={stat.ME},
-      url={https://arxiv.org/abs/2403.09726}, 
+@article{beresewicz2025,
+         author  = {Beręsewicz, M. and Szymkowiak, M. and Chlebicki, P.},
+         title   = {Quantile balancing inverse probability weighting for non-probability samples},
+         journal = {Survey Methodology},
+         volume  = {51},
+         number  = {2},
+         pages   = {533-559},
+         year    = {2025},
+         url     = {http://www.statcan.gc.ca/pub/12-001-x/2025002/article/00005-eng.pdf}
 }
 ```
