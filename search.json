@@ -1,87 +1,206 @@
 [
   {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html",
-    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "",
-    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
-  },
-  {
-    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
-    "href": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
-    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
-    "section": "",
-    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "",
-    "text": "The paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "",
-    "text": "The paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "Citation",
-    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy – An R package for modern methods for non-probability surveys, Journal of Statistical Software"
-  },
-  {
-    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
-    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
-    "title": "nonprobsvy – An R package for modern methods for non-probability surveys",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{chrostowski2025nonprobsvy,\n      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, \n      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04255},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2504.04255}, \n}"
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html",
-    "href": "publications/articles/beresewicz-2025-survmeth.html",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "",
-    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#abstract",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#abstract",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "",
-    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#citation",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "Citation",
-    "text": "Citation\n\nBeręsewicz, M., Szymkowiak, M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples, Accepted to Survey Methodology"
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
-    "href": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
-    "title": "Quantile balancing inverse probability weighting for non-probability samples",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{beresewicz2025,\n      title={Quantile balancing inverse probability weighting for non-probability samples}, \n      author={Maciej Beręsewicz and Marcin Szymkowiak and Piotr Chlebicki},\n      year={2025},\n      eprint={2403.09726},\n      archivePrefix={arXiv},\n      primaryClass={stat.ME},\n      url={https://arxiv.org/abs/2403.09726}, \n}"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
+    "objectID": "contact.html",
+    "href": "contact.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Publication\n      \n      \n        Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n  \n    blocking: An R Package for Blocking of Records for Record Linkage and Deduplication\n    Beręsewicz & Struzik\n    The R journal\n    (2026)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    Submitted\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy -- An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Journal of Statistical Software\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R Package for Single-Source Capture-Recapture Models\n    Chlebicki & Beręsewicz\n    Journal of Statistical Software\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\nNo matching items"
+    "text": "Home\n    Contact"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
+    "objectID": "contact.html#email-us",
+    "href": "contact.html#email-us",
     "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Email Us",
+    "text": "Email Us\ndr Maciej Beręsewicz, prof. UEP  Department of Statistics  Poznań University of Economics and Business  al. Niepodległości 10 | 61-875 Poznań  tel. + 48 61-854-36-80 | maciej.beresewicz[at]ue.poznan.pl  www.ue.poznan.pl"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html",
+    "href": "people/alumni/chrostowski.html",
+    "title": "Łukasz Chrostowski",
     "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoint Statistical Meetings Conference\n\n\n\ntalks\n\n\n\nTalk at the JSM 2026 Conference in Boston, Massachusetts\n\n\n\n\n\nAug 12, 2026\n\n\nAdam Struzik\n\n\n\n\n\n\n\n\n\n\n\n\nASA Student Paper Competition\n\n\n\nawards\n\n\n\nAdam Struzik awarded in the ASA Student Paper Competition\n\n\n\n\n\nJan 28, 2026\n\n\nAdam Struzik\n\n\n\n\n\n\n\n\n\n\n\n\nSeminarium OBM i UDSC\n\n\n\ntalks\n\n\n\nPrezentacja wyników na seminarium dot. cudzoziemców\n\n\n\n\n\nDec 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nReferat dla Polskiego Towarzystwa Statystycznego\n\n\n\ntalks\n\n\n\nReferat w ramach serii ‘Wielowymiarowe metody statystyczne’\n\n\n\n\n\nNov 19, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nUniversity of Oxford & University of Manchester\n\n\n\ntalks\n\n\n\nInvited talk at the COMPAS University of Oxford and School of Social Sciences\n\n\n\n\n\nNov 13, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nElementsX\n\n\n\nconference\n\n\n\nUdział studentów w konferencji ElementsX\n\n\n\n\n\nOct 26, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nGGaps 2025\n\n\n\ncausal inference\n\n\n\nPoster at the Gender Gaps Conference 2025\n\n\n\n\n\nSep 15, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{nonprobsvy} accepted to the JSS\n\n\n\nsingleRcapture\n\n\n\n{nonprobsvy} accepted to the Journal of Statistical Software\n\n\n\n\n\nAug 29, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nR/Medicine conference\n\n\n\nnonprobsvy\n\nconference\n\n\n\nTalk about the {nonprobsvy} package at the R/Medicine\n\n\n\n\n\nJun 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{blocking} on CRAN\n\n\n\nblocking\n\nrecord-linkage\n\n\n\nNew package finally submitted to CRAN\n\n\n\n\n\nJun 13, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{singleRcapture} accepted to the JSS\n\n\n\nsingleRcapture\n\n\n\n{singleRcapture} accepted to the Journal of Statistical Software\n\n\n\n\n\nMay 12, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nHex stickers for packages\n\n\n\nsingleRcapture\n\nnonprobsvy\n\n\n\nLogs for the project\n\n\n\n\n\nApr 24, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\nguests\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    People\n    Research Staff\n    Łukasz Chrostowski"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html#biography",
+    "href": "people/alumni/chrostowski.html#biography",
+    "title": "Łukasz Chrostowski",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html#experience",
+    "href": "people/alumni/chrostowski.html#experience",
+    "title": "Łukasz Chrostowski",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/chrostowski.html#education",
+    "href": "people/alumni/chrostowski.html#education",
+    "title": "Łukasz Chrostowski",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html",
+    "href": "people/alumni/chlebicki.html",
+    "title": "Piotr Chlebicki",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Piotr Chlebicki"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html#biography",
+    "href": "people/alumni/chlebicki.html#biography",
+    "title": "Piotr Chlebicki",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html#experience",
+    "href": "people/alumni/chlebicki.html#experience",
+    "title": "Piotr Chlebicki",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/chlebicki.html#education",
+    "href": "people/alumni/chlebicki.html#education",
+    "title": "Piotr Chlebicki",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/switalski.html",
+    "href": "people/alumni/switalski.html",
+    "title": "Tymon Świtalski",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Tymon Świtalski"
+  },
+  {
+    "objectID": "people/alumni/switalski.html#biography",
+    "href": "people/alumni/switalski.html#biography",
+    "title": "Tymon Świtalski",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/switalski.html#experience",
+    "href": "people/alumni/switalski.html#experience",
+    "title": "Tymon Świtalski",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/switalski.html#education",
+    "href": "people/alumni/switalski.html#education",
+    "title": "Tymon Świtalski",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/mordan.html",
+    "href": "people/alumni/mordan.html",
+    "title": "Kyrylo Mordan",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Kyrylo Mordan"
+  },
+  {
+    "objectID": "people/alumni/mordan.html#biography",
+    "href": "people/alumni/mordan.html#biography",
+    "title": "Kyrylo Mordan",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/mordan.html#experience",
+    "href": "people/alumni/mordan.html#experience",
+    "title": "Kyrylo Mordan",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/mordan.html#education",
+    "href": "people/alumni/mordan.html#education",
+    "title": "Kyrylo Mordan",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html",
+    "href": "people/alumni/cruyff.html",
+    "title": "Maarten Cruyff",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Maarten Cruyff"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html#biography",
+    "href": "people/alumni/cruyff.html#biography",
+    "title": "Maarten Cruyff",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html#experience",
+    "href": "people/alumni/cruyff.html#experience",
+    "title": "Maarten Cruyff",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html#journal-editing",
+    "href": "people/alumni/cruyff.html#journal-editing",
+    "title": "Maarten Cruyff",
+    "section": "Journal Editing",
+    "text": "Journal Editing"
+  },
+  {
+    "objectID": "people/alumni/cruyff.html#education",
+    "href": "people/alumni/cruyff.html#education",
+    "title": "Maarten Cruyff",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/students/kolodziej.html",
+    "href": "people/students/kolodziej.html",
+    "title": "Igor Kołodziej",
+    "section": "",
+    "text": "Home\n    People\n    Graduate Students\n    Igor Kołodziej"
+  },
+  {
+    "objectID": "people/students/kolodziej.html#biography",
+    "href": "people/students/kolodziej.html#biography",
+    "title": "Igor Kołodziej",
+    "section": "Biography",
+    "text": "Biography\nIgor Kołodziej’s research interests include statistical computing, data mining, machine learning, and artificial intelligence. His work in the project involves implementation of statistical algorithms for data not missing at random (NMAR). He is currently pursuing his Bachelor of Engineering degree in Data Science at the Faculty of Mathematics and Information Science at Warsaw University of Technology."
+  },
+  {
+    "objectID": "people/students/kolodziej.html#education",
+    "href": "people/students/kolodziej.html#education",
+    "title": "Igor Kołodziej",
+    "section": "Education",
+    "text": "Education\n\n2022–Current: Warsaw University of Technology, Warsaw, Poland – Data Science Undergraduate (BEng)."
+  },
+  {
+    "objectID": "people/students/struzik.html",
+    "href": "people/students/struzik.html",
+    "title": "Adam Struzik",
+    "section": "",
+    "text": "Adam Struzik is a mathematics Bachelor’s degree student at Adam Mickiewicz University (Poznań, Poland), specialising in statistics and data analysis. His interests focus on machine learning and spatial data analysis.\nHe is employed as a Senior Statistician at the Centre for Urban Statistics of the Statistical Office in Poznań."
+  },
+  {
+    "objectID": "people/students/struzik.html#biography",
+    "href": "people/students/struzik.html#biography",
+    "title": "Adam Struzik",
+    "section": "",
+    "text": "Adam Struzik is a mathematics Bachelor’s degree student at Adam Mickiewicz University (Poznań, Poland), specialising in statistics and data analysis. His interests focus on machine learning and spatial data analysis.\nHe is employed as a Senior Statistician at the Centre for Urban Statistics of the Statistical Office in Poznań."
+  },
+  {
+    "objectID": "people/students/struzik.html#education",
+    "href": "people/students/struzik.html#education",
+    "title": "Adam Struzik",
+    "section": "Education",
+    "text": "Education\n\n2022–Current: Adam Mickiewicz University, Poznań, Poland: Bachelor’s degree student (mathematics, specialisation: statistics and data analysis)"
   },
   {
     "objectID": "people/consultants/boehning.html",
@@ -189,174 +308,6 @@
     "text": "Education"
   },
   {
-    "objectID": "people/alumni/heijden.html",
-    "href": "people/alumni/heijden.html",
-    "title": "Peter G. M. van der Heijden",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Peter G. M. van der Heijden"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#biography",
-    "href": "people/alumni/heijden.html#biography",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#experience",
-    "href": "people/alumni/heijden.html#experience",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#journal-editing",
-    "href": "people/alumni/heijden.html#journal-editing",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/alumni/heijden.html#education",
-    "href": "people/alumni/heijden.html#education",
-    "title": "Peter G. M. van der Heijden",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/mordan.html",
-    "href": "people/alumni/mordan.html",
-    "title": "Kyrylo Mordan",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Kyrylo Mordan"
-  },
-  {
-    "objectID": "people/alumni/mordan.html#biography",
-    "href": "people/alumni/mordan.html#biography",
-    "title": "Kyrylo Mordan",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/mordan.html#experience",
-    "href": "people/alumni/mordan.html#experience",
-    "title": "Kyrylo Mordan",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/mordan.html#education",
-    "href": "people/alumni/mordan.html#education",
-    "title": "Kyrylo Mordan",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/jurkowski.html",
-    "href": "people/alumni/jurkowski.html",
-    "title": "Cyprian Jurkowski",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Cyprian Jurkowski"
-  },
-  {
-    "objectID": "people/alumni/jurkowski.html#biography",
-    "href": "people/alumni/jurkowski.html#biography",
-    "title": "Cyprian Jurkowski",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/jurkowski.html#education",
-    "href": "people/alumni/jurkowski.html#education",
-    "title": "Cyprian Jurkowski",
-    "section": "Education",
-    "text": "Education\n\n2022–Current: Poznań University of Economics and Business, Poznań, Poland, Undergraduate Student (Informatics and Econometrics)"
-  },
-  {
-    "objectID": "people/alumni/bogulas.html",
-    "href": "people/alumni/bogulas.html",
-    "title": "Bartosz Bogulas",
-    "section": "",
-    "text": "Home\n    People\n    Graduate Students\n    Bartosz Bogulas"
-  },
-  {
-    "objectID": "people/alumni/bogulas.html#biography",
-    "href": "people/alumni/bogulas.html#biography",
-    "title": "Bartosz Bogulas",
-    "section": "Biography",
-    "text": "Biography\nBartosz is a Master’s student in Mathematics, with a strong interest in algebra, probability and statistics. He is currently the Treasurer of the Mathematics Student Research Group at Adam Mickiewicz University and previously held the same position in the Financial Engineering Student Research Group at the Poznań University of Economics."
-  },
-  {
-    "objectID": "people/alumni/bogulas.html#education",
-    "href": "people/alumni/bogulas.html#education",
-    "title": "Bartosz Bogulas",
-    "section": "Education",
-    "text": "Education\n\nAdam Mickiewicz University | Poznań, Poland Masters in Mathematics | 2024–Current\nAdam Mickiewicz University | Poznań, Poland BS in Mathematics | 2021–2024\nPoznań University of Economics and Business | Poznań, Poland BS in Economics | 2020–2023"
-  },
-  {
-    "objectID": "people/students/iwaniuk.html",
-    "href": "people/students/iwaniuk.html",
-    "title": "Mateusz Iwaniuk",
-    "section": "",
-    "text": "Home\n    People\n    Graduate Students\n    Mateusz Iwaniuk"
-  },
-  {
-    "objectID": "people/students/iwaniuk.html#biography",
-    "href": "people/students/iwaniuk.html#biography",
-    "title": "Mateusz Iwaniuk",
-    "section": "Biography",
-    "text": "Biography\nMateusz Iwaniuk focuses his research on statistics, data mining, machine learning, and the development of efficient data systems. Within the project, he is responsible for implementing statistical algorithms designed for data that are not missing at random (NMAR). He is currently studying for a Bachelor of Engineering in Data Science at the Faculty of Mathematics and Information Science at Warsaw University of Technology."
-  },
-  {
-    "objectID": "people/students/iwaniuk.html#education",
-    "href": "people/students/iwaniuk.html#education",
-    "title": "Mateusz Iwaniuk",
-    "section": "Education",
-    "text": "Education\n\nWarsaw University of Technology | Warsaw, Poland Data Science Undergraduate (BEng), 2022–Current"
-  },
-  {
-    "objectID": "people/students/struzik.html",
-    "href": "people/students/struzik.html",
-    "title": "Adam Struzik",
-    "section": "",
-    "text": "Adam Struzik is a mathematics Bachelor’s degree student at Adam Mickiewicz University (Poznań, Poland), specialising in statistics and data analysis. His interests focus on machine learning and spatial data analysis.\nHe is employed as a Senior Statistician at the Centre for Urban Statistics of the Statistical Office in Poznań."
-  },
-  {
-    "objectID": "people/students/struzik.html#biography",
-    "href": "people/students/struzik.html#biography",
-    "title": "Adam Struzik",
-    "section": "",
-    "text": "Adam Struzik is a mathematics Bachelor’s degree student at Adam Mickiewicz University (Poznań, Poland), specialising in statistics and data analysis. His interests focus on machine learning and spatial data analysis.\nHe is employed as a Senior Statistician at the Centre for Urban Statistics of the Statistical Office in Poznań."
-  },
-  {
-    "objectID": "people/students/struzik.html#education",
-    "href": "people/students/struzik.html#education",
-    "title": "Adam Struzik",
-    "section": "Education",
-    "text": "Education\n\n2022–Current: Adam Mickiewicz University, Poznań, Poland: Bachelor’s degree student (mathematics, specialisation: statistics and data analysis)"
-  },
-  {
-    "objectID": "people/students/strojny.html",
-    "href": "people/students/strojny.html",
-    "title": "Tymoteusz Strojny",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Tymoteusz Strojny"
-  },
-  {
-    "objectID": "people/students/strojny.html#biography",
-    "href": "people/students/strojny.html#biography",
-    "title": "Tymoteusz Strojny",
-    "section": "Biography",
-    "text": "Biography\nTymoteusz Strojny is in his final year of a Bachelor’s degree in Econometrics at the Poznan University of Economics and is currently employed at the Poznan Statistical Office. His main research interest lies in data integration techniques, with a particular focus on entity resolution."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "This is the page for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation financed by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
-  },
-  {
     "objectID": "outputs.html",
     "href": "outputs.html",
     "title": "Towards census-like statistics for foreign-born populations",
@@ -368,133 +319,56 @@
     "href": "outputs.html#talks",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "Talks",
-    "text": "Talks\n\nBeręsewicz (2025), Estimation of the number of irregular foreigners in Poland using non-linear count regression models, The University of Oxford’s Centre on Migration, Policy and Society (COMPAS), presentation at the seminar (2025.03.28)\nBeręsewicz, Szymkowiak (2024), Inference for non-probability samples using the calibration approach for quantiles and totals, International Conference on Small Area Estimation (SAE 2024), 03.06.2024-07.06.2024, Lima (Peru)\nBeręsewicz, Szymkowiak (2024), Estimation of the number of irregular foreigners in Poland using nonlinear count regression models, UNECE Expert Meeting on Migration Statistics 2024, 07.05.2024-08.05.2024, Genewa\nWorkshop on Survey Statistics (26-30.08.2024):\n\nTiziana Tuotto (Istat) – Data integration and population size estimation: The risk of misidentification\nTomasz Żądło (University of Economics in Katowice) – Voting-based predictor’s selection in survey sampling\nDankmar Böhning (University in Southampton) – Capture-recapture methods and their applications: The case of one-inflation in zero-truncated count data\nMaciej Beręsewicz — Blocking records for probabilistic record linkage using approximate nearest neighbours algorithms\n\nBeręsewicz, Szymkowiak (2024), Quantile Balancing Inverse Probability Weighting for Non-Probability Samples, The European Conference on Data Analysis (ECDA), Sopot, 9-11.09.2024\nThe Use of R in Official Statistics (uRos), 27-29.11.2024:\n\nblocking: an R package for blocking of records for probabilistic record linkage based on approximate nearest neighbors algorithms (Beręsewicz)\nnonprobsvy: an R package for modern methods for non-probability surveys (Chrostowski, Chlebicki, Beręsewicz)\nJoint calibration estimators for totals and quantiles for probability and nonprobability samples (Beręsewicz, Szymkowiak)\n\nBeręsewicz, Szymkowiak (2024), Quantile balancing inverse probability weighting for non-probability samples, The 9th Conference Survey Sampling in Economic and Social Research, Katowice, 3-4 grudnia, online\nChrostowski, Beręsewicz (2023) nonprobsvy - An R package for statistical inference with non-probability samples, RSS 2023, 07.09.2023, presentation\nChlebicki, Beręsewicz (2023) Estimating the population size of drunk-drivers in Poland using heterogeneous one-inflation and hurdle-like approach in single source capture-recapture studies, RSS 2023, 06.09.2023, presentation\nChrostowski, Beręsewicz (2023) nonprobsvy – an R package for non-probability samples, BANOCOSS2023, 22.08.2023, presentation\nBeręsewicz, Chrostowski (2023) Statistical inference using non-probability survey samples with misclassification in all variables, ESRA 2023, 20.07.2023, presentation\nChlebicki, Beręsewicz (2023) singleRcapture – an R package for single-source capture-recapture models, ESRA 2023, 20.07.2023, presentation\nBeręsewicz, Szałtys (2023) Statystyczna integracja rejestrów administracyjnych na potrzeby estymacji charakterystyk populacji cudzoziemców w Polsce, MET 2023, 23.06.2023, presentation\nBeręsewicz (2023) Ilu jest w Polsce cudzoziemców? Metody szacunku wielkości populacji w oparciu o rejestry administracyjne i big data, Data Analytics Meeting, 23.06.2023, Referat zaproszony (konferencja studencka)\nBeręsewicz (2023) Estimation of the length of stay of foreigners in Poland using mobile big data, NTTS 2023, 6-10.03.2023 (Bruxelles, Belgium) (abstract p. 410, recording around 16:03, presentation)\nChlebicki, Beręsewicz (2023) Estimation of hidden populations using single-source capture recapture models with singleRcapture package, NTTS 2023, 6-10.03.2023 (Bruxelles, Belgium)\nBeręsewicz (2022b) Estimating the length of foreigners’ stay in Poland using mobile big data, 8.12.2022, S3RI Seminar at University of Southampton, presentation\nBeręsewicz (2022b) Ilu jest w Polsce cudzoziemców? Ujęcie statystyczne i ekonomiczne. Dwugłos Nauki – ,,Migracje – historia i teraźniejszość’’, 21.11.2022, Oddział PAN w Poznaniu, link do strony wydarzenia, prezentacja\nBeręsewicz (2022a) Estymacja długości pobytu cudzoziemców w Polsce z wykorzystaniem mobile big data, 40th International Conference MSA’2022 joined with MASEP, 7-9 listopada 2022, Łódź, Polska, link do strony konf, prezentacja"
-  },
-  {
-    "objectID": "outputs.html#datasets",
-    "href": "outputs.html#datasets",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Datasets",
-    "text": "Datasets"
+    "text": "Talks\n\nBeręsewicz, Nikulin, Böhning (2026), Nieformalna praca cudzoziemców w Polsce: szacunki metodą capture-recapture z wykorzystaniem danych administracyjnych, XV Konferencja Komitetu Badań nad Migracjami PAN, 23-25.09.2026, Gdańsk-Gdynia, Poland\nSzymkowiak, Beręsewicz (2026), The use of programmatic advertising data from mobile phones for understanding the length of stay of foreigners in Poland, Workshop on Statistics on Population and Migration, invited talk, 21-22.09.2026, Geneva, Switzerland\nBeręsewicz, Georgeson, Walsh, Czerniawska, Zhang, Slade-Harajda (2026), Counting shadows: A community-anchored modelling framework for estimating unauthorised population size, Royal Statistical Society 2026 International Conference, 07-10.09.2026, Bournemouth, UK\nBeręsewicz, Georgeson, Walsh, Czerniawska, Zhang, Slade-Harajda (2026), Counting shadows: A community-anchored modelling framework for estimating unauthorised population size, British Society for Population Studies 2026 Conference, 08-10.09.2026, Canterbury, UK\nStruzik, Beręsewicz (2026), Capturing small discrepancies in record linkage: A maximum entropy framework with continuous similarity measures, Joint Statistical Meetings 2026, 01-06.08.2026, Boston, USA\nStruzik, Beręsewicz (2026), automatedRecLin: Record linkage based on an entropy-maximizing classifier, useR! 2026, 06-09.07.2026, Warsaw, Poland\nBeręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, Centre of Migration Research at the University of Warsaw and Office for Foreigners, presentation at the seminar, 18.12.2025, Warsaw, Poland\nKołodziej, Iwaniuk, Beręsewicz (2025), NMAR: An R package for estimation under nonignorable nonresponse in official surveys, The 13th International Conference Use of R in Official Statistics uRos2025, 24-26.11.2025, Bucharest, Romania\nBeręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, Faculty of Mathematics and Computer Science at Adam Mickiewicz University in Poznań, invited talk, 19.11.2025, Poznań, Poland\nBeręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, School of Social Sciences at the University of Manchester, presentation at the seminar, 14.11.2025, Manchester, UK\nBeręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, The University of Oxford’s Centre on Migration, Policy and Society (COMPAS), presentation at the seminar, 13.11.2025, Oxford, UK\nIwaniuk, Kołodziej, Beręsewicz (2025), NMAR: An R package for estimation under nonignorable nonresponse in official surveys, ELEMENTSX, 24-26.10.2025, Kraków, Poland\nStruzik, Beręsewicz (2025), Metody integracji danych oparte na klasyfikatorze maksymalnej entropii, ELEMENTSX, 24-26.10.2025, Kraków, Poland\nBeręsewicz (2025), Survey calibration for causal inference: a simple method to balance covariate distributions, Gender Gaps Conference 2025, poster, 12-13.09.2025, Warsaw, Poland\nBeręsewicz (2025), nonprobsvy – An R package for modern methods for non-probability surveys, R/Medicine, 9-13.06.2025, virtual event\nBeręsewicz (2025), Estimation of the number of irregular foreigners in Poland using non-linear count regression models, The University of Oxford’s Centre on Migration, Policy and Society (COMPAS), presentation at the seminar, 28.03.2025\nBeręsewicz, Szymkowiak (2024), Inference for non-probability samples using the calibration approach for quantiles and totals, International Conference on Small Area Estimation (SAE 2024), 03.06.2024-07.06.2024, Lima (Peru)\nBeręsewicz, Szymkowiak (2024), Estimation of the number of irregular foreigners in Poland using nonlinear count regression models, UNECE Expert Meeting on Migration Statistics 2024, 07.05.2024-08.05.2024, Geneva, Switzerland\nWorkshop on Survey Statistics (26-30.08.2024):\n\nTiziana Tuotto (Istat) – Data integration and population size estimation: The risk of misidentification\nTomasz Żądło (University of Economics in Katowice) – Voting-based predictor’s selection in survey sampling\nDankmar Böhning (University in Southampton) – Capture-recapture methods and their applications: The case of one-inflation in zero-truncated count data\nMaciej Beręsewicz — Blocking records for probabilistic record linkage using approximate nearest neighbours algorithms\n\nBeręsewicz, Szymkowiak (2024), Quantile Balancing Inverse Probability Weighting for Non-Probability Samples, The European Conference on Data Analysis (ECDA), Sopot, 9-11.09.2024\nThe Use of R in Official Statistics (uRos), 27-29.11.2024:\n\nblocking: an R package for blocking of records for probabilistic record linkage based on approximate nearest neighbors algorithms (Beręsewicz)\nnonprobsvy: an R package for modern methods for non-probability surveys (Chrostowski, Chlebicki, Beręsewicz)\nJoint calibration estimators for totals and quantiles for probability and nonprobability samples (Beręsewicz, Szymkowiak)\n\nBeręsewicz, Szymkowiak (2024), Quantile balancing inverse probability weighting for non-probability samples, The 9th Conference Survey Sampling in Economic and Social Research, Katowice, 3-4 grudnia, online\nChrostowski, Beręsewicz (2023) nonprobsvy - An R package for statistical inference with non-probability samples, RSS 2023, 07.09.2023, presentation\nChlebicki, Beręsewicz (2023) Estimating the population size of drunk-drivers in Poland using heterogeneous one-inflation and hurdle-like approach in single source capture-recapture studies, RSS 2023, 06.09.2023, presentation\nChrostowski, Beręsewicz (2023) nonprobsvy – an R package for non-probability samples, BANOCOSS2023, 22.08.2023, presentation\nBeręsewicz, Chrostowski (2023) Statistical inference using non-probability survey samples with misclassification in all variables, ESRA 2023, 20.07.2023, presentation\nChlebicki, Beręsewicz (2023) singleRcapture – an R package for single-source capture-recapture models, ESRA 2023, 20.07.2023, presentation\nBeręsewicz, Szałtys (2023) Statystyczna integracja rejestrów administracyjnych na potrzeby estymacji charakterystyk populacji cudzoziemców w Polsce, MET 2023, 23.06.2023, presentation\nBeręsewicz (2023) Ilu jest w Polsce cudzoziemców? Metody szacunku wielkości populacji w oparciu o rejestry administracyjne i big data, Data Analytics Meeting, 23.06.2023, Referat zaproszony (konferencja studencka)\nBeręsewicz (2023) Estimation of the length of stay of foreigners in Poland using mobile big data, NTTS 2023, 6-10.03.2023 (Bruxelles, Belgium) (abstract p. 410, recording around 16:03, presentation)\nChlebicki, Beręsewicz (2023) Estimation of hidden populations using single-source capture recapture models with singleRcapture package, NTTS 2023, 6-10.03.2023 (Bruxelles, Belgium)\nBeręsewicz (2022b) Estimating the length of foreigners’ stay in Poland using mobile big data, 8.12.2022, S3RI Seminar at University of Southampton, presentation\nBeręsewicz (2022b) Ilu jest w Polsce cudzoziemców? Ujęcie statystyczne i ekonomiczne. Dwugłos Nauki – ,,Migracje – historia i teraźniejszość’’, 21.11.2022, Oddział PAN w Poznaniu, prezentacja\nBeręsewicz (2022a) Estymacja długości pobytu cudzoziemców w Polsce z wykorzystaniem mobile big data, 40th International Conference MSA’2022 joined with MASEP, 7-9 listopada 2022, Łódź, Polska, prezentacja"
   },
   {
     "objectID": "outputs.html#software",
     "href": "outputs.html#software",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "Software",
-    "text": "Software\n\nnonprobsvy an R package for modern statistical inference methods based on non-probability samples  Source Code: https://github.com/ncn-foreigners/nonprobsvy\nsingleRcapture an R Package for Single-Source Capture-Recapture Models  Source Code: https://github.com/ncn-foreigners/singleRcapture\nblocking an R package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms  Source Code: https://github.com/ncn-foreigners/blocking\nblockingPy a Python package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms  Source Code: https://github.com/ncn-foreigners/BlockingPy\njointCalib an R package for joint calibration of totals and quantiles  Source Code: https://github.com/ncn-foreigners/jointCalib"
+    "text": "Software\n\nautomatedRecLin an R package for record linkage based on an entropy-maximizing classifier  Source Code: https://github.com/ncn-foreigners/automatedRecLin\nnonprobsvy an R package for modern statistical inference methods based on non-probability samples  Source Code: https://github.com/ncn-foreigners/nonprobsvy\nsingleRcapture an R Package for Single-Source Capture-Recapture Models  Source Code: https://github.com/ncn-foreigners/singleRcapture\nblocking an R package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms  Source Code: https://github.com/ncn-foreigners/blocking\nblockingPy a Python package for blocking of records for record linkage and data deduplication using Approximate Nearest Neighbor (ANN) algorithms  Source Code: https://github.com/ncn-foreigners/BlockingPy\njointCalib an R package for joint calibration of totals and quantiles  Source Code: https://github.com/ncn-foreigners/jointCalib"
   },
   {
     "objectID": "outputs.html#theses",
     "href": "outputs.html#theses",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "Theses",
-    "text": "Theses\n\nChlebicki (2022) – Point and interval estimation of hidden population (pol. Punktowa i przedziałowa estymacja wielkości ukrytej populacji) – praca licencjacka\nMordan (2022) – Implementation of the empirical likelihood method for non-ignorable non-response in the R statistical package (pol. Implementacja metody empirical likelihood dla informatywnego braku odpowiedzi w pakiecie statystycznym R) – praca magisterska\nChlebicki (2024) – Vector generalized linear models and their selected applications (pol. Wektorowe uogólnione modele liniowe oraz ich wybrane zastosowania) – praca magisterska\nChrostowski (2024) – Statistical inference with non-probability samples (pol. Wnioskowanie statystyczne na podstawie prób nieprobablistycznych) – praca magisterska"
+    "text": "Theses\n\nChlebicki (2022) – Point and interval estimation of hidden population (pol. Punktowa i przedziałowa estymacja wielkości ukrytej populacji) – praca licencjacka\nMordan (2022) – Implementation of the empirical likelihood method for non-ignorable non-response in the R statistical package (pol. Implementacja metody empirical likelihood dla informatywnego braku odpowiedzi w pakiecie statystycznym R) – praca magisterska\nChlebicki (2024) – Vector generalized linear models and their selected applications (pol. Wektorowe uogólnione modele liniowe oraz ich wybrane zastosowania) – praca magisterska\nChrostowski (2024) – Statistical inference with non-probability samples (pol. Wnioskowanie statystyczne na podstawie prób nieprobabilistycznych) – praca magisterska\nStrojny (2025) – BlockingPy: approximate nearest neighbours for blocking of records for entity resolution (pol. BlockingPy: przybliżone najbliższe sąsiedztwo do blokowania rekordów na potrzeby deduplikacji i integracji danych) – praca licencjacka"
   },
   {
-    "objectID": "posts/2025-09-15-ggaps/index.html",
-    "href": "posts/2025-09-15-ggaps/index.html",
-    "title": "GGaps 2025",
-    "section": "",
-    "text": "Maciej Beręsewicz participated in the Gender Gaps 2025 conference organized by GRAPE with the folowing inputs:\n\nposter “Survey calibration for causal inference: a simple method to balance covariate distributions” which is here\ndiscussion of the paper “Can High-Stakes Entrance Exams Explain Why Fewer Women Study STEM Fields?” by Barabara Pertold-Gebicka (Charles University)"
-  },
-  {
-    "objectID": "posts/2025-06-13-blocking/index.html",
-    "href": "posts/2025-06-13-blocking/index.html",
-    "title": "{blocking} on CRAN",
-    "section": "",
-    "text": "The 1.0.0 version of the {blocking} package was finally submitted to CRAN.\nThe goal of {blocking} is to provide blocking methods for record linkage and deduplication using approximate nearest neighbour (ANN) algorithms and graph techniques.\nIt supports multiple ANN implementations via\n\n{rnndescent},\n{RcppHNSW},\n{RcppAnnoy},\n{mlpack}\n\npackages, and provides integration with the {reclin2} package.\nThe package generates shingles from character strings and similarity vectors for record comparison, and includes evaluation metrics for assessing blocking performance including false positive rate (FPR) and false negative rate (FNR) estimates.\nTo install the package use:\ninstall.packages(\"blocking\")\nFor more details see the CRAN website and the documentation"
-  },
-  {
-    "objectID": "posts/2025-11-13-oxford/index.html",
-    "href": "posts/2025-11-13-oxford/index.html",
-    "title": "University of Oxford & University of Manchester",
-    "section": "",
-    "text": "Maciej Beręsewicz (PUEB) and Aniela Czerniawska (AMU) were invited to The University of Oxford’s Centre on Migration, Policy and Society (COMPAS) and School of Social Sciences at the University of Manchester to present their work entitled Counting Shadows: Estimating Unauthorised Migrant Populations (presentation can be found here) on 13th and 14th of November 2025.\nThis is a joint work with: Brendan Georgeson (ONS), Peter Walsh (COMPAS, University of Oxford), and Li-Chun Zhang (University of Southampton, Statistics Norway)\nAbstract is given below\n\nIn this paper, we estimate the size of the unauthorised foreign-born population in Poland. We propose a modelling approach based on Zhang (2006), which uses only aggregated counts and does not require access to data at the individual level. The underlying structural assumption is that the unauthorised foreign-borns can be related to the foreign-born residents through migrant networks. The unauthorised population totals can therefore be related to some chosen reference population totals that are known for the residents.\n\n\nUsing data from 2019 to 2023, we find that the size of the unauthorised population varied from 40,000 to 150,000 depending on model specifications and covariates (time, sex). The unauthorised population represents between 2% and 5% of the reference population that can be sourced from, respectively, the register of population, tax, or social insurance. Notably, the unauthorised population’s share of Poland’s total population remains negligible at 0.2–0.5%.\n\n\nOur findings suggest that whilst the unauthorised population in Poland has grown over the study period, it remains a small fraction of both the foreign-born residents and the total population. We conclude by discussing the potential application of this methodology to estimate unauthorised populations in other contexts, particularly the United Kingdom."
-  },
-  {
-    "objectID": "posts/2025-04-24-hex/index.html",
-    "href": "posts/2025-04-24-hex/index.html",
-    "title": "Hex stickers for packages",
-    "section": "",
-    "text": "We present two hex stickers / logos for the singleRcapture and nonprobsvy packages designed by Oliwia Awuku."
-  },
-  {
-    "objectID": "posts/2025-12-19-obm/index.html",
-    "href": "posts/2025-12-19-obm/index.html",
-    "title": "Seminarium OBM i UDSC",
-    "section": "",
-    "text": "We czwartek 18.12.2025 dr Maciej Beręsewicz przedstawił wybrane wyniki dot. estymacji wielkości nieautoryzowanej populacji cudzoziemców w Polsce.\nWydarzenie zostało zorganizowane przez Ośrodek Badań nad Migracjami Uniwesytetu Warszawskiego oraz Urząd ds. Cudzoziemców.\nPrezentację można znaleźć tutaj"
-  },
-  {
-    "objectID": "posts/2025-11-19-pts/index.html",
-    "href": "posts/2025-11-19-pts/index.html",
-    "title": "Referat dla Polskiego Towarzystwa Statystycznego",
-    "section": "",
-    "text": "W środę 19.11.2025 odbył się wykład pt. Counting Shadows: Estimating Unauthorised Migrant Populations w ramach serii wykładów pt. ‘Wielowymiarowe metody statystyczne’.\nWydarzenie to organizowane jest przez Odział Poznański Polskiego Towarzystwa Statystycznego, Poznańskie Towarzystwo Przyjaciół Nauk i Wydział Matematyki i Informatyki UAM w Poznaniu.\nInformacje o wykładzie można znaleźć tutaj"
-  },
-  {
-    "objectID": "posts/2025-06-18-r-in-medicine/index.html",
-    "href": "posts/2025-06-18-r-in-medicine/index.html",
-    "title": "R/Medicine conference",
-    "section": "",
-    "text": "On Friday, June 13 Maciej Beręsewicz presented the {nonprobsvy} package during the R/Medicine conference. Below are the details and the recording of the talk:\n\nTitle: nonprobsvy – An R package for modern methods for non-probability survey\nAbstract\nConference program\nRecording on YouTube"
-  },
-  {
-    "objectID": "posts/2025-08-29-jss/index.html",
-    "href": "posts/2025-08-29-jss/index.html",
-    "title": "{nonprobsvy} accepted to the JSS",
-    "section": "",
-    "text": "The paper nonprobsvy – An R package for modern methods for non-probability surveys (arxiv version) written by Łukasz Chrostowski, Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical Software!\nHere’s the abstract of this paper:\nThe paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
-  },
-  {
-    "objectID": "posts/2026-01-28-asa/index.html",
-    "href": "posts/2026-01-28-asa/index.html",
-    "title": "ASA Student Paper Competition",
-    "section": "",
-    "text": "The paper “Capturing Small Discrepancies in Record Linkage: A Maximum Entropy Framework with Continuous Similarity Measures”, written by Adam Struzik (AMU) under the supervision of Maciej Beręsewicz (PUEB), won an award in the Student Paper Competition organized by the Statistical Computing and Graphics Sections of the American Statistical Association.\nAdam Struzik will present the paper and receive the award at the Joint Statistical Meetings in Boston, MA, in August 2026.\nThe methods described in the paper are implemented in the automatedRecLin R package.\nMore details about the competition can be found here."
-  },
-  {
-    "objectID": "posts/2025-05-12-jss/index.html",
-    "href": "posts/2025-05-12-jss/index.html",
-    "title": "{singleRcapture} accepted to the JSS",
-    "section": "",
-    "text": "The paper singleRcapture: An R Package for Single-Source Capture-Recapture Models (arxiv version) written by Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical Software!\nHere’s the abstract of this paper:\nPopulation size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g. zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
-  },
-  {
-    "objectID": "posts/2026-08-12-jsm/index.html",
-    "href": "posts/2026-08-12-jsm/index.html",
-    "title": "Joint Statistical Meetings Conference",
-    "section": "",
-    "text": "From August 1 to 6, Adam Struzik participated in the Joint Statistical Meetings 2026 Conference in Boston, Massachusetts, USA. The event gathered over 5,000 attendees from all over the world.\nAdam Struzik gave a presentation entitled “Capturing Small Discrepancies in Record Linkage: A Maximum Entropy Framework with Continuous Similarity Measures”. The talk took place in the “Student Paper Award and John M. Chambers Statistical Software Award” session and was a part of the award in the Student Paper Competition organized by the ASA Sections on Statistical Computing and Statistical Graphics. The competition paper can be found here, and the approach proposed is implemented in the automatedRecLin R package.\nAdditionally, Adam Struzik took part in a roundtable discussion entitled “Linking the Future: What’s Next for Record Linkage and Entity Resolution”. During the meeting, researchers examined the latest methods and challenges for entity resolution problems."
-  },
-  {
-    "objectID": "posts/2025-04-poznan/index.html",
-    "href": "posts/2025-04-poznan/index.html",
-    "title": "Another award for students",
-    "section": "",
-    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
-  },
-  {
-    "objectID": "posts/2025-10-26-elementsx/index.html",
-    "href": "posts/2025-10-26-elementsx/index.html",
-    "title": "ElementsX",
-    "section": "",
-    "text": "Studenci Adam Struzik, Igor Kołodziej i Mateusz Iwaniuk wzięli udział w konferencji ElementX organizowanej 24 - 26 października na AGH w Krakowie. Wystąpili z następującymi referatami:\n\nAdam Struzik, Maciej Beręsewicz: Metody integracji danych oparte na klasyfikatorze maksymalnej entropii z ciągłymi miarami porównań\nMateusz Iwaniuk, Igor Kołodziej, Maciej Beręsewicz: NMAR: An R Package for Estimation under Nonignorable Nonresponse in Official Surveys\n\nPoniżej wybrane zdjęcia z konferencji"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
+    "objectID": "people.html",
+    "href": "people.html",
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "",
-    "text": "Home\n    Contact"
+    "text": "Home\n    People"
   },
   {
-    "objectID": "contact.html#email-us",
-    "href": "contact.html#email-us",
+    "objectID": "people.html#research-staff",
+    "href": "people.html#research-staff",
     "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Email Us",
-    "text": "Email Us\ndr Maciej Beręsewicz, prof. UEP  Department of Statistics  Poznań University of Economics and Business  al. Niepodległości 10 | 61-875 Poznań  tel. + 48 61-854-36-80 | maciej.beresewicz[at]ue.poznan.pl  www.ue.poznan.pl"
+    "section": "Research Staff",
+    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nMaciej Beręsewicz\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\nMarcin Szymkowiak\n\n\nResearch Staff\n\n\n\n\n\n\n\n\n\n\n\n\nTomasz Żądło\n\n\nResearch Staff\n\n\n\n\n\n\n\n\n\n\n\n\nPaweł Strzelecki\n\n\nResearch Staff\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#students",
+    "href": "people.html#students",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Students",
+    "text": "Students\n\n\n\n\n\n\n\n\n\n\nTymoteusz Strojny\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Struzik\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nAniela Czerniawska\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nIgor Kołodziej\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nMateusz Iwaniuk\n\n\nStudent\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#reseach-consultants",
+    "href": "people.html#reseach-consultants",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Reseach consultants",
+    "text": "Reseach consultants\n\n\n\n\n\n\n\n\n\n\nTiziana Tuoto\n\n\nConsultant\n\n\n\n\n\n\n\n\n\n\n\n\nDankmar Böhning\n\n\nConsultant\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\nPiotr Chlebicki\n\n\nScholarship recipient\n\n\nFall 2021\n\n\nFall 2024\n\n\n\n\n\n\nCyprian Jurkowski\n\n\nScholarship recipient\n\n\nWinter 2024\n\n\nSpring 2025\n\n\n\n\n\n\nBartosz Bogulas\n\n\nScholarship recipient\n\n\nWinter 2024\n\n\nSpring 2025\n\n\n\n\n\n\nKyrylo Mordan\n\n\nScholarship recipient\n\n\nFall 2021\n\n\nFall 2022\n\n\n\n\n\n\nŁukasz Chrostowski\n\n\nScholarship recipient\n\n\nFall 2022\n\n\nFall 2024\n\n\n\n\n\n\nMaarten Cruyff\n\n\nConsultants\n\n\nFall 2022\n\n\nFall 2023\n\n\n\n\n\n\nPeter G. M. van der Heijden\n\n\nConsultants\n\n\nFall 2022\n\n\nFall 2023\n\n\n\n\n\n\nKamil Wilak\n\n\nResearch Staff\n\n\nFall 2021\n\n\nSummer 2023\n\n\n\n\n\n\nTymon Świtalski\n\n\nStudent\n\n\nFall 2023\n\n\nSummer 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "opportunities.html",
@@ -518,193 +392,305 @@
     "text": "For Prospective Graduate Students"
   },
   {
-    "objectID": "people/students/kolodziej.html",
-    "href": "people/students/kolodziej.html",
-    "title": "Igor Kołodziej",
+    "objectID": "posts/2026-08-12-jsm/index.html",
+    "href": "posts/2026-08-12-jsm/index.html",
+    "title": "Joint Statistical Meetings Conference",
     "section": "",
-    "text": "Home\n    People\n    Graduate Students\n    Igor Kołodziej"
+    "text": "From August 1 to 6, Adam Struzik participated in the Joint Statistical Meetings 2026 Conference in Boston, Massachusetts, USA. The event gathered over 5,000 attendees from all over the world.\nAdam Struzik gave a presentation entitled “Capturing Small Discrepancies in Record Linkage: A Maximum Entropy Framework with Continuous Similarity Measures”. The talk took place in the “Student Paper Award and John M. Chambers Statistical Software Award” session and was a part of the award in the Student Paper Competition organized by the ASA Sections on Statistical Computing and Statistical Graphics. The competition paper can be found here, and the approach proposed is implemented in the automatedRecLin R package.\nAdditionally, Adam Struzik took part in a roundtable discussion entitled “Linking the Future: What’s Next for Record Linkage and Entity Resolution”. During the meeting, researchers examined the latest methods and challenges for entity resolution problems."
   },
   {
-    "objectID": "people/students/kolodziej.html#biography",
-    "href": "people/students/kolodziej.html#biography",
-    "title": "Igor Kołodziej",
-    "section": "Biography",
-    "text": "Biography\nIgor Kołodziej’s research interests include statistical computing, data mining, machine learning, and artificial intelligence. His work in the project involves implementation of statistical algorithms for data not missing at random (NMAR). He is currently pursuing his Bachelor of Engineering degree in Data Science at the Faculty of Mathematics and Information Science at Warsaw University of Technology."
-  },
-  {
-    "objectID": "people/students/kolodziej.html#education",
-    "href": "people/students/kolodziej.html#education",
-    "title": "Igor Kołodziej",
-    "section": "Education",
-    "text": "Education\n\n2022–Current: Warsaw University of Technology, Warsaw, Poland – Data Science Undergraduate (BEng)."
-  },
-  {
-    "objectID": "people/students/czerniawska.html",
-    "href": "people/students/czerniawska.html",
-    "title": "Aniela Czerniawska",
+    "objectID": "posts/2025-05-12-jss/index.html",
+    "href": "posts/2025-05-12-jss/index.html",
+    "title": "{singleRcapture} accepted to the JSS",
     "section": "",
-    "text": "Aniela Czerniawska is a third-year undergraduate student in the Mathematics program at Adam Mickiewicz University, specializing in statistics and data analysis.\nHer interests include statistical modeling and the use of quantitative methods to explore how data and the conclusions drawn from them shape our understanding of the world, influence public opinion and guide human behavior.\nShe is engaged in research on population estimation models for irregular population. Her bachelor’s thesis focuses on model selection techniques and the use of information criteria to evaluate statistical fit and parsimony. She plans to pursue graduate study in data science to become a skilled statistician and data analyst."
+    "text": "The paper singleRcapture: An R Package for Single-Source Capture-Recapture Models (arxiv version) written by Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical Software!\nHere’s the abstract of this paper:\nPopulation size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g. zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
   },
   {
-    "objectID": "people/students/czerniawska.html#biography",
-    "href": "people/students/czerniawska.html#biography",
-    "title": "Aniela Czerniawska",
+    "objectID": "posts/2026-10-10-jss/index.html",
+    "href": "posts/2026-10-10-jss/index.html",
+    "title": "Publikacja w czasopiśmie Journal of Statistical Software",
     "section": "",
-    "text": "Aniela Czerniawska is a third-year undergraduate student in the Mathematics program at Adam Mickiewicz University, specializing in statistics and data analysis.\nHer interests include statistical modeling and the use of quantitative methods to explore how data and the conclusions drawn from them shape our understanding of the world, influence public opinion and guide human behavior.\nShe is engaged in research on population estimation models for irregular population. Her bachelor’s thesis focuses on model selection techniques and the use of information criteria to evaluate statistical fit and parsimony. She plans to pursue graduate study in data science to become a skilled statistician and data analyst."
+    "text": "PolskiEnglish\n\n\nW prestiżowym czasopiśmie Journal of Statistical Software (IF 14.3, 200 PM, 1/170 w Statistics and Probability, 5/185 w Computer Science) ukazał się artykuł pt. „nonprobsvy: An R package for modern methods for non-probability surveys”, którego autorami są Łukasz Chrostowski (Analytics Partners), Piotr Chlebicki (Uniwersytet w Sztokholmie) oraz dr Maciej Beręsewicz, prof. UEP. Publikacja prezentuje pakiet nonprobsvy dla środowiska R, wspierający nowoczesne metody analizy danych pochodzących z badań nieprobabilistycznych.\nArtykuł jest efektem badań realizowanych w ramach projektu finansowanego przez Narodowe Centrum Nauki (NCN) pt. „Statystyka cudzoziemców bez spisu powszechnego – jakość, integracja danych i estymacja” (nr 2020/39/B/HS4/00941) i 3 letniej współpracy ze studentami z UAM.\n\n\nThe paper “nonprobsvy: An R package for modern methods for non-probability surveys”, authored by Łukasz Chrostowski (Analytics Partners), Piotr Chlebicki (Stockholm University) and Maciej Beręsewicz, Associate Professor at Poznań University of Economics and Business (PUEB), has been published in the prestigious Journal of Statistical Software (IF 14.3, ranked 1/170 in Statistics and Probability and 5/185 in Computer Science). The paper presents the nonprobsvy package for R, which supports modern methods for analysing data from non-probability surveys.\nThe paper is a result of research carried out within the project “Towards census-like statistics for foreign-born populations – quality, data integration and estimation” (grant no. 2020/39/B/HS4/00941), funded by the National Science Centre, Poland (NCN), and of three years of collaboration with students from Adam Mickiewicz University (AMU)."
   },
   {
-    "objectID": "people/students/czerniawska.html#education",
-    "href": "people/students/czerniawska.html#education",
-    "title": "Aniela Czerniawska",
-    "section": "Education",
-    "text": "Education\n\n2022–Current: Adam Mickiewicz University, Poznań, Poland: Bachelor’s degree student (mathematics, specialisation: statistics and data analysis)"
-  },
-  {
-    "objectID": "people/alumni/chlebicki.html",
-    "href": "people/alumni/chlebicki.html",
-    "title": "Piotr Chlebicki",
+    "objectID": "posts/2025-12-19-obm/index.html",
+    "href": "posts/2025-12-19-obm/index.html",
+    "title": "Seminarium OBM i UDSC",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Piotr Chlebicki"
+    "text": "We czwartek 18.12.2025 dr Maciej Beręsewicz przedstawił wybrane wyniki dot. estymacji wielkości nieautoryzowanej populacji cudzoziemców w Polsce.\nWydarzenie zostało zorganizowane przez Ośrodek Badań nad Migracjami Uniwesytetu Warszawskiego oraz Urząd ds. Cudzoziemców.\nPrezentację można znaleźć tutaj"
   },
   {
-    "objectID": "people/alumni/chlebicki.html#biography",
-    "href": "people/alumni/chlebicki.html#biography",
-    "title": "Piotr Chlebicki",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/chlebicki.html#experience",
-    "href": "people/alumni/chlebicki.html#experience",
-    "title": "Piotr Chlebicki",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/chlebicki.html#education",
-    "href": "people/alumni/chlebicki.html#education",
-    "title": "Piotr Chlebicki",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html",
-    "href": "people/alumni/cruyff.html",
-    "title": "Maarten Cruyff",
+    "objectID": "posts/2025-10-26-elementsx/index.html",
+    "href": "posts/2025-10-26-elementsx/index.html",
+    "title": "ElementsX",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Maarten Cruyff"
+    "text": "Studenci Adam Struzik, Igor Kołodziej i Mateusz Iwaniuk wzięli udział w konferencji ElementX organizowanej 24 - 26 października na AGH w Krakowie. Wystąpili z następującymi referatami:\n\nAdam Struzik, Maciej Beręsewicz: Metody integracji danych oparte na klasyfikatorze maksymalnej entropii z ciągłymi miarami porównań\nMateusz Iwaniuk, Igor Kołodziej, Maciej Beręsewicz: NMAR: An R Package for Estimation under Nonignorable Nonresponse in Official Surveys\n\nPoniżej wybrane zdjęcia z konferencji"
   },
   {
-    "objectID": "people/alumni/cruyff.html#biography",
-    "href": "people/alumni/cruyff.html#biography",
-    "title": "Maarten Cruyff",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html#experience",
-    "href": "people/alumni/cruyff.html#experience",
-    "title": "Maarten Cruyff",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html#journal-editing",
-    "href": "people/alumni/cruyff.html#journal-editing",
-    "title": "Maarten Cruyff",
-    "section": "Journal Editing",
-    "text": "Journal Editing"
-  },
-  {
-    "objectID": "people/alumni/cruyff.html#education",
-    "href": "people/alumni/cruyff.html#education",
-    "title": "Maarten Cruyff",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/switalski.html",
-    "href": "people/alumni/switalski.html",
-    "title": "Tymon Świtalski",
+    "objectID": "posts/2026-05-25-studencki-nobel/index.html",
+    "href": "posts/2026-05-25-studencki-nobel/index.html",
+    "title": "Polish ‘Student Nobel Prize’",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Tymon Świtalski"
+    "text": "PolskiEnglish\n\n\nAdam Struzik został laureatem konkursu „Studencki Nobel”. Konkurs ma na celu wyłonienie najlepszych studentów w Polsce w kilku kategoriach. Adam Struzik został wybrany najlepszym studentem w kategorii Nauki Ekonomiczne.\nGala finałowa odbyła się 23 maja 2026 r. w Szkole Głównej Handlowej w Warszawie.\n\n\nAdam Struzik won the Polish ‘Student Nobel Prize’ competition. The competition aims to award the best students in Poland in several categories. Adam Struzik was selected as the best student in the Economic Sciences category.\nThe final gala took place on 23 May 2026 at the Warsaw School of Economics."
   },
   {
-    "objectID": "people/alumni/switalski.html#biography",
-    "href": "people/alumni/switalski.html#biography",
-    "title": "Tymon Świtalski",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/switalski.html#experience",
-    "href": "people/alumni/switalski.html#experience",
-    "title": "Tymon Świtalski",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/switalski.html#education",
-    "href": "people/alumni/switalski.html#education",
-    "title": "Tymon Świtalski",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/wilak.html",
-    "href": "people/alumni/wilak.html",
-    "title": "Kamil Wilak",
+    "objectID": "posts/2025-08-29-jss/index.html",
+    "href": "posts/2025-08-29-jss/index.html",
+    "title": "{nonprobsvy} accepted to the JSS",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Kamil Wilak"
+    "text": "The paper nonprobsvy – An R package for modern methods for non-probability surveys (arxiv version) written by Łukasz Chrostowski, Piotr Chlebicki and Maciej Beręsewicz was accepted to the Journal of Statistical Software!\nHere’s the abstract of this paper:\nThe paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
   },
   {
-    "objectID": "people/alumni/wilak.html#biography",
-    "href": "people/alumni/wilak.html#biography",
-    "title": "Kamil Wilak",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "people/alumni/wilak.html#experience",
-    "href": "people/alumni/wilak.html#experience",
-    "title": "Kamil Wilak",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/alumni/wilak.html#education",
-    "href": "people/alumni/wilak.html#education",
-    "title": "Kamil Wilak",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "people/alumni/chrostowski.html",
-    "href": "people/alumni/chrostowski.html",
-    "title": "Łukasz Chrostowski",
+    "objectID": "posts/2026-09-25-pan/index.html",
+    "href": "posts/2026-09-25-pan/index.html",
+    "title": "15th Conference of the Polish Academy of Sciences Committee for Migration Research",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Łukasz Chrostowski"
+    "text": "PolskiEnglish\n\n\nWyniki badań prowadzonych w ramach projektu finansowanego przez Narodowe Centrum Nauki (OPUS 20, nr 2020/39/B/HS4/00941) zaprezentowano 25 września podczas XV Konferencji Komitetu Badań nad Migracjami PAN na Wydziale Nauk Społecznych Uniwersytetu Gdańskiego. Konferencja zorganizowana została przez Komitet Badań nad Migracjami PAN, Centrum Zrównoważonego Rozwoju i Instytut Politologii Uniwersytetu Gdańskiego, Muzeum Emigracji w Gdyni oraz Urząd Marszałkowski Województwa Pomorskiego. W sesji „Metodologiczne wyzwania i rozwiązania w badaniach migracji” przedstawiono badanie Macieja Beręsewicza, Dagmary Nikulin i Dankmara Böhninga, w którym wykorzystano dane administracyjne oraz metodę capture–recapture w celu oszacowania rozmiarów pracy nielegalnej wykonywanej przez cudzoziemców w Polsce.\n\n\nFindings from a research project funded by the National Science Centre, Poland (OPUS 20, grant no. 2020/39/B/HS4/00941), were presented on 25 September at the 15th Conference of the Polish Academy of Sciences Committee for Migration Research, held at the Faculty of Social Sciences of the University of Gdańsk. The conference was organised by the Committee for Migration Research, the University of Gdańsk’s Centre for Sustainable Development and Institute of Political Science, the Emigration Museum in Gdynia, and the Marshal’s Office of the Pomorskie Voivodeship. During the session “Methodological Challenges and Solutions in Migration Research”, research by Maciej Beręsewicz, Dagmara Nikulin and Dankmar Böhning was presented. The study uses administrative data and the capture–recapture method to estimate the scale of illegal employment among foreigners in Poland."
   },
   {
-    "objectID": "people/alumni/chrostowski.html#biography",
-    "href": "people/alumni/chrostowski.html#biography",
-    "title": "Łukasz Chrostowski",
-    "section": "Biography",
-    "text": "Biography"
+    "objectID": "posts/2025-11-19-pts/index.html",
+    "href": "posts/2025-11-19-pts/index.html",
+    "title": "Referat dla Polskiego Towarzystwa Statystycznego",
+    "section": "",
+    "text": "W środę 19.11.2025 odbył się wykład pt. Counting Shadows: Estimating Unauthorised Migrant Populations w ramach serii wykładów pt. ‘Wielowymiarowe metody statystyczne’.\nWydarzenie to organizowane jest przez Odział Poznański Polskiego Towarzystwa Statystycznego, Poznańskie Towarzystwo Przyjaciół Nauk i Wydział Matematyki i Informatyki UAM w Poznaniu.\nInformacje o wykładzie można znaleźć tutaj"
   },
   {
-    "objectID": "people/alumni/chrostowski.html#experience",
-    "href": "people/alumni/chrostowski.html#experience",
-    "title": "Łukasz Chrostowski",
-    "section": "Experience",
-    "text": "Experience"
+    "objectID": "posts/2025-11-13-oxford/index.html",
+    "href": "posts/2025-11-13-oxford/index.html",
+    "title": "University of Oxford & University of Manchester",
+    "section": "",
+    "text": "Maciej Beręsewicz (PUEB) and Aniela Czerniawska (AMU) were invited to The University of Oxford’s Centre on Migration, Policy and Society (COMPAS) and School of Social Sciences at the University of Manchester to present their work entitled Counting Shadows: Estimating Unauthorised Migrant Populations (presentation can be found here) on 13th and 14th of November 2025.\nThis is a joint work with: Brendan Georgeson (ONS), Peter Walsh (COMPAS, University of Oxford), and Li-Chun Zhang (University of Southampton, Statistics Norway)\nAbstract is given below\n\nIn this paper, we estimate the size of the unauthorised foreign-born population in Poland. We propose a modelling approach based on Zhang (2006), which uses only aggregated counts and does not require access to data at the individual level. The underlying structural assumption is that the unauthorised foreign-borns can be related to the foreign-born residents through migrant networks. The unauthorised population totals can therefore be related to some chosen reference population totals that are known for the residents.\n\n\nUsing data from 2019 to 2023, we find that the size of the unauthorised population varied from 40,000 to 150,000 depending on model specifications and covariates (time, sex). The unauthorised population represents between 2% and 5% of the reference population that can be sourced from, respectively, the register of population, tax, or social insurance. Notably, the unauthorised population’s share of Poland’s total population remains negligible at 0.2–0.5%.\n\n\nOur findings suggest that whilst the unauthorised population in Poland has grown over the study period, it remains a small fraction of both the foreign-born residents and the total population. We conclude by discussing the potential application of this methodology to estimate unauthorised populations in other contexts, particularly the United Kingdom."
   },
   {
-    "objectID": "people/alumni/chrostowski.html#education",
-    "href": "people/alumni/chrostowski.html#education",
-    "title": "Łukasz Chrostowski",
-    "section": "Education",
-    "text": "Education"
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html",
+    "title": "singleRcapture: An R package for single-source capture-recapture models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g. zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#abstract",
+    "title": "singleRcapture: An R package for single-source capture-recapture models",
+    "section": "",
+    "text": "Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g. zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software."
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#citation",
+    "title": "singleRcapture: An R package for single-source capture-recapture models",
+    "section": "Citation",
+    "text": "Citation\n\nChlebicki, P., & Beręsewicz, M. (2025). singleRcapture: An R package for single-source capture-recapture models. Journal of Statistical Software, 115(1), 1–30. https://doi.org/10.18637/jss.v115.i01"
+  },
+  {
+    "objectID": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
+    "href": "publications/articles/chlebicki-2025-singleRcapture.html#bibtex",
+    "title": "singleRcapture: An R package for single-source capture-recapture models",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{chlebicki2025,\n         title={singleRcapture: An R Package for Single-Source Capture-Recapture Models},\n         volume={115},\n         url={https://www.jstatsoft.org/index.php/jss/article/view/v115i01},\n         doi={10.18637/jss.v115.i01},\n         number={1},\n         journal={Journal of Statistical Software},\n         author={Chlebicki, Piotr and Beręsewicz, Maciej},\n         year={2025},\n         pages={1-30}\n}"
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html",
+    "href": "publications/articles/strojny-2025-blockingPy.html",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "href": "publications/articles/strojny-2025-blockingPy.html#abstract",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "href": "publications/articles/strojny-2025-blockingPy.html#citation",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "Citation",
+    "text": "Citation\n\nStrojny, T. & Beręsewicz, M. (2026). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution. SoftwareX, 34, 102583. https://doi.org/10.1016/j.softx.2026.102583"
+  },
+  {
+    "objectID": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "href": "publications/articles/strojny-2025-blockingPy.html#bibtex",
+    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{strojny2026,\n         title = {BlockingPy: approximate nearest neighbours for blocking of records for entity resolution},\n         journal = {SoftwareX},\n         volume = {34},\n         pages = {102583},\n         year = {2026},\n         issn = {2352-7110},\n         doi = {https://doi.org/10.1016/j.softx.2026.102583},\n         url = {https://www.sciencedirect.com/science/article/pii/S2352711026000774},\n         author = {Tymoteusz Strojny and Maciej Beręsewicz},\n         keywords = {Record linkage, Deduplication, Official statistics, Economics}\n}"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2026-blocking-r.html",
+    "href": "publications/articles/beresewicz-2026-blocking-r.html",
+    "title": "blocking: An R package for blocking of records for record linkage and deduplication",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is essential for bringing together data needed for estimation or other analyses based on multiple sources. It aims to link records that refer to the same entity (e.g., person, company) in the absence of unique identifiers. Without identifiers, researchers must specify which records to compare to calculate matching probability and reduce computational complexity. Traditional deterministic blocking uses common variables like first letters of names, sex, or dates of birth, but assumes error-free, complete data. To address this limitation, we developed the R package blocking, which uses approximate nearest neighbour search and graph algorithms to reduce the number of comparisons. This paper presents the package design, functionalities, and two case studies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2026-blocking-r.html#abstract",
+    "href": "publications/articles/beresewicz-2026-blocking-r.html#abstract",
+    "title": "blocking: An R package for blocking of records for record linkage and deduplication",
+    "section": "",
+    "text": "Entity resolution (probabilistic record linkage, deduplication) is essential for bringing together data needed for estimation or other analyses based on multiple sources. It aims to link records that refer to the same entity (e.g., person, company) in the absence of unique identifiers. Without identifiers, researchers must specify which records to compare to calculate matching probability and reduce computational complexity. Traditional deterministic blocking uses common variables like first letters of names, sex, or dates of birth, but assumes error-free, complete data. To address this limitation, we developed the R package blocking, which uses approximate nearest neighbour search and graph algorithms to reduce the number of comparisons. This paper presents the package design, functionalities, and two case studies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2026-blocking-r.html#citation",
+    "href": "publications/articles/beresewicz-2026-blocking-r.html#citation",
+    "title": "blocking: An R package for blocking of records for record linkage and deduplication",
+    "section": "Citation",
+    "text": "Citation\n\nBeręsewicz, M. & Struzik, A. (2026). blocking: An R package for blocking of records for record linkage and deduplication. The R Journal, 18(2), 162–175. https://doi.org/10.32614/RJ-2026-029"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2026-blocking-r.html#bibtex",
+    "href": "publications/articles/beresewicz-2026-blocking-r.html#bibtex",
+    "title": "blocking: An R package for blocking of records for record linkage and deduplication",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{beresewicz2026,\n         author = {Beręsewicz, Maciej and Struzik, Adam},\n         title = {The R Journal: blocking: An R Package for Blocking of Records for Record Linkage and Deduplication},\n         journal = {The R Journal},\n         year = {2026},\n         note = {https://doi.org/10.32614/RJ-2026-029},\n         doi = {10.32614/RJ-2026-029},\n         volume = {18},\n         issue = {2},\n         issn = {2073-4859},\n         pages = {162-175}\n}"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html",
+    "title": "nonprobsvy: An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#abstract",
+    "title": "nonprobsvy: An R package for modern methods for non-probability surveys",
+    "section": "",
+    "text": "The paper presents nonprobsvy – an R package for inference based on non-probability samples. The package implements various approaches that can be categorized into three groups: prediction-based approach, inverse probability weighting and doubly robust approach. In the package, we assume the existence of either population-level data or probability-based population information and leverage the survey package for inference. The package implements both analytical and bootstrap variance estimation for the proposed estimators. In the paper we present the theory behind the package, its functionalities and a case study that showcases the usage of the package. The package is aimed at scientists and researchers who would like to use non-probability samples (e.g., big data, opt-in web panels, social media) to accurately estimate population characteristics."
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#citation",
+    "title": "nonprobsvy: An R package for modern methods for non-probability surveys",
+    "section": "Citation",
+    "text": "Citation\n\nChrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2026). nonprobsvy: An R package for modern methods for non-probability surveys. Journal of Statistical Software, 117(2), 1–37. https://doi.org/10.18637/jss.v117.i02"
+  },
+  {
+    "objectID": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "href": "publications/articles/chrostowski-2025-nonprobsvy.html#bibtex",
+    "title": "nonprobsvy: An R package for modern methods for non-probability surveys",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{JSSv117i02,\n         title={nonprobsvy: An R Package for Modern Methods for Non-Probability Surveys},\n         volume={117},\n         url={https://www.jstatsoft.org/index.php/jss/article/view/v117i02},\n         doi={10.18637/jss.v117.i02},\n         number={2},\n         journal={Journal of Statistical Software},\n         author={Chrostowski, Łukasz and Chlebicki, Piotr and Beręsewicz, Maciej},\n         year={2026},\n         pages={1-37}\n}"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html",
+    "href": "publications/articles/beresewicz-2025-survmeth.html",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "",
+    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#abstract",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#abstract",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "",
+    "text": "The use of non-probability data sources for statistical purposes and for official statistics has become increasingly popular in recent years. However, statistical inference based on non-probability samples is made more difficult by nature of their biasedness and lack of representativity. In this paper we propose quantile balancing inverse probability weighting estimator (QBIPW) for non-probability samples. We apply the idea of Harms and Duchesne (2006) allowing the use of quantile information in the estimation process to reproduce known totals and the distribution of auxiliary variables. We discuss the estimation of the QBIPW probabilities and its variance. Our simulation study has demonstrated that the proposed estimators are robust against model mis-specification and, as a result, help to reduce bias and mean squared error. Finally, we applied the proposed methods to estimate the share of job vacancies aimed at Ukrainian workers in Poland using an integrated set of administrative and survey data about job vacancies."
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#citation",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "Citation",
+    "text": "Citation\n\nBeręsewicz, M., Szymkowiak & M., Chlebicki P. (2025). Quantile balancing inverse probability weighting for non-probability samples. Survey Methodology, 51(2), 533-559. http://www.statcan.gc.ca/pub/12-001-x/2025002/article/00005-eng.pdf"
+  },
+  {
+    "objectID": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
+    "href": "publications/articles/beresewicz-2025-survmeth.html#bibtex",
+    "title": "Quantile balancing inverse probability weighting for non-probability samples",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{beresewicz2025,\n         author  = {Beręsewicz, M. and Szymkowiak, M. and Chlebicki, P.},\n         title   = {Quantile balancing inverse probability weighting for non-probability samples},\n         journal = {Survey Methodology},\n         volume  = {51},\n         number  = {2},\n         pages   = {533-559},\n         year    = {2025},\n         url     = {http://www.statcan.gc.ca/pub/12-001-x/2025002/article/00005-eng.pdf}\n}"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "This is the page for the project Towards census-like statistics for foreign-born populations – quality, data integration and estimation financed by the National Science Centre, OPUS 20 grant no. 2020/39/B/HS4/00941."
+  },
+  {
+    "objectID": "posts/2026-10-10-ntie/index.html",
+    "href": "posts/2026-10-10-ntie/index.html",
+    "title": "Konkurs Naukowego Towarzystwa Informatyki Ekonomicznej",
+    "section": "",
+    "text": "PolskiEnglish\n\n\nW tegorocznej edycji Konkursu Naukowego Towarzystwa Informatyki Ekonomicznej (NTIE) na najlepsze prace dyplomowe z zakresu informatyki ekonomicznej, obronione w 2025 roku, Tymoteusz Strojny zajął I miejsce w kategorii prac licencjackich i inżynierskich. Nagrodzona praca nosi tytuł „BlockingPy: przybliżone najbliższe sąsiedztwo do blokowania rekordów na potrzeby deduplikacji i integracji danych”, a jej promotorem jest dr Maciej Beręsewicz, prof. UEP.\n\n\nIn this year’s edition of the Scientific Association for Business Informatics (NTIE) Competition for the best theses in business informatics defended in 2025, Tymoteusz Strojny won first place in the bachelor’s and engineering theses category. The award-winning thesis is entitled “BlockingPy: approximate nearest neighbours for blocking of records for entity resolution” and was supervised by Maciej Beręsewicz, Associate Professor at Poznań University of Economics and Business (PUEB)."
+  },
+  {
+    "objectID": "posts/2025-04-24-hex/index.html",
+    "href": "posts/2025-04-24-hex/index.html",
+    "title": "Hex stickers for packages",
+    "section": "",
+    "text": "We present two hex stickers / logos for the singleRcapture and nonprobsvy packages designed by Oliwia Awuku."
+  },
+  {
+    "objectID": "posts/2026-10-15-un/index.html",
+    "href": "posts/2026-10-15-un/index.html",
+    "title": "Referat w siedzibie ONZ w Genewie",
+    "section": "",
+    "text": "PolskiEnglish\n\n\nDr hab. Marcin Szymkowiak, prof. UEP z Katedry Statystyki, został zaproszony do wygłoszenia referatu podczas międzynarodowych warsztatów Workshop on Statistics on Population and Migration. Odbyły się one w dniach 21-22 września 2026 roku w siedzibie Organizacji Narodów Zjednoczonych w Genewie. Organizatorem była Europejska Komisja Gospodarcza ONZ (UNECE).\nWarsztaty były platformą wymiany wiedzy i doświadczeń krajowych urzędów statystycznych. Dyskutowano w nich o rozwoju metod i praktycznych wyzwaniach związanych z przejściem od tradycyjnych spisów powszechnych do zintegrowanych systemów danych o ludności. W wydarzeniu uczestniczyli liczni przedstawiciele krajowych urzędów statystycznych, ośrodków akademickich oraz organizacji zajmujących się problematyką migracji.\nW sesji poświęconej alternatywnym źródłom danych („Alternative Data Sources: Mobile Phone Operators”) dr hab. Marcin Szymkowiak, prof. UEP wygłosił referat „The Use of Programmatic Advertising Data from Mobile Phones for Understanding the Length of Stay of Foreigners in Poland”. Przedstawił w nim wyniki badań prowadzonych wspólnie z dr. Maciejem Beręsewiczem, prof. UEP. Analizie poddano dane z ponad 40 milionów smartfonów w Polsce z lat 2018-2021, pozyskane z systemów reklamy programatycznej. Omówiono ich potencjał w statystyce urzędowej, porównanie z rejestrami administracyjnymi i Narodowym Spisem Powszechnym Ludności i Mieszkań 2021 oraz wyniki badania walidacyjnego dokładności klasyfikacji cudzoziemców, w tym długości ich pobytu.\nWystąpienie było pokłosiem prac nad raportem „Measuring new forms of international mobility”, przygotowanym przez międzynarodowych ekspertów w ramach UNECE Task Force on Defining and Measuring New Forms of Migration. W pracach grupy uczestniczyli Marcin Szymkowiak i Maciej Beręsewicz, reprezentujący polską statystykę publiczną. Przygotowali oni jeden z dziewięciu opisanych w raporcie studiów przypadku (Case Study 7), dotyczący wykorzystania danych z reklamy programatycznej na smartfonach do badania długości pobytu cudzoziemców w Polsce.\n\n\nMarcin Szymkowiak, Associate Professor at the Department of Statistics, Poznań University of Economics and Business (PUEB), was invited to give a talk at the international Workshop on Statistics on Population and Migration. The workshop took place on 21–22 September 2026 at the United Nations Office at Geneva and was organised by the United Nations Economic Commission for Europe (UNECE).\nThe workshop served as a platform for national statistical offices to exchange knowledge and experience. Discussions focused on methodological developments and the practical challenges of moving from traditional population censuses to integrated population data systems. The event brought together numerous representatives of national statistical offices, academic institutions and organisations working on migration issues.\nIn the session on alternative data sources (“Alternative Data Sources: Mobile Phone Operators”), Marcin Szymkowiak presented the paper “The Use of Programmatic Advertising Data from Mobile Phones for Understanding the Length of Stay of Foreigners in Poland”. The talk presented the results of research conducted jointly with Maciej Beręsewicz, Associate Professor at PUEB. The study analysed data on more than 40 million smartphones in Poland from 2018–2021, obtained from programmatic advertising systems. The presentation discussed the potential of these data for official statistics, compared them with administrative registers and the 2021 National Population and Housing Census, and reported the results of a validation study on the accuracy of classifying foreigners, including their length of stay.\nThe talk built on the work on the report “Measuring new forms of international mobility”, prepared by international experts within the UNECE Task Force on Defining and Measuring New Forms of Migration. Marcin Szymkowiak and Maciej Beręsewicz took part in the work of the Task Force, representing Polish official statistics. They prepared one of the nine case studies described in the report (Case Study 7), which concerns the use of programmatic advertising data from smartphones to study the length of stay of foreigners in Poland."
+  },
+  {
+    "objectID": "posts/2025-04-poznan/index.html",
+    "href": "posts/2025-04-poznan/index.html",
+    "title": "Another award for students",
+    "section": "",
+    "text": "We are pleased to announce that two our students received distinctions in the 21st edition of the City of Poznań competition for the best doctoral and master’s theses:\n\nMr. Piotr Chlebicki, author of the master’s thesis titled Vector Generalized Linear Models and Their Selected Applications, written under the supervision of Prof. Waldemar Wołyński from Adam Mickiewicz University,\nMr. Łukasz Chrostowski, author of the master’s thesis titled Statistical Inference Based on Non-Probabilistic Samples, written under the supervision of Prof. Łukasz Smaga from Adam Mickiewicz University,\n\nwere distinguished among 105 submitted works (44 doctoral and 61 master’s theses).\nMore information can be found on the website of City of Poznań."
+  },
+  {
+    "objectID": "posts/2025-06-18-r-in-medicine/index.html",
+    "href": "posts/2025-06-18-r-in-medicine/index.html",
+    "title": "R/Medicine conference",
+    "section": "",
+    "text": "On Friday, June 13 Maciej Beręsewicz presented the {nonprobsvy} package during the R/Medicine conference. Below are the details and the recording of the talk:\n\nTitle: nonprobsvy – An R package for modern methods for non-probability survey\nAbstract\nConference program\nRecording on YouTube"
+  },
+  {
+    "objectID": "posts/2025-06-13-blocking/index.html",
+    "href": "posts/2025-06-13-blocking/index.html",
+    "title": "{blocking} on CRAN",
+    "section": "",
+    "text": "The 1.0.0 version of the {blocking} package was finally submitted to CRAN.\nThe goal of {blocking} is to provide blocking methods for record linkage and deduplication using approximate nearest neighbour (ANN) algorithms and graph techniques.\nIt supports multiple ANN implementations via\n\n{rnndescent},\n{RcppHNSW},\n{RcppAnnoy},\n{mlpack}\n\npackages, and provides integration with the {reclin2} package.\nThe package generates shingles from character strings and similarity vectors for record comparison, and includes evaluation metrics for assessing blocking performance including false positive rate (FPR) and false negative rate (FNR) estimates.\nTo install the package use:\ninstall.packages(\"blocking\")\nFor more details see the CRAN website and the documentation"
+  },
+  {
+    "objectID": "posts/2026-01-28-asa/index.html",
+    "href": "posts/2026-01-28-asa/index.html",
+    "title": "ASA Student Paper Competition",
+    "section": "",
+    "text": "The paper “Capturing Small Discrepancies in Record Linkage: A Maximum Entropy Framework with Continuous Similarity Measures”, written by Adam Struzik (AMU) under the supervision of Maciej Beręsewicz (PUEB), won an award in the Student Paper Competition organized by the Statistical Computing and Graphics Sections of the American Statistical Association.\nAdam Struzik will present the paper and receive the award at the Joint Statistical Meetings in Boston, MA, in August 2026.\nThe methods described in the paper are implemented in the automatedRecLin R package.\nMore details about the competition can be found here."
+  },
+  {
+    "objectID": "posts/2026-10-10-studencki-laur/index.html",
+    "href": "posts/2026-10-10-studencki-laur/index.html",
+    "title": "‘Student Laurel’ distinction at Adam Mickiewicz University",
+    "section": "",
+    "text": "PolskiEnglish\n\n\n1 października 2026 r. odbyła się uroczysta inauguracja roku akademickiego 2026/2027 na Uniwersytecie im. Adama Mickiewicza w Poznaniu. Decyzją Rektor UAM prof. dr hab. Bogumiły Kaniewskiej, Adam Struzik otrzymał wyróżnienie „Studencki Laur”. Nagroda ta jest przyznawana studentom jako wyraz uznania za wysokie wyniki w nauce oraz za aktywność badawczą i osiągnięcia naukowe.\n\n\nOn 1 October 2026, Adam Mickiewicz University (AMU; Poznań, Poland) held its official inauguration of the 2026/2027 academic year. By the decision of the Rector of AMU, Prof. Bogumiła Kaniewska, Adam Struzik was awarded the ‘Student Laurel’ distinction. The award is granted to students in recognition of their academic excellence, research activities and scientific achievements."
+  },
+  {
+    "objectID": "posts/2025-09-15-ggaps/index.html",
+    "href": "posts/2025-09-15-ggaps/index.html",
+    "title": "GGaps 2025",
+    "section": "",
+    "text": "Maciej Beręsewicz participated in the Gender Gaps 2025 conference organized by GRAPE with the folowing inputs:\n\nposter “Survey calibration for causal inference: a simple method to balance covariate distributions” which is here\ndiscussion of the paper “Can High-Stakes Entrance Exams Explain Why Fewer Women Study STEM Fields?” by Barabara Pertold-Gebicka (Charles University)"
+  },
+  {
+    "objectID": "posts/2026-10-10-brendan/index.html",
+    "href": "posts/2026-10-10-brendan/index.html",
+    "title": "British Society for Population Studies Annual Conference and Royal Statistical Society International Conference",
+    "section": "",
+    "text": "In September 2026, I and Tobias Slade-Harajda presented the UK Office for National Statistics partnership research with Poznan University of Economics and Business research, the Migration Observatory University of Oxford, and the University of Southampton at two of the United Kingdom’s leading population and statistics conferences: the British Society for Population Studies (BSPS) Annual Conference, held at the University of Kent in Canterbury on 8 September, and the Royal Statistical Society (RSS) International Conference in Bournemouth on 10 September. Both events brought together researchers, official statisticians, policymakers and data scientists to discuss recent advances in population studies, migration research and statistical methodology.\nAs a Principal Researcher at the UK Office for National Statistics, I presented a paper that I co-authored with Maciej Beręsewicz (lead author), Peter Walsh, Aniela Czerniawska, and Li-Chun Zhang, entitled “Counting Shadows: A Community-Anchored Modeling Framework for Estimating Unauthorized Population Size”. The presentation formed part of the Developments in Official Statistics session at BSPS and was subsequently delivered to an international audience at the RSS Conference.\nThe paper addresses one of the most challenging problems in migration statistics: how to estimate the size of hidden or unauthorised populations when direct observation is impossible and individual-level record linkage is either unavailable or unreliable. We propose a community-anchored modelling framework that uses aggregated administrative data alone to estimate unauthorised populations. Rather than requiring records to be linked across multiple databases, the framework exploits relationships between authorised and unauthorised populations and quantifies uncertainty through analytical and bootstrap-based methods.\nUsing administrative data from Poland between 2019 and 2024, the model estimates an adult non-Schengen unauthorised population of around 98,000 individuals in 2019 and 108,000 in 2024. The methodology also identifies important structural changes following the implementation of the European Union Temporary Protection Directive in 2022, revealing a substantial decline in the unauthorised Ukrainian population alongside growth in the non-Ukrainian unauthorised population. Importantly, the approach provides a practical framework that can be applied in countries where detailed record linkage is not feasible.\nFor me, one of the most important aspects of presenting this work was the opportunity to discuss its potential application to the United Kingdom. As migration researchers increasingly seek to make use of administrative data while maintaining privacy and reducing operational complexity, methods that do not rely on linking individual records are becoming particularly valuable. The framework offers a potential basis for future work on estimating hard-to-measure populations in the UK and other countries facing similar evidence gaps.\nBoth conferences generated valuable discussion and endorsement with researchers from academia, government and national statistical institutes. The feedback received will help inform the further development of the methodology and its potential application to migration statistics and wider population research."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    Publications\n  \n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Publication\n      \n      \n        Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n  \n    BlockingPy: approximate nearest neighbours for blocking of records for entity resolution\n    Strojny & Beręsewicz\n    SoftwareX\n    (2026)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    blocking: An R package for blocking of records for record linkage and deduplication\n    Beręsewicz & Struzik\n    The R Journal\n    (2026)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    nonprobsvy: An R package for modern methods for non-probability surveys\n    Chrostowski, Chlebicki & Beręsewicz\n    Journal of Statistical Software\n    (2026)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Quantile balancing inverse probability weighting for non-probability samples\n    Beręsewicz, Szymkowiak & Chlebicki\n    Survey Methodology\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    singleRcapture: An R package for single-source capture-recapture models\n    Chlebicki & Beręsewicz\n    Journal of Statistical Software\n    (2025)\n    \n      Details\n    \n    \n    \n    \n       Preprint\n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Towards census-like statistics for foreign-born populations",
+    "section": "",
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReferat w siedzibie ONZ w Genewie\n\n\n\ntalks\n\n\n\nDr hab. Marcin Szymkowiak, prof. UEP, z referatem w siedzibie ONZ w Genewie\n\n\n\n\n\nOct 15, 2026\n\n\nMarcin Szymkowiak\n\n\n\n\n\n\n\n\n\n\n\n\n15th Conference of the Polish Academy of Sciences Committee for Migration Research\n\n\n\ntalks\n\n\n\nTalk at the 15th Conference of the Polish Academy of Sciences Committee for Migration Research\n\n\n\n\n\nOct 10, 2026\n\n\nDagmara Nikulin\n\n\n\n\n\n\n\n\n\n\n\n\nBritish Society for Population Studies Annual Conference and Royal Statistical Society International Conference\n\n\n\ntalks\n\n\n\nTalks at the BSPS and RSS Conferences\n\n\n\n\n\nOct 10, 2026\n\n\nBrendan Georgeson\n\n\n\n\n\n\n\n\n\n\n\n\nPublikacja w czasopiśmie Journal of Statistical Software\n\n\n\npapers\n\nnonprobsvy\n\n\n\nPublikacja w czasopiśmie JSS, 200 pkt.\n\n\n\n\n\nOct 10, 2026\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nKonkurs Naukowego Towarzystwa Informatyki Ekonomicznej\n\n\n\nawards\n\n\n\nTymoteusz Strojny nagrodzony w Konkursie NTIE na najlepsze prace dyplomowe z zakresu informatyki ekonomicznej, obronione w 2025 roku\n\n\n\n\n\nOct 10, 2026\n\n\nTymoteusz Strojny\n\n\n\n\n\n\n\n\n\n\n\n\n‘Student Laurel’ distinction at Adam Mickiewicz University\n\n\n\nawards\n\n\n\nAdam Struzik awarded the ‘Student Laurel’ distinction at AMU\n\n\n\n\n\nOct 10, 2026\n\n\nAdam Struzik\n\n\n\n\n\n\n\n\n\n\n\n\nJoint Statistical Meetings Conference\n\n\n\ntalks\n\n\n\nTalk at the JSM 2026 Conference in Boston, Massachusetts\n\n\n\n\n\nAug 12, 2026\n\n\nAdam Struzik\n\n\n\n\n\n\n\n\n\n\n\n\nPolish ‘Student Nobel Prize’\n\n\n\nawards\n\n\n\nAdam Struzik awarded in the Polish ‘Student Nobel Prize’ competition\n\n\n\n\n\nMay 25, 2026\n\n\nAdam Struzik\n\n\n\n\n\n\n\n\n\n\n\n\nASA Student Paper Competition\n\n\n\nawards\n\n\n\nAdam Struzik awarded in the ASA Student Paper Competition\n\n\n\n\n\nJan 28, 2026\n\n\nAdam Struzik\n\n\n\n\n\n\n\n\n\n\n\n\nSeminarium OBM i UDSC\n\n\n\ntalks\n\n\n\nPrezentacja wyników na seminarium dot. cudzoziemców\n\n\n\n\n\nDec 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nReferat dla Polskiego Towarzystwa Statystycznego\n\n\n\ntalks\n\n\n\nReferat w ramach serii ‘Wielowymiarowe metody statystyczne’\n\n\n\n\n\nNov 19, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nUniversity of Oxford & University of Manchester\n\n\n\ntalks\n\n\n\nInvited talk at the COMPAS University of Oxford and School of Social Sciences\n\n\n\n\n\nNov 13, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nElementsX\n\n\n\nconference\n\n\n\nUdział studentów w konferencji ElementsX\n\n\n\n\n\nOct 26, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nGGaps 2025\n\n\n\ncausal inference\n\n\n\nPoster at the Gender Gaps Conference 2025\n\n\n\n\n\nSep 15, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{nonprobsvy} accepted to the JSS\n\n\n\nsingleRcapture\n\n\n\n{nonprobsvy} accepted to the Journal of Statistical Software\n\n\n\n\n\nAug 29, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nR/Medicine conference\n\n\n\nnonprobsvy\n\nconference\n\n\n\nTalk about the {nonprobsvy} package at the R/Medicine\n\n\n\n\n\nJun 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{blocking} on CRAN\n\n\n\nblocking\n\nrecord-linkage\n\n\n\nNew package finally submitted to CRAN\n\n\n\n\n\nJun 13, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\n{singleRcapture} accepted to the JSS\n\n\n\nsingleRcapture\n\n\n\n{singleRcapture} accepted to the Journal of Statistical Software\n\n\n\n\n\nMay 12, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nHex stickers for packages\n\n\n\nsingleRcapture\n\nnonprobsvy\n\n\n\nLogs for the project\n\n\n\n\n\nApr 24, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\n\n\n\n\n\n\n\nAnother award for students\n\n\n\nguests\n\n\n\nThe City of Poznań Competition for the best master’s and doctoral theses\n\n\n\n\n\nApr 18, 2025\n\n\nMaciej Beręsewicz\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/staff/zadlo.html",
@@ -812,6 +798,167 @@
     "text": "Education"
   },
   {
+    "objectID": "people/students/iwaniuk.html",
+    "href": "people/students/iwaniuk.html",
+    "title": "Mateusz Iwaniuk",
+    "section": "",
+    "text": "Home\n    People\n    Graduate Students\n    Mateusz Iwaniuk"
+  },
+  {
+    "objectID": "people/students/iwaniuk.html#biography",
+    "href": "people/students/iwaniuk.html#biography",
+    "title": "Mateusz Iwaniuk",
+    "section": "Biography",
+    "text": "Biography\nMateusz Iwaniuk focuses his research on statistics, data mining, machine learning, and the development of efficient data systems. Within the project, he is responsible for implementing statistical algorithms designed for data that are not missing at random (NMAR). He is currently studying for a Bachelor of Engineering in Data Science at the Faculty of Mathematics and Information Science at Warsaw University of Technology."
+  },
+  {
+    "objectID": "people/students/iwaniuk.html#education",
+    "href": "people/students/iwaniuk.html#education",
+    "title": "Mateusz Iwaniuk",
+    "section": "Education",
+    "text": "Education\n\nWarsaw University of Technology | Warsaw, Poland Data Science Undergraduate (BEng), 2022–Current"
+  },
+  {
+    "objectID": "people/students/strojny.html",
+    "href": "people/students/strojny.html",
+    "title": "Tymoteusz Strojny",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Tymoteusz Strojny"
+  },
+  {
+    "objectID": "people/students/strojny.html#biography",
+    "href": "people/students/strojny.html#biography",
+    "title": "Tymoteusz Strojny",
+    "section": "Biography",
+    "text": "Biography\nTymoteusz Strojny is in his final year of a Bachelor’s degree in Econometrics at the Poznan University of Economics and is currently employed at the Poznan Statistical Office. His main research interest lies in data integration techniques, with a particular focus on entity resolution."
+  },
+  {
+    "objectID": "people/students/czerniawska.html",
+    "href": "people/students/czerniawska.html",
+    "title": "Aniela Czerniawska",
+    "section": "",
+    "text": "Aniela Czerniawska is a third-year undergraduate student in the Mathematics program at Adam Mickiewicz University, specializing in statistics and data analysis.\nHer interests include statistical modeling and the use of quantitative methods to explore how data and the conclusions drawn from them shape our understanding of the world, influence public opinion and guide human behavior.\nShe is engaged in research on population estimation models for irregular population. Her bachelor’s thesis focuses on model selection techniques and the use of information criteria to evaluate statistical fit and parsimony. She plans to pursue graduate study in data science to become a skilled statistician and data analyst."
+  },
+  {
+    "objectID": "people/students/czerniawska.html#biography",
+    "href": "people/students/czerniawska.html#biography",
+    "title": "Aniela Czerniawska",
+    "section": "",
+    "text": "Aniela Czerniawska is a third-year undergraduate student in the Mathematics program at Adam Mickiewicz University, specializing in statistics and data analysis.\nHer interests include statistical modeling and the use of quantitative methods to explore how data and the conclusions drawn from them shape our understanding of the world, influence public opinion and guide human behavior.\nShe is engaged in research on population estimation models for irregular population. Her bachelor’s thesis focuses on model selection techniques and the use of information criteria to evaluate statistical fit and parsimony. She plans to pursue graduate study in data science to become a skilled statistician and data analyst."
+  },
+  {
+    "objectID": "people/students/czerniawska.html#education",
+    "href": "people/students/czerniawska.html#education",
+    "title": "Aniela Czerniawska",
+    "section": "Education",
+    "text": "Education\n\n2022–Current: Adam Mickiewicz University, Poznań, Poland: Bachelor’s degree student (mathematics, specialisation: statistics and data analysis)"
+  },
+  {
+    "objectID": "people/alumni/jurkowski.html",
+    "href": "people/alumni/jurkowski.html",
+    "title": "Cyprian Jurkowski",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Cyprian Jurkowski"
+  },
+  {
+    "objectID": "people/alumni/jurkowski.html#biography",
+    "href": "people/alumni/jurkowski.html#biography",
+    "title": "Cyprian Jurkowski",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/jurkowski.html#education",
+    "href": "people/alumni/jurkowski.html#education",
+    "title": "Cyprian Jurkowski",
+    "section": "Education",
+    "text": "Education\n\n2022–Current: Poznań University of Economics and Business, Poznań, Poland, Undergraduate Student (Informatics and Econometrics)"
+  },
+  {
+    "objectID": "people/alumni/bogulas.html",
+    "href": "people/alumni/bogulas.html",
+    "title": "Bartosz Bogulas",
+    "section": "",
+    "text": "Home\n    People\n    Graduate Students\n    Bartosz Bogulas"
+  },
+  {
+    "objectID": "people/alumni/bogulas.html#biography",
+    "href": "people/alumni/bogulas.html#biography",
+    "title": "Bartosz Bogulas",
+    "section": "Biography",
+    "text": "Biography\nBartosz is a Master’s student in Mathematics, with a strong interest in algebra, probability and statistics. He is currently the Treasurer of the Mathematics Student Research Group at Adam Mickiewicz University and previously held the same position in the Financial Engineering Student Research Group at the Poznań University of Economics."
+  },
+  {
+    "objectID": "people/alumni/bogulas.html#education",
+    "href": "people/alumni/bogulas.html#education",
+    "title": "Bartosz Bogulas",
+    "section": "Education",
+    "text": "Education\n\nAdam Mickiewicz University | Poznań, Poland Masters in Mathematics | 2024–Current\nAdam Mickiewicz University | Poznań, Poland BS in Mathematics | 2021–2024\nPoznań University of Economics and Business | Poznań, Poland BS in Economics | 2020–2023"
+  },
+  {
+    "objectID": "people/alumni/heijden.html",
+    "href": "people/alumni/heijden.html",
+    "title": "Peter G. M. van der Heijden",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Peter G. M. van der Heijden"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#biography",
+    "href": "people/alumni/heijden.html#biography",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#experience",
+    "href": "people/alumni/heijden.html#experience",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#journal-editing",
+    "href": "people/alumni/heijden.html#journal-editing",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Journal Editing",
+    "text": "Journal Editing"
+  },
+  {
+    "objectID": "people/alumni/heijden.html#education",
+    "href": "people/alumni/heijden.html#education",
+    "title": "Peter G. M. van der Heijden",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "people/alumni/wilak.html",
+    "href": "people/alumni/wilak.html",
+    "title": "Kamil Wilak",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Kamil Wilak"
+  },
+  {
+    "objectID": "people/alumni/wilak.html#biography",
+    "href": "people/alumni/wilak.html#biography",
+    "title": "Kamil Wilak",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "people/alumni/wilak.html#experience",
+    "href": "people/alumni/wilak.html#experience",
+    "title": "Kamil Wilak",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/alumni/wilak.html#education",
+    "href": "people/alumni/wilak.html#education",
+    "title": "Kamil Wilak",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Towards census-like statistics for foreign-born populations",
@@ -838,96 +985,5 @@
     "title": "Towards census-like statistics for foreign-born populations",
     "section": "Deliverables",
     "text": "Deliverables"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "",
-    "text": "Home\n    People"
-  },
-  {
-    "objectID": "people.html#research-staff",
-    "href": "people.html#research-staff",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Research Staff",
-    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nMaciej Beręsewicz\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\nMarcin Szymkowiak\n\n\nResearch Staff\n\n\n\n\n\n\n\n\n\n\n\n\nTomasz Żądło\n\n\nResearch Staff\n\n\n\n\n\n\n\n\n\n\n\n\nPaweł Strzelecki\n\n\nResearch Staff\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#students",
-    "href": "people.html#students",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Students",
-    "text": "Students\n\n\n\n\n\n\n\n\n\n\nTymoteusz Strojny\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Struzik\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nAniela Czerniawska\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nIgor Kołodziej\n\n\nStudent\n\n\n\n\n\n\n\n\n\n\n\n\nMateusz Iwaniuk\n\n\nStudent\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#reseach-consultants",
-    "href": "people.html#reseach-consultants",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Reseach consultants",
-    "text": "Reseach consultants\n\n\n\n\n\n\n\n\n\n\nTiziana Tuoto\n\n\nConsultant\n\n\n\n\n\n\n\n\n\n\n\n\nDankmar Böhning\n\n\nConsultant\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "Towards census-like statistics for foreign-born populations",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\nPiotr Chlebicki\n\n\nScholarship recipient\n\n\nFall 2021\n\n\nFall 2024\n\n\n\n\n\n\nCyprian Jurkowski\n\n\nScholarship recipient\n\n\nWinter 2024\n\n\nSpring 2025\n\n\n\n\n\n\nBartosz Bogulas\n\n\nScholarship recipient\n\n\nWinter 2024\n\n\nSpring 2025\n\n\n\n\n\n\nKyrylo Mordan\n\n\nScholarship recipient\n\n\nFall 2021\n\n\nFall 2022\n\n\n\n\n\n\nŁukasz Chrostowski\n\n\nScholarship recipient\n\n\nFall 2022\n\n\nFall 2024\n\n\n\n\n\n\nMaarten Cruyff\n\n\nConsultants\n\n\nFall 2022\n\n\nFall 2023\n\n\n\n\n\n\nPeter G. M. van der Heijden\n\n\nConsultants\n\n\nFall 2022\n\n\nFall 2023\n\n\n\n\n\n\nKamil Wilak\n\n\nResearch Staff\n\n\nFall 2021\n\n\nSummer 2023\n\n\n\n\n\n\nTymon Świtalski\n\n\nStudent\n\n\nFall 2023\n\n\nSummer 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html",
-    "href": "publications/articles/strojny-2025-blockingPy.html",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#abstract",
-    "href": "publications/articles/strojny-2025-blockingPy.html#abstract",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is a key step in scientific analysis and data science pipelines involving multiple data sources. The objective of entity resolution is to link records without identifiers that refer to the same entity (e.g., person, company). However, without identifiers, researchers need to specify which records to compare in order to calculate matching probability and reduce computational complexity. One solution is to deterministically block records based on some common variables, such as names, dates of birth or sex. However, this approach assumes that these variables are free of errors and completely observed, which is often not the case. To address this challenge, we have developed a Python package, BlockingPy, which utilises blocking via modern approximate nearest neighbour search and graph algorithms to significantly reduce the number of comparisons. In this paper, we present the design of the package, its functionalities and two case studies related to official statistics. We believe the presented software will be useful for researchers (i.e., social scientists, economists or statisticians) interested in linking data from various sources."
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#citation",
-    "href": "publications/articles/strojny-2025-blockingPy.html#citation",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "Citation",
-    "text": "Citation\n\nStrojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution, Submitted to SoftwareX"
-  },
-  {
-    "objectID": "publications/articles/strojny-2025-blockingPy.html#bibtex",
-    "href": "publications/articles/strojny-2025-blockingPy.html#bibtex",
-    "title": "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution",
-    "section": "BibTeX",
-    "text": "BibTeX\n@misc{strojny2025,\n      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, \n      author={Tymoteusz Strojny and Maciej Beręsewicz},\n      year={2025},\n      eprint={2504.04266},\n      archivePrefix={arXiv},\n      primaryClass={stat.AP},\n      url={https://arxiv.org/abs/2504.04266}, \n}"
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2026-blocking-r.html",
-    "href": "publications/articles/beresewicz-2026-blocking-r.html",
-    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is essential for bringing together data needed for estimation or other analyses based on multiple sources. It aims to link records that refer to the same entity (e.g., person, company) in the absence of unique identifiers. Without identifiers, researchers must specify which records to compare to calculate matching probability and reduce computational complexity. Traditional deterministic blocking uses common variables like first letters of names, sex, or dates of birth, but assumes error-free, complete data. To address this limitation, we developed the R package blocking, which uses approximate nearest neighbour search and graph algorithms to reduce the number of comparisons. This paper presents the package design, functionalities, and two case studies."
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2026-blocking-r.html#abstract",
-    "href": "publications/articles/beresewicz-2026-blocking-r.html#abstract",
-    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
-    "section": "",
-    "text": "Entity resolution (probabilistic record linkage, deduplication) is essential for bringing together data needed for estimation or other analyses based on multiple sources. It aims to link records that refer to the same entity (e.g., person, company) in the absence of unique identifiers. Without identifiers, researchers must specify which records to compare to calculate matching probability and reduce computational complexity. Traditional deterministic blocking uses common variables like first letters of names, sex, or dates of birth, but assumes error-free, complete data. To address this limitation, we developed the R package blocking, which uses approximate nearest neighbour search and graph algorithms to reduce the number of comparisons. This paper presents the package design, functionalities, and two case studies."
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2026-blocking-r.html#citation",
-    "href": "publications/articles/beresewicz-2026-blocking-r.html#citation",
-    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
-    "section": "Citation",
-    "text": "Citation\n\nBeręsewicz, M. & Struzik, A. (2026). blocking: An R package for blocking of records for record linkage and deduplication. The R Journal, 18(2), 162–175. https://doi.org/10.32614/RJ-2026-029"
-  },
-  {
-    "objectID": "publications/articles/beresewicz-2026-blocking-r.html#bibtex",
-    "href": "publications/articles/beresewicz-2026-blocking-r.html#bibtex",
-    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
-    "section": "BibTeX",
-    "text": "BibTeX\n@article{RJ-2026-029,\n  author = {Beręsewicz, Maciej and Struzik, Adam},\n  title = {The R Journal: blocking: An R Package for Blocking of Records for Record Linkage and Deduplication},\n  journal = {The R Journal},\n  year = {2026},\n  note = {https://doi.org/10.32614/RJ-2026-029},\n  doi = {10.32614/RJ-2026-029},\n  volume = {18},\n  issue = {2},\n  issn = {2073-4859},\n  pages = {162-175}\n}"
   }
 ]
