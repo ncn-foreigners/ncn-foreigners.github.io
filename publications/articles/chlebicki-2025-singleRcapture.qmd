@@ -1,5 +1,5 @@
 ---
-title: "singleRcapture: An R Package for Single-Source Capture-Recapture Models"
+title: "singleRcapture: An R package for single-source capture-recapture models"
 type: "article"
 author: "Chlebicki & Beręsewicz"
 year: "2025"
@@ -11,23 +11,28 @@ categories:
   - article
   - preprint
   - population size estimation
-citation:
-  type: "article"
-  container-title: "Accepted at Journal of Statistical Software"
-  author:
-    - family: Chlebicki
-      given: Piotr
-    - family: Beręsewicz
-      given: Maciej
-  title: "singleRcapture: An R Package for Single-Source Capture-Recapture Models"
-  issued: 2025
-  url: "https://arxiv.org/abs/2411.11032"
-  note: "arXiv:2411.11032 [stat.AP]"
-  id: "chlebicki2025singlercapture"
 ---
 
 ## Abstract
 
-Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g.~zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software.
+Population size estimation is a major challenge in official statistics, social sciences, and natural sciences. The problem can be tackled by applying capture-recapture methods, which vary depending on the number of sources used, particularly on whether a single or multiple sources are involved. This paper focuses on the first group of methods and introduces a novel R package: singleRcapture. The package implements state-of-the-art single-source capture-recapture (SSCR) models (e.g. zero-truncated one-inflated regression) together with new developments proposed by the authors, and provides a user-friendly application programming interface (API). This self-contained package can be used to produce point estimates and their variance and implements several bootstrap variance estimators or diagnostics to assess quality and conduct sensitivity analysis. It is intended for users interested in estimating the size of populations, particularly those that are difficult to reach or measure, for which information is available only from one source and dual/multiple system estimation is not applicable. Our package serves to bridge a significant gap, as the SSCR methods are either not available at all or are only partially implemented in existing R packages and other open-source software.
 
+## Citation
 
+> Chlebicki, P., & Beręsewicz, M. (2025). singleRcapture: An R package for single-source capture-recapture models. *Journal of Statistical Software*, 115(1), 1–30. [https://doi.org/10.18637/jss.v115.i01](https://doi.org/10.18637/jss.v115.i01)
+
+## BibTeX
+
+``` tex
+@article{chlebicki2025,
+         title={singleRcapture: An R Package for Single-Source Capture-Recapture Models},
+         volume={115},
+         url={https://www.jstatsoft.org/index.php/jss/article/view/v115i01},
+         doi={10.18637/jss.v115.i01},
+         number={1},
+         journal={Journal of Statistical Software},
+         author={Chlebicki, Piotr and Beręsewicz, Maciej},
+         year={2025},
+         pages={1-30}
+}
+```

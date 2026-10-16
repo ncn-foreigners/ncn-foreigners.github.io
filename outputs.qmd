@@ -1,5 +1,5 @@
 ---
-pagetitle: "Resources | Foreigners"
+pagetitle: "Resources | NCN-Foreigners"
 toc: true
 ---
 
@@ -14,11 +14,41 @@ toc: true
 
 ## Talks
 
-+ Beręsewicz (2025), Estimation of the number of irregular foreigners in Poland using non-linear count regression models, *The University of Oxford's Centre on Migration, Policy and Society (COMPAS)*, presentation at the seminar (2025.03.28)
++ Beręsewicz, Nikulin, Böhning (2026), Nieformalna praca cudzoziemców w Polsce: szacunki metodą capture-recapture z wykorzystaniem danych administracyjnych, *XV Konferencja Komitetu Badań nad Migracjami PAN*, 23-25.09.2026, Gdańsk-Gdynia, Poland
+
++ Szymkowiak, Beręsewicz (2026), The use of programmatic advertising data from mobile phones for understanding the length of stay of foreigners in Poland, *Workshop on Statistics on Population and Migration*, invited talk, 21-22.09.2026, Geneva, Switzerland
+
++ Beręsewicz, Georgeson, Walsh, Czerniawska, Zhang, Slade-Harajda (2026), Counting shadows: A community-anchored modelling framework for estimating unauthorised population size, *Royal Statistical Society 2026 International Conference*, 07-10.09.2026, Bournemouth, UK
+
++ Beręsewicz, Georgeson, Walsh, Czerniawska, Zhang, Slade-Harajda (2026), Counting shadows: A community-anchored modelling framework for estimating unauthorised population size, *British Society for Population Studies 2026 Conference*, 08-10.09.2026, Canterbury, UK
+
++ Struzik, Beręsewicz (2026), Capturing small discrepancies in record linkage: A maximum entropy framework with continuous similarity measures, *Joint Statistical Meetings 2026*, 01-06.08.2026, Boston, USA
+
++ Struzik, Beręsewicz (2026), automatedRecLin: Record linkage based on an entropy-maximizing classifier, *useR! 2026*, 06-09.07.2026, Warsaw, Poland
+
++ Beręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, *Centre of Migration Research at the University of Warsaw and Office for Foreigners*, presentation at the seminar, 18.12.2025, Warsaw, Poland
+
++ Kołodziej, Iwaniuk, Beręsewicz (2025), NMAR: An R package for estimation under nonignorable nonresponse in official surveys, *The 13th International Conference Use of R in Official Statistics uRos2025*, 24-26.11.2025, Bucharest, Romania
+
++ Beręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, *Faculty of Mathematics and Computer Science at Adam Mickiewicz University in Poznań*, invited talk, 19.11.2025, Poznań, Poland
+
++ Beręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, *School of Social Sciences at the University of Manchester*, presentation at the seminar, 14.11.2025, Manchester, UK
+
++ Beręsewicz, Georgeson, Walsh, Czerniawska, Zhang (2025), Counting shadows: Estimating unauthorised migrant populations, *The University of Oxford's Centre on Migration, Policy and Society (COMPAS)*, presentation at the seminar, 13.11.2025, Oxford, UK
+
++ Iwaniuk, Kołodziej, Beręsewicz (2025), NMAR: An R package for estimation under nonignorable nonresponse in official surveys, *ELEMENTSX*, 24-26.10.2025, Kraków, Poland
+
++ Struzik, Beręsewicz (2025), Metody integracji danych oparte na klasyfikatorze maksymalnej entropii, *ELEMENTSX*, 24-26.10.2025, Kraków, Poland
+
++ Beręsewicz (2025), Survey calibration for causal inference: a simple method to balance covariate distributions, *Gender Gaps Conference 2025*, poster, 12-13.09.2025, Warsaw, Poland
+
++ Beręsewicz (2025), nonprobsvy – An R package for modern methods for non-probability surveys, *R/Medicine*, 9-13.06.2025, virtual event
+
++ Beręsewicz (2025), Estimation of the number of irregular foreigners in Poland using non-linear count regression models, *The University of Oxford's Centre on Migration, Policy and Society (COMPAS)*, presentation at the seminar, 28.03.2025
 
 + Beręsewicz, Szymkowiak (2024), Inference for non-probability samples using the calibration approach for quantiles and totals, *International Conference on Small Area Estimation (SAE 2024)*, 03.06.2024-07.06.2024, Lima (Peru)
 
-+ Beręsewicz, Szymkowiak (2024), Estimation of the number of irregular foreigners in Poland using nonlinear count regression models, *UNECE Expert Meeting on Migration Statistics 2024*, 07.05.2024-08.05.2024, Genewa
++ Beręsewicz, Szymkowiak (2024), Estimation of the number of irregular foreigners in Poland using nonlinear count regression models, *UNECE Expert Meeting on Migration Statistics 2024*, 07.05.2024-08.05.2024, Geneva, Switzerland
 
 + *Workshop on Survey Statistics* (26-30.08.2024):
     + Tiziana Tuotto (Istat) -- Data integration and population size estimation: The risk of misidentification
@@ -55,14 +85,15 @@ toc: true
 
 + Beręsewicz (2022b) Estimating the length of foreigners' stay in Poland using mobile big data, 8.12.2022, *S3RI Seminar at University of Southampton*, presentation
 
-+ Beręsewicz (2022b) Ilu jest w Polsce cudzoziemców? Ujęcie statystyczne i ekonomiczne. Dwugłos Nauki -- ,,Migracje – historia i teraźniejszość'', 21.11.2022, *Oddział PAN w Poznaniu*, link do strony wydarzenia, prezentacja
++ Beręsewicz (2022b) Ilu jest w Polsce cudzoziemców? Ujęcie statystyczne i ekonomiczne. Dwugłos Nauki -- ,,Migracje – historia i teraźniejszość'', 21.11.2022, *Oddział PAN w Poznaniu*, prezentacja
 
-+ Beręsewicz (2022a) Estymacja długości pobytu cudzoziemców w Polsce z wykorzystaniem mobile big data, *40th International Conference MSA'2022 joined with MASEP*, 7-9 listopada 2022, Łódź, Polska, link do strony konf, prezentacja
-
-
-## Datasets
++ Beręsewicz (2022a) Estymacja długości pobytu cudzoziemców w Polsce z wykorzystaniem mobile big data, *40th International Conference MSA'2022 joined with MASEP*, 7-9 listopada 2022, Łódź, Polska, prezentacja
 
 ## Software
+
+- **automatedRecLin**<br />
+  an R package for record linkage based on an entropy-maximizing classifier <br />
+  *Source Code:* <https://github.com/ncn-foreigners/automatedRecLin>
 
 - **nonprobsvy**<br />
   an R package for modern statistical inference methods based on non-probability samples <br />
@@ -92,5 +123,6 @@ toc: true
 
 + Chlebicki (2024) -- Vector generalized linear models and their selected applications (pol. Wektorowe uogólnione modele liniowe oraz ich wybrane zastosowania) -- praca magisterska
 
-+ Chrostowski (2024) -- Statistical inference with non-probability samples (pol. Wnioskowanie statystyczne na podstawie prób nieprobablistycznych) -- praca magisterska
++ Chrostowski (2024) -- Statistical inference with non-probability samples (pol. Wnioskowanie statystyczne na podstawie prób nieprobabilistycznych) -- praca magisterska
 
++ Strojny (2025) -- BlockingPy: approximate nearest neighbours for blocking of records for entity resolution (pol. BlockingPy: przybliżone najbliższe sąsiedztwo do blokowania rekordów na potrzeby deduplikacji i integracji danych) -- praca licencjacka

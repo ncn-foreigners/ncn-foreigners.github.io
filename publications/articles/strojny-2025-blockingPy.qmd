@@ -2,8 +2,8 @@
 title: "BlockingPy: approximate nearest neighbours for blocking of records for entity resolution"
 type: "article"
 author: "Strojny & Beręsewicz"
-year: "2025"
-publication: "Submitted"
+year: "2026"
+publication: SoftwareX
 preprint: "https://arxiv.org/abs/2504.04266"
 materials: "https://github.com/ncn-foreigners/blockingPy"
 toc: false
@@ -19,19 +19,21 @@ Entity resolution (probabilistic record linkage, deduplication) is a key step in
 
 ## Citation
 
-> Strojny, T. & Beręsewicz, M. (2025). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution,
-> *Submitted to SoftwareX*
+> Strojny, T. & Beręsewicz, M. (2026). BlockingPy: approximate nearest neighbours for blocking of records for entity resolution. *SoftwareX*, 34, 102583. [https://doi.org/10.1016/j.softx.2026.102583](https://doi.org/10.1016/j.softx.2026.102583)
 
 ## BibTeX
 
 ``` tex
-@misc{strojny2025,
-      title={BlockingPy: approximate nearest neighbours for blocking of records for entity resolution}, 
-      author={Tymoteusz Strojny and Maciej Beręsewicz},
-      year={2025},
-      eprint={2504.04266},
-      archivePrefix={arXiv},
-      primaryClass={stat.AP},
-      url={https://arxiv.org/abs/2504.04266}, 
+@article{strojny2026,
+         title = {BlockingPy: approximate nearest neighbours for blocking of records for entity resolution},
+         journal = {SoftwareX},
+         volume = {34},
+         pages = {102583},
+         year = {2026},
+         issn = {2352-7110},
+         doi = {https://doi.org/10.1016/j.softx.2026.102583},
+         url = {https://www.sciencedirect.com/science/article/pii/S2352711026000774},
+         author = {Tymoteusz Strojny and Maciej Beręsewicz},
+         keywords = {Record linkage, Deduplication, Official statistics, Economics}
 }
 ```

@@ -1,8 +1,8 @@
 ---
-title: "nonprobsvy -- An R package for modern methods for non-probability surveys"
+title: "nonprobsvy: An R package for modern methods for non-probability surveys"
 type: "article"
 author: "Chrostowski, Chlebicki & Beręsewicz"
-year: "2025"
+year: "2026"
 publication: "Journal of Statistical Software"
 preprint: "https://arxiv.org/abs/2504.04255"
 materials: "https://github.com/ncn-foreigners/paper-nonprobsvy"
@@ -31,20 +31,20 @@ characteristics.
 
 ## Citation
 
-> Chrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2025). nonprobsvy --
-> An R package for modern methods for non-probability surveys,
-> *Journal of Statistical Software*
+> Chrostowski, Ł., Chlebicki, P. & Beręsewicz, M. (2026). nonprobsvy: An R package for modern methods for non-probability surveys. *Journal of Statistical Software*, 117(2), 1–37. [https://doi.org/10.18637/jss.v117.i02](https://doi.org/10.18637/jss.v117.i02)
 
 ## BibTeX
 
 ``` tex
-@misc{chrostowski2025nonprobsvy,
-      title={nonprobsvy -- An R package for modern methods for non-probability surveys}, 
-      author={Łukasz Chrostowski and Piotr Chlebicki and Maciej Beręsewicz},
-      year={2025},
-      eprint={2504.04255},
-      archivePrefix={arXiv},
-      primaryClass={stat.ME},
-      url={https://arxiv.org/abs/2504.04255}, 
+@article{JSSv117i02,
+         title={nonprobsvy: An R Package for Modern Methods for Non-Probability Surveys},
+         volume={117},
+         url={https://www.jstatsoft.org/index.php/jss/article/view/v117i02},
+         doi={10.18637/jss.v117.i02},
+         number={2},
+         journal={Journal of Statistical Software},
+         author={Chrostowski, Łukasz and Chlebicki, Piotr and Beręsewicz, Maciej},
+         year={2026},
+         pages={1-37}
 }
 ```

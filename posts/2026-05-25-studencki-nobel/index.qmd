@@ -1,0 +1,36 @@
+---
+title: "Polish 'Student Nobel Prize'"
+description: "Adam Struzik awarded in the Polish 'Student Nobel Prize' competition"
+author: "Adam Struzik"
+date: "2026-05-25"
+draft: false
+image: studencki_nobel_3.jpeg
+categories:
+  - awards
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.panel-tabset}
+
+## Polski
+
+Adam Struzik został laureatem konkursu „Studencki Nobel”. Konkurs ma na celu wyłonienie najlepszych studentów w Polsce w kilku kategoriach. Adam Struzik został wybrany najlepszym studentem w kategorii Nauki Ekonomiczne.
+
+Gala finałowa odbyła się 23 maja 2026 r. w Szkole Głównej Handlowej w Warszawie.
+
+## English
+
+Adam Struzik won the Polish 'Student Nobel Prize' competition. The competition aims to award the best students in Poland in several categories. Adam Struzik was selected as the best student in the Economic Sciences category.
+
+The final gala took place on 23 May 2026 at the Warsaw School of Economics.
+
+:::
+
+![](studencki_nobel_3.jpeg){width="60%" fig-align="center"}
+
+![](studencki_nobel_2.jpeg){width="60%" fig-align="center"}
+
+![](studencki_nobel_1.jpeg){width="60%" fig-align="center"}
