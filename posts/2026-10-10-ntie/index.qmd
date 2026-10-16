@@ -13,4 +13,14 @@ format:
     toc: false
 ---
 
+::: {.panel-tabset}
+
+## Polski
+
 W tegorocznej edycji [Konkursu Naukowego Towarzystwa Informatyki Ekonomicznej](https://www.konkurs-ntie.org.pl) (NTIE) na najlepsze prace dyplomowe z zakresu informatyki ekonomicznej, obronione w 2025 roku, Tymoteusz Strojny zajął I miejsce w kategorii prac licencjackich i inżynierskich. Nagrodzona praca nosi tytuł „BlockingPy: przybliżone najbliższe sąsiedztwo do blokowania rekordów na potrzeby deduplikacji i integracji danych”, a jej promotorem jest dr Maciej Beręsewicz, prof. UEP.
+
+## English
+
+In this year's edition of the [Scientific Association for Business Informatics (NTIE) Competition](https://www.konkurs-ntie.org.pl) for the best theses in business informatics defended in 2025, Tymoteusz Strojny won first place in the bachelor's and engineering theses category. The award-winning thesis is entitled “BlockingPy: approximate nearest neighbours for blocking of records for entity resolution” and was supervised by Maciej Beręsewicz, Associate Professor at Poznań University of Economics and Business (PUEB).
+
+:::
