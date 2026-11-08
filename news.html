@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,14 +40,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e8a51b7917113a6e75f0405e5179fea3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c01cc8f646cb504cfcca280090608b2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,12 +98,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -138,19 +133,18 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Towards census-like statistics for foreign-born populations</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -183,6 +177,7 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -193,7 +188,7 @@ window.Quarto = {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="YXdhcmRz">awards <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YmxvY2tpbmc=">blocking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2F1c2FsJTIwaW5mZXJlbmNl">causal inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z3Vlc3Rz">guests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm9ucHJvYnN2eQ==">nonprobsvy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cGFwZXJz">papers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVjb3JkLWxpbmthZ2U=">record-linkage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2luZ2xlUmNhcHR1cmU=">singleRcapture <span class="quarto-category-count">(3)</span></div><div class="category" data-category="dGFsa3M=">talks <span class="quarto-category-count">(7)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content" tabindex="-1"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -210,27 +205,29 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="dGFsa3M=" data-listing-date-sort="1792022400000" data-listing-file-modified-sort="1792158387335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="577">
-<div class="thumbnail"><a href="./posts/2026-10-15-un/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="dGFsa3M=" data-listing-date-sort="1792022400000" data-listing-file-modified-sort="1794153847076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="577">
+<div class="thumbnail"><a href="./posts/2026-10-15-un/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-10-15-un/marcin1.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-15-un/index.html" class="no-external">Referat w siedzibie ONZ w Genewie</a>
+<a href="./posts/2026-10-15-un/index.html" class="no-external-icon">Referat w siedzibie ONZ w Genewie</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('dGFsa3M='); return false;">talks</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-10-15-un/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-10-15-un/index.html" class="no-external-icon">
 <p>Dr hab. Marcin Szymkowiak, prof. UEP, z referatem w siedzibie ONZ w Genewie</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-10-15-un/index.html" class="no-external">
+<a href="./posts/2026-10-15-un/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 15, 2026
 </div>
@@ -240,27 +237,29 @@ Marcin Szymkowiak
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="dGFsa3M=" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1792158387306" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
-<div class="thumbnail"><a href="./posts/2026-09-25-pan/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="1" data-categories="dGFsa3M=" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1794153847042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="thumbnail"><a href="./posts/2026-09-25-pan/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-09-25-pan/dagmara-conf.jpeg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-09-25-pan/index.html" class="no-external">15th Conference of the Polish Academy of Sciences Committee for Migration Research</a>
+<a href="./posts/2026-09-25-pan/index.html" class="no-external-icon">15th Conference of the Polish Academy of Sciences Committee for Migration Research</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('dGFsa3M='); return false;">talks</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-09-25-pan/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-09-25-pan/index.html" class="no-external-icon">
 <p>Talk at the 15th Conference of the Polish Academy of Sciences Committee for Migration Research</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-09-25-pan/index.html" class="no-external">
+<a href="./posts/2026-09-25-pan/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 10, 2026
 </div>
@@ -270,27 +269,29 @@ Dagmara Nikulin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="dGFsa3M=" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1792158387307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="444">
-<div class="thumbnail"><a href="./posts/2026-10-10-brendan/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="2" data-categories="dGFsa3M=" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1794153847043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="444">
+<div class="thumbnail"><a href="./posts/2026-10-10-brendan/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-10-10-brendan/brendan-bsps.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-10-brendan/index.html" class="no-external">British Society for Population Studies Annual Conference and Royal Statistical Society International Conference</a>
+<a href="./posts/2026-10-10-brendan/index.html" class="no-external-icon">British Society for Population Studies Annual Conference and Royal Statistical Society International Conference</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('dGFsa3M='); return false;">talks</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-10-10-brendan/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-10-10-brendan/index.html" class="no-external-icon">
 <p>Talks at the BSPS and RSS Conferences</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-10-10-brendan/index.html" class="no-external">
+<a href="./posts/2026-10-10-brendan/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 10, 2026
 </div>
@@ -300,15 +301,15 @@ Brendan Georgeson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="cGFwZXJzJTJDbm9ucHJvYnN2eQ==" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1792158387307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
-<div class="thumbnail"><a href="./posts/2026-10-10-jss/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="3" data-categories="cGFwZXJzJTJDbm9ucHJvYnN2eQ==" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1794153847043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
+<div class="thumbnail"><a href="./posts/2026-10-10-jss/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-10-10-jss/jss.jpeg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-10-jss/index.html" class="no-external">Publikacja w czasopiśmie Journal of Statistical Software</a>
+<a href="./posts/2026-10-10-jss/index.html" class="no-external-icon">Publikacja w czasopiśmie Journal of Statistical Software</a>
 </h3>
 <div class="listing-categories">
 
@@ -317,12 +318,14 @@ Brendan Georgeson
 <div class="listing-category" onclick="window.quartoListingCategory('bm9ucHJvYnN2eQ=='); return false;">nonprobsvy</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-10-10-jss/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-10-10-jss/index.html" class="no-external-icon">
 <p>Publikacja w czasopiśmie JSS, 200 pkt.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-10-10-jss/index.html" class="no-external">
+<a href="./posts/2026-10-10-jss/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 10, 2026
 </div>
@@ -332,27 +335,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="YXdhcmRz" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1792158387308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
-<div class="thumbnail"><a href="./posts/2026-10-10-ntie/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="4" data-categories="YXdhcmRz" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1794153847044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<div class="thumbnail"><a href="./posts/2026-10-10-ntie/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-10-10-ntie/NTIE-LOGO.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-10-ntie/index.html" class="no-external">Konkurs Naukowego Towarzystwa Informatyki Ekonomicznej</a>
+<a href="./posts/2026-10-10-ntie/index.html" class="no-external-icon">Konkurs Naukowego Towarzystwa Informatyki Ekonomicznej</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('YXdhcmRz'); return false;">awards</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-10-10-ntie/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-10-10-ntie/index.html" class="no-external-icon">
 <p>Tymoteusz Strojny nagrodzony w Konkursie NTIE na najlepsze prace dyplomowe z zakresu informatyki ekonomicznej, obronione w 2025 roku</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-10-10-ntie/index.html" class="no-external">
+<a href="./posts/2026-10-10-ntie/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 10, 2026
 </div>
@@ -362,27 +367,29 @@ Tymoteusz Strojny
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="YXdhcmRz" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1792158387335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
-<div class="thumbnail"><a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="5" data-categories="YXdhcmRz" data-listing-date-sort="1791590400000" data-listing-file-modified-sort="1794153847076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
+<div class="thumbnail"><a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-10-10-studencki-laur/foto-1.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external">‘Student Laurel’ distinction at Adam Mickiewicz University</a>
+<a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external-icon">‘Student Laurel’ distinction at Adam Mickiewicz University</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('YXdhcmRz'); return false;">awards</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external-icon">
 <p>Adam Struzik awarded the ‘Student Laurel’ distinction at AMU</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external">
+<a href="./posts/2026-10-10-studencki-laur/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 10, 2026
 </div>
@@ -392,27 +399,29 @@ Adam Struzik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="dGFsa3M=" data-listing-date-sort="1786492800000" data-listing-file-modified-sort="1792158387267" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
-<div class="thumbnail"><a href="./posts/2026-08-12-jsm/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="6" data-categories="dGFsa3M=" data-listing-date-sort="1786492800000" data-listing-file-modified-sort="1794153846999" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="thumbnail"><a href="./posts/2026-08-12-jsm/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-08-12-jsm/jsm_logo.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-08-12-jsm/index.html" class="no-external">Joint Statistical Meetings Conference</a>
+<a href="./posts/2026-08-12-jsm/index.html" class="no-external-icon">Joint Statistical Meetings Conference</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('dGFsa3M='); return false;">talks</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-08-12-jsm/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-08-12-jsm/index.html" class="no-external-icon">
 <p>Talk at the JSM 2026 Conference in Boston, Massachusetts</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-08-12-jsm/index.html" class="no-external">
+<a href="./posts/2026-08-12-jsm/index.html" class="no-external-icon">
 <div class="listing-date">
 Aug 12, 2026
 </div>
@@ -422,27 +431,29 @@ Adam Struzik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="YXdhcmRz" data-listing-date-sort="1779667200000" data-listing-file-modified-sort="1792158387253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
-<div class="thumbnail"><a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="7" data-categories="YXdhcmRz" data-listing-date-sort="1779667200000" data-listing-file-modified-sort="1794153846981" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<div class="thumbnail"><a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-05-25-studencki-nobel/studencki_nobel_3.jpeg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external">Polish ‘Student Nobel Prize’</a>
+<a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external-icon">Polish ‘Student Nobel Prize’</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('YXdhcmRz'); return false;">awards</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external-icon">
 <p>Adam Struzik awarded in the Polish ‘Student Nobel Prize’ competition</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external">
+<a href="./posts/2026-05-25-studencki-nobel/index.html" class="no-external-icon">
 <div class="listing-date">
 May 25, 2026
 </div>
@@ -452,27 +463,29 @@ Adam Struzik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="YXdhcmRz" data-listing-date-sort="1769558400000" data-listing-file-modified-sort="1792158387253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
-<div class="thumbnail"><a href="./posts/2026-01-28-asa/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="8" data-categories="YXdhcmRz" data-listing-date-sort="1769558400000" data-listing-file-modified-sort="1794153846981" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<div class="thumbnail"><a href="./posts/2026-01-28-asa/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2026-01-28-asa/asa_logo.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2026-01-28-asa/index.html" class="no-external">ASA Student Paper Competition</a>
+<a href="./posts/2026-01-28-asa/index.html" class="no-external-icon">ASA Student Paper Competition</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('YXdhcmRz'); return false;">awards</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2026-01-28-asa/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2026-01-28-asa/index.html" class="no-external-icon">
 <p>Adam Struzik awarded in the ASA Student Paper Competition</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2026-01-28-asa/index.html" class="no-external">
+<a href="./posts/2026-01-28-asa/index.html" class="no-external-icon">
 <div class="listing-date">
 Jan 28, 2026
 </div>
@@ -482,27 +495,29 @@ Adam Struzik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="dGFsa3M=" data-listing-date-sort="1766016000000" data-listing-file-modified-sort="1792158387251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
-<div class="thumbnail"><a href="./posts/2025-12-19-obm/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="9" data-categories="dGFsa3M=" data-listing-date-sort="1766016000000" data-listing-file-modified-sort="1794153846981" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<div class="thumbnail"><a href="./posts/2025-12-19-obm/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-12-19-obm/index.html" class="no-external">Seminarium OBM i UDSC</a>
+<a href="./posts/2025-12-19-obm/index.html" class="no-external-icon">Seminarium OBM i UDSC</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('dGFsa3M='); return false;">talks</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-12-19-obm/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-12-19-obm/index.html" class="no-external-icon">
 <p>Prezentacja wyników na seminarium dot. cudzoziemców</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-12-19-obm/index.html" class="no-external">
+<a href="./posts/2025-12-19-obm/index.html" class="no-external-icon">
 <div class="listing-date">
 Dec 18, 2025
 </div>
@@ -512,27 +527,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="dGFsa3M=" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1792158387242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
-<div class="thumbnail"><a href="./posts/2025-11-19-pts/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="10" data-categories="dGFsa3M=" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1794153846972" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="thumbnail"><a href="./posts/2025-11-19-pts/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-11-19-pts/pts-logo.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-11-19-pts/index.html" class="no-external">Referat dla Polskiego Towarzystwa Statystycznego</a>
+<a href="./posts/2025-11-19-pts/index.html" class="no-external-icon">Referat dla Polskiego Towarzystwa Statystycznego</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('dGFsa3M='); return false;">talks</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-11-19-pts/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-11-19-pts/index.html" class="no-external-icon">
 <p>Referat w ramach serii ‘Wielowymiarowe metody statystyczne’</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-11-19-pts/index.html" class="no-external">
+<a href="./posts/2025-11-19-pts/index.html" class="no-external-icon">
 <div class="listing-date">
 Nov 19, 2025
 </div>
@@ -542,27 +559,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="dGFsa3M=" data-listing-date-sort="1762992000000" data-listing-file-modified-sort="1792158387242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
-<div class="thumbnail"><a href="./posts/2025-11-13-oxford/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="11" data-categories="dGFsa3M=" data-listing-date-sort="1762992000000" data-listing-file-modified-sort="1794153846972" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
+<div class="thumbnail"><a href="./posts/2025-11-13-oxford/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-11-13-oxford/compas1.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-11-13-oxford/index.html" class="no-external">University of Oxford &amp; University of Manchester</a>
+<a href="./posts/2025-11-13-oxford/index.html" class="no-external-icon">University of Oxford &amp; University of Manchester</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('dGFsa3M='); return false;">talks</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-11-13-oxford/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-11-13-oxford/index.html" class="no-external-icon">
 <p>Invited talk at the COMPAS University of Oxford and School of Social Sciences</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-11-13-oxford/index.html" class="no-external">
+<a href="./posts/2025-11-13-oxford/index.html" class="no-external-icon">
 <div class="listing-date">
 Nov 13, 2025
 </div>
@@ -572,27 +591,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1761436800000" data-listing-file-modified-sort="1792158387223" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<div class="thumbnail"><a href="./posts/2025-10-26-elementsx/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="12" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1761436800000" data-listing-file-modified-sort="1794153846953" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<div class="thumbnail"><a href="./posts/2025-10-26-elementsx/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-10-26-elementsx/elements.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-10-26-elementsx/index.html" class="no-external">ElementsX</a>
+<a href="./posts/2025-10-26-elementsx/index.html" class="no-external-icon">ElementsX</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-10-26-elementsx/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-10-26-elementsx/index.html" class="no-external-icon">
 <p>Udział studentów w konferencji ElementsX</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-10-26-elementsx/index.html" class="no-external">
+<a href="./posts/2025-10-26-elementsx/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 26, 2025
 </div>
@@ -602,27 +623,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Y2F1c2FsJTIwaW5mZXJlbmNl" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1792158387215" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
-<div class="thumbnail"><a href="./posts/2025-09-15-ggaps/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="13" data-categories="Y2F1c2FsJTIwaW5mZXJlbmNl" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1794153846943" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
+<div class="thumbnail"><a href="./posts/2025-09-15-ggaps/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-09-15-ggaps/ggaps.jpeg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-15-ggaps/index.html" class="no-external">GGaps 2025</a>
+<a href="./posts/2025-09-15-ggaps/index.html" class="no-external-icon">GGaps 2025</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y2F1c2FsJTIwaW5mZXJlbmNl'); return false;">causal inference</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-09-15-ggaps/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-09-15-ggaps/index.html" class="no-external-icon">
 <p>Poster at the Gender Gaps Conference 2025</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-09-15-ggaps/index.html" class="no-external">
+<a href="./posts/2025-09-15-ggaps/index.html" class="no-external-icon">
 <div class="listing-date">
 Sep 15, 2025
 </div>
@@ -632,27 +655,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1756425600000" data-listing-file-modified-sort="1792158387208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
-<div class="thumbnail"><a href="./posts/2025-08-29-jss/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="14" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1756425600000" data-listing-file-modified-sort="1794153846934" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<div class="thumbnail"><a href="./posts/2025-08-29-jss/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-08-29-jss/jss.jpeg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-08-29-jss/index.html" class="no-external">{nonprobsvy} accepted to the JSS</a>
+<a href="./posts/2025-08-29-jss/index.html" class="no-external-icon">{nonprobsvy} accepted to the JSS</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('c2luZ2xlUmNhcHR1cmU='); return false;">singleRcapture</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-08-29-jss/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-08-29-jss/index.html" class="no-external-icon">
 <p>{nonprobsvy} accepted to the Journal of Statistical Software</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-08-29-jss/index.html" class="no-external">
+<a href="./posts/2025-08-29-jss/index.html" class="no-external-icon">
 <div class="listing-date">
 Aug 29, 2025
 </div>
@@ -662,15 +687,15 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="bm9ucHJvYnN2eSUyQ2NvbmZlcmVuY2U=" data-listing-date-sort="1750204800000" data-listing-file-modified-sort="1792158387208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="thumbnail"><a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="15" data-categories="bm9ucHJvYnN2eSUyQ2NvbmZlcmVuY2U=" data-listing-date-sort="1750204800000" data-listing-file-modified-sort="1794153846934" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="thumbnail"><a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-06-18-r-in-medicine/yt.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external">R/Medicine conference</a>
+<a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external-icon">R/Medicine conference</a>
 </h3>
 <div class="listing-categories">
 
@@ -679,12 +704,14 @@ Maciej Beręsewicz
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external-icon">
 <p>Talk about the {nonprobsvy} package at the R/Medicine</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external">
+<a href="./posts/2025-06-18-r-in-medicine/index.html" class="no-external-icon">
 <div class="listing-date">
 Jun 18, 2025
 </div>
@@ -694,15 +721,15 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="YmxvY2tpbmclMkNyZWNvcmQtbGlua2FnZQ==" data-listing-date-sort="1749772800000" data-listing-file-modified-sort="1792158387208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
-<div class="thumbnail"><a href="./posts/2025-06-13-blocking/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="16" data-categories="YmxvY2tpbmclMkNyZWNvcmQtbGlua2FnZQ==" data-listing-date-sort="1749772800000" data-listing-file-modified-sort="1794153846934" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<div class="thumbnail"><a href="./posts/2025-06-13-blocking/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-06-13-blocking/igraph.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-06-13-blocking/index.html" class="no-external">{blocking} on CRAN</a>
+<a href="./posts/2025-06-13-blocking/index.html" class="no-external-icon">{blocking} on CRAN</a>
 </h3>
 <div class="listing-categories">
 
@@ -711,12 +738,14 @@ Maciej Beręsewicz
 <div class="listing-category" onclick="window.quartoListingCategory('cmVjb3JkLWxpbmthZ2U='); return false;">record-linkage</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-06-13-blocking/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-06-13-blocking/index.html" class="no-external-icon">
 <p>New package finally submitted to CRAN</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-06-13-blocking/index.html" class="no-external">
+<a href="./posts/2025-06-13-blocking/index.html" class="no-external-icon">
 <div class="listing-date">
 Jun 13, 2025
 </div>
@@ -726,27 +755,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1747008000000" data-listing-file-modified-sort="1792158387206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
-<div class="thumbnail"><a href="./posts/2025-05-12-jss/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="17" data-categories="c2luZ2xlUmNhcHR1cmU=" data-listing-date-sort="1747008000000" data-listing-file-modified-sort="1794153846933" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<div class="thumbnail"><a href="./posts/2025-05-12-jss/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-05-12-jss/jss.jpeg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-05-12-jss/index.html" class="no-external">{singleRcapture} accepted to the JSS</a>
+<a href="./posts/2025-05-12-jss/index.html" class="no-external-icon">{singleRcapture} accepted to the JSS</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('c2luZ2xlUmNhcHR1cmU='); return false;">singleRcapture</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-05-12-jss/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-05-12-jss/index.html" class="no-external-icon">
 <p>{singleRcapture} accepted to the Journal of Statistical Software</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-05-12-jss/index.html" class="no-external">
+<a href="./posts/2025-05-12-jss/index.html" class="no-external-icon">
 <div class="listing-date">
 May 12, 2025
 </div>
@@ -756,15 +787,15 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="c2luZ2xlUmNhcHR1cmUlMkNub25wcm9ic3Z5" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1792158387204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail"><a href="./posts/2025-04-24-hex/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="18" data-categories="c2luZ2xlUmNhcHR1cmUlMkNub25wcm9ic3Z5" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1794153846930" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="thumbnail"><a href="./posts/2025-04-24-hex/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-04-24-hex/singleRcapture.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-04-24-hex/index.html" class="no-external">Hex stickers for packages</a>
+<a href="./posts/2025-04-24-hex/index.html" class="no-external-icon">Hex stickers for packages</a>
 </h3>
 <div class="listing-categories">
 
@@ -773,12 +804,14 @@ Maciej Beręsewicz
 <div class="listing-category" onclick="window.quartoListingCategory('bm9ucHJvYnN2eQ=='); return false;">nonprobsvy</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-04-24-hex/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-04-24-hex/index.html" class="no-external-icon">
 <p>Logs for the project</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-04-24-hex/index.html" class="no-external">
+<a href="./posts/2025-04-24-hex/index.html" class="no-external-icon">
 <div class="listing-date">
 Apr 24, 2025
 </div>
@@ -788,27 +821,29 @@ Maciej Beręsewicz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="Z3Vlc3Rz" data-listing-date-sort="1744934400000" data-listing-file-modified-sort="1792158387206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
-<div class="thumbnail"><a href="./posts/2025-04-poznan/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="19" data-categories="Z3Vlc3Rz" data-listing-date-sort="1744934400000" data-listing-file-modified-sort="1794153846931" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<div class="thumbnail"><a href="./posts/2025-04-poznan/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./posts/2025-04-poznan/poznan-zdjecie.jpg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2025-04-poznan/index.html" class="no-external">Another award for students</a>
+<a href="./posts/2025-04-poznan/index.html" class="no-external-icon">Another award for students</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Z3Vlc3Rz'); return false;">guests</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/2025-04-poznan/index.html" class="no-external">
+<div class="listing-description">
+<a href="./posts/2025-04-poznan/index.html" class="no-external-icon">
 <p>The City of Poznań Competition for the best master’s and doctoral theses</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./posts/2025-04-poznan/index.html" class="no-external">
+<a href="./posts/2025-04-poznan/index.html" class="no-external-icon">
 <div class="listing-date">
 Apr 18, 2025
 </div>
@@ -899,7 +934,8 @@ Maciej Beręsewicz
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -908,8 +944,69 @@ Maciej Beręsewicz
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -923,6 +1020,7 @@ Maciej Beręsewicz
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1085,44 +1183,54 @@ Maciej Beręsewicz
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1220,6 +1328,9 @@ Maciej Beręsewicz
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">
