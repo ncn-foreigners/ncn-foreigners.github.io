@@ -1,0 +1,40 @@
+---
+title: "Webinar „Liczenie cieni: szacowanie liczby cudzoziemców o nieuregulowanym statusie pobytowym na podstawie wielkości społeczności imigranckich”"
+description: "Webinar organizowany przez Centrum Badań Migracyjnych UAM"
+author: "Maciej Beręsewicz"
+date: "2026-10-29"
+draft: false
+image: foto-1.png.avif
+categories:
+  - talks
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.panel-tabset}
+
+## Polski
+
+29 października 2026 r. **dr Maciej Beręsewicz, prof. UEP** poprowadził webinar zatytułowany **Liczenie cieni: szacowanie liczby cudzoziemców o nieuregulowanym statusie pobytowym na podstawie wielkości społeczności imigranckich** (**Counting Shadows: A Community-Anchored Modeling Framework for Estimating Unauthorized Population Size**) i organizowany przez Centrum Badań Migracyjnych na Uniwersytecie im. Adama Mickiewicza w Poznaniu.
+
+**Abstrakt:**
+
+Klasyczne metody szacowania wielkości populacji ukrytych, takie jak capture–recapture, wymagają łączenia danych jednostkowych z kilku źródeł. W praktyce bywa to niemożliwe albo prowadzi do poważnych błędów. Proponujemy podejście, które pozwala oszacować liczbę cudzoziemców przebywających bez uprawnień pobytowych wyłącznie na podstawie danych zagregowanych. Wyjściem jest założenie, że populacja nieobserwowana rośnie potęgowo wraz z liczebnością obserwowanej społeczności cudzoziemców przebywających legalnie. Wykładnik tej zależności, nazywany parametrem zakotwiczenia, opisuje siłę związku z tą społecznością. Drugi parametr, elastyczność względem ekspozycji, określa, w jakim stopniu osoby o nieuregulowanym pobycie są wykrywane przez instytucje. Oba parametry mogą zależeć od zmiennych objaśniających.
+
+Metodę zastosowaliśmy do danych dla Polski z lat 2019–2024. Liczbę dorosłych obywateli państw spoza strefy Schengen o nieuregulowanym pobycie szacujemy na 94 tys. w 2019 r. (przedział 80%: 36–206 tys.) i 101 tys. w 2024 r. (46–177 tys.). W tym samym okresie populacja przebywająca legalnie podwoiła się, z 0,6 do 1,2 mln. Wyniki ujawniają też wyraźną zmianę struktury. Po objęciu obywateli Ukrainy tymczasową ochroną w 2022 r. liczba Ukraińców o nieuregulowanym pobycie spadła z 60 do 11 tys., a liczba osób innych narodowości wzrosła z 34 do 89 tys. Ponieważ metoda nie wymaga łączenia rekordów, może być stosowana w wielu krajach, w których dotychczasowe podejścia zawodzą.
+
+## English
+
+On 29 October 2026, **Maciej Beręsewicz, Associate Professor at Poznań University of Economics and Business (PUEB)**, gave a webinar entitled **Counting Shadows: A Community-Anchored Modeling Framework for Estimating Unauthorized Population Size**, organised by the Centre for Migration Studies at Adam Mickiewicz University in Poznań (AMU).
+
+**Abstract:**
+
+Estimating the size of hidden populations typically requires linking individual records across multiple sources, such as by capture–recapture methods, which is often either impossible or error-prone. We estimate unauthorized foreign populations from aggregated administrative data alone, by proposing a general community-anchored modeling framework. Our model represents the unobserved unauthorized stock as a power-law function of an observed authorized reference population with the exponent as the community-anchor parameter, while the detection of unauthorized foreigners is regulated by an exposure-elasticity parameter, where both the parameters vary with covariates.
+
+Applied to Poland over 2019–2024, the method yields an estimated adult non-Schengen unauthorized population of 94,000 (80% interval: 36,000–206,000) in 2019 and 101,000 (46,000–177,000) in 2024, compared to the authorized reference population that has doubled over this period from 0.6 to 1.2 million. Moreover, we recover a structural break: the Ukrainian component declined from 60,000 to 11,000 following the 2022 EU Temporary Protection Directive, while the non-Ukrainian population expanded from 34,000 to 89,000. By removing the need for record linkage, our approach offers a viable alternative for many countries.
+
+:::
+
+![](foto-1.png.avif){width="60%" fig-align="center"}
